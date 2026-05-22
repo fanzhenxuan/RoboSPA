@@ -1,0 +1,702 @@
+{
+    "episode_0": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{R}": "2nd row",
+            "{C}": "4th",
+            "{row_dir}": "from far to near",
+            "{col_dir}": "from left to right",
+            "{a}": "right"
+        }
+    },
+    "episode_1": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{R}": "2nd row",
+            "{C}": "4th",
+            "{row_dir}": "from near to far",
+            "{col_dir}": "from left to right",
+            "{a}": "right"
+        }
+    },
+    "episode_2": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{R}": "1st row",
+            "{C}": "1st",
+            "{row_dir}": "from near to far",
+            "{col_dir}": "from left to right",
+            "{a}": "left"
+        }
+    },
+    "episode_3": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{R}": "2nd row",
+            "{C}": "3rd",
+            "{row_dir}": "from near to far",
+            "{col_dir}": "from right to left",
+            "{a}": "left"
+        }
+    },
+    "episode_4": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{R}": "3rd row",
+            "{C}": "1st",
+            "{row_dir}": "from near to far",
+            "{col_dir}": "from right to left",
+            "{a}": "right"
+        }
+    },
+    "episode_5": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{R}": "2nd row",
+            "{C}": "3rd",
+            "{row_dir}": "from far to near",
+            "{col_dir}": "from right to left",
+            "{a}": "left"
+        }
+    },
+    "episode_6": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{R}": "3rd row",
+            "{C}": "1st",
+            "{row_dir}": "from far to near",
+            "{col_dir}": "from right to left",
+            "{a}": "right"
+        }
+    },
+    "episode_7": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{R}": "1st row",
+            "{C}": "1st",
+            "{row_dir}": "from far to near",
+            "{col_dir}": "from left to right",
+            "{a}": "left"
+        }
+    },
+    "episode_8": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{R}": "2nd row",
+            "{C}": "1st",
+            "{row_dir}": "from near to far",
+            "{col_dir}": "from right to left",
+            "{a}": "right"
+        }
+    },
+    "episode_9": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{R}": "2nd row",
+            "{C}": "2nd",
+            "{row_dir}": "from near to far",
+            "{col_dir}": "from right to left",
+            "{a}": "right"
+        }
+    },
+    "episode_10": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{R}": "1st row",
+            "{C}": "3rd",
+            "{row_dir}": "from near to far",
+            "{col_dir}": "from left to right",
+            "{a}": "right"
+        }
+    },
+    "episode_11": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{R}": "3rd row",
+            "{C}": "1st",
+            "{row_dir}": "from far to near",
+            "{col_dir}": "from right to left",
+            "{a}": "right"
+        }
+    },
+    "episode_12": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{R}": "2nd row",
+            "{C}": "2nd",
+            "{row_dir}": "from far to near",
+            "{col_dir}": "from left to right",
+            "{a}": "left"
+        }
+    },
+    "episode_13": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{R}": "3rd row",
+            "{C}": "2nd",
+            "{row_dir}": "from near to far",
+            "{col_dir}": "from left to right",
+            "{a}": "left"
+        }
+    },
+    "episode_14": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{R}": "3rd row",
+            "{C}": "1st",
+            "{row_dir}": "from near to far",
+            "{col_dir}": "from right to left",
+            "{a}": "right"
+        }
+    },
+    "episode_15": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{R}": "1st row",
+            "{C}": "2nd",
+            "{row_dir}": "from near to far",
+            "{col_dir}": "from right to left",
+            "{a}": "right"
+        }
+    },
+    "episode_16": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{R}": "3rd row",
+            "{C}": "2nd",
+            "{row_dir}": "from near to far",
+            "{col_dir}": "from left to right",
+            "{a}": "left"
+        }
+    },
+    "episode_17": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{R}": "3rd row",
+            "{C}": "1st",
+            "{row_dir}": "from near to far",
+            "{col_dir}": "from right to left",
+            "{a}": "right"
+        }
+    },
+    "episode_18": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{R}": "3rd row",
+            "{C}": "3rd",
+            "{row_dir}": "from far to near",
+            "{col_dir}": "from left to right",
+            "{a}": "right"
+        }
+    },
+    "episode_19": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{R}": "1st row",
+            "{C}": "3rd",
+            "{row_dir}": "from far to near",
+            "{col_dir}": "from right to left",
+            "{a}": "left"
+        }
+    },
+    "episode_20": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{R}": "1st row",
+            "{C}": "1st",
+            "{row_dir}": "from far to near",
+            "{col_dir}": "from left to right",
+            "{a}": "left"
+        }
+    },
+    "episode_21": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{R}": "1st row",
+            "{C}": "2nd",
+            "{row_dir}": "from near to far",
+            "{col_dir}": "from left to right",
+            "{a}": "left"
+        }
+    },
+    "episode_22": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{R}": "3rd row",
+            "{C}": "2nd",
+            "{row_dir}": "from far to near",
+            "{col_dir}": "from left to right",
+            "{a}": "left"
+        }
+    },
+    "episode_23": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{R}": "1st row",
+            "{C}": "3rd",
+            "{row_dir}": "from far to near",
+            "{col_dir}": "from left to right",
+            "{a}": "right"
+        }
+    },
+    "episode_24": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{R}": "2nd row",
+            "{C}": "1st",
+            "{row_dir}": "from far to near",
+            "{col_dir}": "from left to right",
+            "{a}": "left"
+        }
+    },
+    "episode_25": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{R}": "2nd row",
+            "{C}": "3rd",
+            "{row_dir}": "from far to near",
+            "{col_dir}": "from right to left",
+            "{a}": "left"
+        }
+    },
+    "episode_26": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{R}": "2nd row",
+            "{C}": "4th",
+            "{row_dir}": "from far to near",
+            "{col_dir}": "from left to right",
+            "{a}": "right"
+        }
+    },
+    "episode_27": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{R}": "2nd row",
+            "{C}": "3rd",
+            "{row_dir}": "from far to near",
+            "{col_dir}": "from right to left",
+            "{a}": "left"
+        }
+    },
+    "episode_28": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{R}": "1st row",
+            "{C}": "4th",
+            "{row_dir}": "from near to far",
+            "{col_dir}": "from right to left",
+            "{a}": "left"
+        }
+    },
+    "episode_29": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{R}": "1st row",
+            "{C}": "2nd",
+            "{row_dir}": "from near to far",
+            "{col_dir}": "from right to left",
+            "{a}": "right"
+        }
+    },
+    "episode_30": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{R}": "3rd row",
+            "{C}": "3rd",
+            "{row_dir}": "from near to far",
+            "{col_dir}": "from left to right",
+            "{a}": "right"
+        }
+    },
+    "episode_31": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{R}": "2nd row",
+            "{C}": "4th",
+            "{row_dir}": "from far to near",
+            "{col_dir}": "from left to right",
+            "{a}": "right"
+        }
+    },
+    "episode_32": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{R}": "2nd row",
+            "{C}": "3rd",
+            "{row_dir}": "from near to far",
+            "{col_dir}": "from left to right",
+            "{a}": "right"
+        }
+    },
+    "episode_33": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{R}": "1st row",
+            "{C}": "1st",
+            "{row_dir}": "from near to far",
+            "{col_dir}": "from right to left",
+            "{a}": "right"
+        }
+    },
+    "episode_34": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{R}": "2nd row",
+            "{C}": "2nd",
+            "{row_dir}": "from far to near",
+            "{col_dir}": "from left to right",
+            "{a}": "left"
+        }
+    },
+    "episode_35": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{R}": "2nd row",
+            "{C}": "4th",
+            "{row_dir}": "from far to near",
+            "{col_dir}": "from right to left",
+            "{a}": "left"
+        }
+    },
+    "episode_36": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{R}": "3rd row",
+            "{C}": "1st",
+            "{row_dir}": "from far to near",
+            "{col_dir}": "from right to left",
+            "{a}": "right"
+        }
+    },
+    "episode_37": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{R}": "1st row",
+            "{C}": "2nd",
+            "{row_dir}": "from far to near",
+            "{col_dir}": "from right to left",
+            "{a}": "right"
+        }
+    },
+    "episode_38": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{R}": "3rd row",
+            "{C}": "1st",
+            "{row_dir}": "from far to near",
+            "{col_dir}": "from left to right",
+            "{a}": "left"
+        }
+    },
+    "episode_39": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{R}": "1st row",
+            "{C}": "2nd",
+            "{row_dir}": "from near to far",
+            "{col_dir}": "from right to left",
+            "{a}": "right"
+        }
+    },
+    "episode_40": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{R}": "2nd row",
+            "{C}": "2nd",
+            "{row_dir}": "from far to near",
+            "{col_dir}": "from left to right",
+            "{a}": "left"
+        }
+    },
+    "episode_41": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{R}": "3rd row",
+            "{C}": "3rd",
+            "{row_dir}": "from near to far",
+            "{col_dir}": "from left to right",
+            "{a}": "right"
+        }
+    },
+    "episode_42": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{R}": "2nd row",
+            "{C}": "4th",
+            "{row_dir}": "from far to near",
+            "{col_dir}": "from left to right",
+            "{a}": "right"
+        }
+    },
+    "episode_43": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{R}": "2nd row",
+            "{C}": "3rd",
+            "{row_dir}": "from near to far",
+            "{col_dir}": "from left to right",
+            "{a}": "right"
+        }
+    },
+    "episode_44": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{R}": "1st row",
+            "{C}": "1st",
+            "{row_dir}": "from near to far",
+            "{col_dir}": "from right to left",
+            "{a}": "right"
+        }
+    },
+    "episode_45": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{R}": "2nd row",
+            "{C}": "2nd",
+            "{row_dir}": "from far to near",
+            "{col_dir}": "from left to right",
+            "{a}": "left"
+        }
+    },
+    "episode_46": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{R}": "2nd row",
+            "{C}": "4th",
+            "{row_dir}": "from far to near",
+            "{col_dir}": "from right to left",
+            "{a}": "left"
+        }
+    },
+    "episode_47": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{R}": "3rd row",
+            "{C}": "1st",
+            "{row_dir}": "from far to near",
+            "{col_dir}": "from right to left",
+            "{a}": "right"
+        }
+    },
+    "episode_48": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{R}": "1st row",
+            "{C}": "2nd",
+            "{row_dir}": "from far to near",
+            "{col_dir}": "from right to left",
+            "{a}": "right"
+        }
+    },
+    "episode_49": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{R}": "3rd row",
+            "{C}": "1st",
+            "{row_dir}": "from far to near",
+            "{col_dir}": "from left to right",
+            "{a}": "left"
+        }
+    }
+}

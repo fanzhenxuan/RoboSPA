@@ -1,0 +1,3802 @@
+{
+    "episode_0": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{P}": "the backmost object",
+            "{V}": "left",
+            "{a}": "left"
+        },
+        "layout": {
+            "object_count": 7,
+            "target_index": 3,
+            "position_key": "leftmost",
+            "observed_position_key": "backmost",
+            "scene_assets": [
+                "050_bell/base0",
+                "047_mouse/base0",
+                "071_can/base1",
+                "107_soap/base3",
+                "112_tea-box/base0",
+                "081_playingcards/base2",
+                "048_stapler/base5"
+            ],
+            "scene_asset_aliases": [
+                "bell",
+                "mouse",
+                "can",
+                "soap",
+                "tea_box",
+                "playingcards",
+                "stapler"
+            ],
+            "target_asset_alias": "soap",
+            "view_name": "left",
+            "camera_view_name": "back",
+            "object_positions": [
+                [
+                    0.009238911792635918,
+                    0.05743667483329773,
+                    0.7406896948814392
+                ],
+                [
+                    -0.07923659682273865,
+                    -0.13021445274353027,
+                    0.7406613826751709
+                ],
+                [
+                    -0.11977861821651459,
+                    0.03801250085234642,
+                    0.7406226396560669
+                ],
+                [
+                    -0.18749907612800598,
+                    -0.05881867557764053,
+                    0.740810751914978
+                ],
+                [
+                    0.1689203977584839,
+                    -0.14616866409778595,
+                    0.7405542731285095
+                ],
+                [
+                    0.18181806802749634,
+                    0.04793795570731163,
+                    0.7408637404441833
+                ],
+                [
+                    0.05046721175312996,
+                    -0.10446394234895706,
+                    0.7408463954925537
+                ]
+            ]
+        }
+    },
+    "episode_1": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{P}": "the backmost object",
+            "{V}": "right",
+            "{a}": "right"
+        },
+        "layout": {
+            "object_count": 7,
+            "target_index": 5,
+            "position_key": "rightmost",
+            "observed_position_key": "backmost",
+            "scene_assets": [
+                "047_mouse/base2",
+                "112_tea-box/base4",
+                "048_stapler/base6",
+                "081_playingcards/base1",
+                "107_soap/base1",
+                "071_can/base6",
+                "050_bell/base0"
+            ],
+            "scene_asset_aliases": [
+                "mouse",
+                "tea_box",
+                "stapler",
+                "playingcards",
+                "soap",
+                "can",
+                "bell"
+            ],
+            "target_asset_alias": "can",
+            "view_name": "right",
+            "camera_view_name": "back",
+            "object_positions": [
+                [
+                    0.11327078193426132,
+                    0.04617304727435112,
+                    0.7410920262336731
+                ],
+                [
+                    -0.1677076369524002,
+                    -0.02535158395767212,
+                    0.7406969666481018
+                ],
+                [
+                    -0.032225508242845535,
+                    0.0029912511818110943,
+                    0.7408208847045898
+                ],
+                [
+                    -0.019893676042556763,
+                    -0.161677747964859,
+                    0.7408550977706909
+                ],
+                [
+                    0.11629144847393036,
+                    -0.16997841000556946,
+                    0.7408480048179626
+                ],
+                [
+                    0.19527655839920044,
+                    -0.07572983205318451,
+                    0.7407241463661194
+                ],
+                [
+                    -0.1649859994649887,
+                    -0.17392660677433014,
+                    0.7406895756721497
+                ]
+            ]
+        }
+    },
+    "episode_2": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{P}": "the frontmost object",
+            "{V}": "robot's",
+            "{a}": "right"
+        },
+        "layout": {
+            "object_count": 7,
+            "target_index": 5,
+            "position_key": "frontmost",
+            "observed_position_key": "frontmost",
+            "scene_assets": [
+                "048_stapler/base3",
+                "047_mouse/base0",
+                "071_can/base0",
+                "081_playingcards/base1",
+                "112_tea-box/base0",
+                "050_bell/base0",
+                "107_soap/base1"
+            ],
+            "scene_asset_aliases": [
+                "stapler",
+                "mouse",
+                "can",
+                "playingcards",
+                "tea_box",
+                "bell",
+                "soap"
+            ],
+            "target_asset_alias": "bell",
+            "view_name": "back",
+            "camera_view_name": "back",
+            "object_positions": [
+                [
+                    0.014233295805752277,
+                    -0.04327208176255226,
+                    0.7408511638641357
+                ],
+                [
+                    -0.0647926852107048,
+                    -0.145277738571167,
+                    0.740674614906311
+                ],
+                [
+                    -0.14348402619361877,
+                    -0.055003572255373,
+                    0.740422248840332
+                ],
+                [
+                    -0.1914139837026596,
+                    -0.1519886553287506,
+                    0.7408550381660461
+                ],
+                [
+                    0.15522947907447815,
+                    -0.16911299526691437,
+                    0.7405535578727722
+                ],
+                [
+                    0.14631213247776031,
+                    0.020615283399820328,
+                    0.7406895160675049
+                ],
+                [
+                    0.04004747420549393,
+                    -0.18760226666927338,
+                    0.7408478856086731
+                ]
+            ]
+        }
+    },
+    "episode_3": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{P}": "the frontmost object",
+            "{V}": "opposite",
+            "{a}": "right"
+        },
+        "layout": {
+            "object_count": 7,
+            "target_index": 4,
+            "position_key": "backmost",
+            "observed_position_key": "frontmost",
+            "scene_assets": [
+                "047_mouse/base2",
+                "071_can/base2",
+                "048_stapler/base0",
+                "050_bell/base1",
+                "107_soap/base1",
+                "112_tea-box/base4",
+                "081_playingcards/base2"
+            ],
+            "scene_asset_aliases": [
+                "mouse",
+                "can",
+                "stapler",
+                "bell",
+                "soap",
+                "tea_box",
+                "playingcards"
+            ],
+            "target_asset_alias": "soap",
+            "view_name": "front",
+            "camera_view_name": "back",
+            "object_positions": [
+                [
+                    0.19396944344043732,
+                    0.04957740753889084,
+                    0.7410986423492432
+                ],
+                [
+                    0.16878357529640198,
+                    -0.12072279304265976,
+                    0.7406734228134155
+                ],
+                [
+                    -0.09279124438762665,
+                    0.04709915071725845,
+                    0.7403585910797119
+                ],
+                [
+                    -0.06647726148366928,
+                    -0.12183856219053268,
+                    0.7406681180000305
+                ],
+                [
+                    0.0598224438726902,
+                    -0.18304626643657684,
+                    0.740847647190094
+                ],
+                [
+                    0.0471254326403141,
+                    0.032415859401226044,
+                    0.7406971454620361
+                ],
+                [
+                    -0.20403902232646942,
+                    -0.06559977680444717,
+                    0.7408636808395386
+                ]
+            ]
+        }
+    },
+    "episode_4": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{P}": "the rightmost object",
+            "{V}": "opposite",
+            "{a}": "left"
+        },
+        "layout": {
+            "object_count": 7,
+            "target_index": 5,
+            "position_key": "leftmost",
+            "observed_position_key": "rightmost",
+            "scene_assets": [
+                "048_stapler/base1",
+                "071_can/base1",
+                "081_playingcards/base2",
+                "107_soap/base0",
+                "047_mouse/base1",
+                "050_bell/base1",
+                "112_tea-box/base3"
+            ],
+            "scene_asset_aliases": [
+                "stapler",
+                "can",
+                "playingcards",
+                "soap",
+                "mouse",
+                "bell",
+                "tea_box"
+            ],
+            "target_asset_alias": "bell",
+            "view_name": "front",
+            "camera_view_name": "back",
+            "object_positions": [
+                [
+                    -0.10970836877822876,
+                    0.0463324673473835,
+                    0.7407670617103577
+                ],
+                [
+                    0.15958446264266968,
+                    -0.009509648196399212,
+                    0.7406279444694519
+                ],
+                [
+                    -0.09333501011133194,
+                    -0.16432809829711914,
+                    0.7408636808395386
+                ],
+                [
+                    0.022036490961909294,
+                    -0.17672905325889587,
+                    0.7408358454704285
+                ],
+                [
+                    0.022503605112433434,
+                    -0.018109500408172607,
+                    0.7403848171234131
+                ],
+                [
+                    -0.20491577684879303,
+                    -0.05322295427322388,
+                    0.7406681180000305
+                ],
+                [
+                    0.15019817650318146,
+                    -0.16288496553897858,
+                    0.7406741976737976
+                ]
+            ]
+        }
+    },
+    "episode_5": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{P}": "the rightmost object",
+            "{V}": "robot's",
+            "{a}": "right"
+        },
+        "layout": {
+            "object_count": 7,
+            "target_index": 1,
+            "position_key": "rightmost",
+            "observed_position_key": "rightmost",
+            "scene_assets": [
+                "048_stapler/base1",
+                "081_playingcards/base0",
+                "071_can/base1",
+                "047_mouse/base0",
+                "112_tea-box/base3",
+                "107_soap/base3",
+                "050_bell/base1"
+            ],
+            "scene_asset_aliases": [
+                "stapler",
+                "playingcards",
+                "can",
+                "mouse",
+                "tea_box",
+                "soap",
+                "bell"
+            ],
+            "target_asset_alias": "playingcards",
+            "view_name": "back",
+            "camera_view_name": "back",
+            "object_positions": [
+                [
+                    0.06869132071733475,
+                    -0.03911405801773071,
+                    0.7407670617103577
+                ],
+                [
+                    0.19652371108531952,
+                    0.00033289147540926933,
+                    0.7408454418182373
+                ],
+                [
+                    -0.043795324862003326,
+                    -0.16185131669044495,
+                    0.7406280040740967
+                ],
+                [
+                    -0.1574716567993164,
+                    -0.18349020183086395,
+                    0.740674614906311
+                ],
+                [
+                    -0.05107502639293671,
+                    -0.009242020547389984,
+                    0.7406741380691528
+                ],
+                [
+                    0.0924333781003952,
+                    -0.17487142980098724,
+                    0.7408106923103333
+                ],
+                [
+                    -0.18230782449245453,
+                    -0.05838465690612793,
+                    0.7406681180000305
+                ]
+            ]
+        }
+    },
+    "episode_6": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{P}": "the leftmost object",
+            "{V}": "left",
+            "{a}": "right"
+        },
+        "layout": {
+            "object_count": 7,
+            "target_index": 0,
+            "position_key": "frontmost",
+            "observed_position_key": "leftmost",
+            "scene_assets": [
+                "071_can/base0",
+                "107_soap/base1",
+                "048_stapler/base4",
+                "112_tea-box/base0",
+                "050_bell/base1",
+                "047_mouse/base1",
+                "081_playingcards/base1"
+            ],
+            "scene_asset_aliases": [
+                "can",
+                "soap",
+                "stapler",
+                "tea_box",
+                "bell",
+                "mouse",
+                "playingcards"
+            ],
+            "target_asset_alias": "can",
+            "view_name": "left",
+            "camera_view_name": "back",
+            "object_positions": [
+                [
+                    0.10289357602596283,
+                    0.03606759011745453,
+                    0.7404214143753052
+                ],
+                [
+                    -0.03345632180571556,
+                    -0.17725709080696106,
+                    0.7408474683761597
+                ],
+                [
+                    -0.06479176133871078,
+                    -0.027476690709590912,
+                    0.7408457398414612
+                ],
+                [
+                    0.1651574820280075,
+                    -0.09472675621509552,
+                    0.7405540943145752
+                ],
+                [
+                    -0.1678757667541504,
+                    -0.17363619804382324,
+                    0.7406681180000305
+                ],
+                [
+                    0.053334929049015045,
+                    -0.07453781366348267,
+                    0.7404155135154724
+                ],
+                [
+                    -0.1941453069448471,
+                    -0.03132515773177147,
+                    0.7408550381660461
+                ]
+            ]
+        }
+    },
+    "episode_7": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{P}": "the leftmost object",
+            "{V}": "right",
+            "{a}": "left"
+        },
+        "layout": {
+            "object_count": 7,
+            "target_index": 2,
+            "position_key": "backmost",
+            "observed_position_key": "leftmost",
+            "scene_assets": [
+                "112_tea-box/base4",
+                "050_bell/base0",
+                "107_soap/base2",
+                "081_playingcards/base1",
+                "047_mouse/base1",
+                "048_stapler/base3",
+                "071_can/base0"
+            ],
+            "scene_asset_aliases": [
+                "tea_box",
+                "bell",
+                "soap",
+                "playingcards",
+                "mouse",
+                "stapler",
+                "can"
+            ],
+            "target_asset_alias": "soap",
+            "view_name": "right",
+            "camera_view_name": "back",
+            "object_positions": [
+                [
+                    -0.03823951631784439,
+                    -0.11818552762269974,
+                    0.7406976819038391
+                ],
+                [
+                    0.07152578234672546,
+                    -0.023712143301963806,
+                    0.7406895756721497
+                ],
+                [
+                    -0.18913999199867249,
+                    -0.18617062270641327,
+                    0.7408282160758972
+                ],
+                [
+                    0.175604447722435,
+                    -0.1129913479089737,
+                    0.7408550381660461
+                ],
+                [
+                    -0.056225262582302094,
+                    0.05437349155545235,
+                    0.7403846979141235
+                ],
+                [
+                    -0.177295982837677,
+                    -0.006236972287297249,
+                    0.7408525347709656
+                ],
+                [
+                    0.17439237236976624,
+                    0.05339561030268669,
+                    0.740422785282135
+                ]
+            ]
+        }
+    },
+    "episode_8": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{P}": "the leftmost object",
+            "{V}": "robot's",
+            "{a}": "left"
+        },
+        "layout": {
+            "object_count": 7,
+            "target_index": 6,
+            "position_key": "leftmost",
+            "observed_position_key": "leftmost",
+            "scene_assets": [
+                "047_mouse/base2",
+                "081_playingcards/base2",
+                "071_can/base5",
+                "112_tea-box/base5",
+                "048_stapler/base4",
+                "107_soap/base1",
+                "050_bell/base0"
+            ],
+            "scene_asset_aliases": [
+                "mouse",
+                "playingcards",
+                "can",
+                "tea_box",
+                "stapler",
+                "soap",
+                "bell"
+            ],
+            "target_asset_alias": "bell",
+            "view_name": "back",
+            "camera_view_name": "back",
+            "object_positions": [
+                [
+                    0.1798088699579239,
+                    -0.027071312069892883,
+                    0.7410920262336731
+                ],
+                [
+                    0.04350830242037773,
+                    -0.12366777658462524,
+                    0.7408637404441833
+                ],
+                [
+                    -0.12539196014404297,
+                    0.006462222896516323,
+                    0.7404074668884277
+                ],
+                [
+                    0.0663239061832428,
+                    0.03118925355374813,
+                    0.7406421303749084
+                ],
+                [
+                    -0.0832471176981926,
+                    -0.15932101011276245,
+                    0.7408456206321716
+                ],
+                [
+                    0.15968982875347137,
+                    -0.17288838326931,
+                    0.740847647190094
+                ],
+                [
+                    -0.20146094262599945,
+                    -0.16170218586921692,
+                    0.7406893372535706
+                ]
+            ]
+        }
+    },
+    "episode_9": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{P}": "the frontmost object",
+            "{V}": "left",
+            "{a}": "right"
+        },
+        "layout": {
+            "object_count": 7,
+            "target_index": 4,
+            "position_key": "rightmost",
+            "observed_position_key": "frontmost",
+            "scene_assets": [
+                "112_tea-box/base0",
+                "081_playingcards/base0",
+                "071_can/base6",
+                "107_soap/base0",
+                "050_bell/base0",
+                "047_mouse/base0",
+                "048_stapler/base0"
+            ],
+            "scene_asset_aliases": [
+                "tea_box",
+                "playingcards",
+                "can",
+                "soap",
+                "bell",
+                "mouse",
+                "stapler"
+            ],
+            "target_asset_alias": "bell",
+            "view_name": "left",
+            "camera_view_name": "back",
+            "object_positions": [
+                [
+                    0.09942024946212769,
+                    -0.0709155946969986,
+                    0.7405540943145752
+                ],
+                [
+                    -0.1617336869239807,
+                    0.042564865201711655,
+                    0.7408455014228821
+                ],
+                [
+                    -0.09032830595970154,
+                    -0.1373019516468048,
+                    0.7407247424125671
+                ],
+                [
+                    0.0013951126020401716,
+                    0.04933696985244751,
+                    0.7408359050750732
+                ],
+                [
+                    0.1680656522512436,
+                    -0.17471098899841309,
+                    0.7406895160675049
+                ],
+                [
+                    -0.1936025470495224,
+                    -0.17001856863498688,
+                    0.7406744956970215
+                ],
+                [
+                    0.046160146594047546,
+                    -0.17966268956661224,
+                    0.7403573393821716
+                ]
+            ]
+        }
+    },
+    "episode_10": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{P}": "the backmost object",
+            "{V}": "opposite",
+            "{a}": "right"
+        },
+        "layout": {
+            "object_count": 7,
+            "target_index": 2,
+            "position_key": "frontmost",
+            "observed_position_key": "backmost",
+            "scene_assets": [
+                "107_soap/base1",
+                "081_playingcards/base0",
+                "047_mouse/base2",
+                "112_tea-box/base5",
+                "048_stapler/base1",
+                "071_can/base2",
+                "050_bell/base0"
+            ],
+            "scene_asset_aliases": [
+                "soap",
+                "playingcards",
+                "mouse",
+                "tea_box",
+                "stapler",
+                "can",
+                "bell"
+            ],
+            "target_asset_alias": "mouse",
+            "view_name": "front",
+            "camera_view_name": "back",
+            "object_positions": [
+                [
+                    -0.07533791661262512,
+                    -0.031462762504816055,
+                    0.7408475279808044
+                ],
+                [
+                    -0.08355458080768585,
+                    -0.17053918540477753,
+                    0.7408455610275269
+                ],
+                [
+                    0.18950888514518738,
+                    0.037702061235904694,
+                    0.7410929799079895
+                ],
+                [
+                    0.042675234377384186,
+                    -0.1708960235118866,
+                    0.7406452894210815
+                ],
+                [
+                    0.1858847588300705,
+                    -0.1387856900691986,
+                    0.7407671809196472
+                ],
+                [
+                    0.047439172863960266,
+                    -0.029646091163158417,
+                    0.7406733632087708
+                ],
+                [
+                    -0.18955309689044952,
+                    -0.07150697708129883,
+                    0.7406894564628601
+                ]
+            ]
+        }
+    },
+    "episode_11": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{P}": "the leftmost object",
+            "{V}": "right",
+            "{a}": "left"
+        },
+        "layout": {
+            "object_count": 7,
+            "target_index": 5,
+            "position_key": "backmost",
+            "observed_position_key": "leftmost",
+            "scene_assets": [
+                "081_playingcards/base1",
+                "071_can/base5",
+                "107_soap/base0",
+                "050_bell/base1",
+                "047_mouse/base0",
+                "048_stapler/base6",
+                "112_tea-box/base5"
+            ],
+            "scene_asset_aliases": [
+                "playingcards",
+                "can",
+                "soap",
+                "bell",
+                "mouse",
+                "stapler",
+                "tea_box"
+            ],
+            "target_asset_alias": "stapler",
+            "view_name": "right",
+            "camera_view_name": "back",
+            "object_positions": [
+                [
+                    -0.061914898455142975,
+                    -0.015579748898744583,
+                    0.7408550977706909
+                ],
+                [
+                    0.19831563532352448,
+                    0.034954823553562164,
+                    0.7404078245162964
+                ],
+                [
+                    0.0732731744647026,
+                    -0.10841301083564758,
+                    0.7408356666564941
+                ],
+                [
+                    0.08068978786468506,
+                    0.056667715311050415,
+                    0.7406681180000305
+                ],
+                [
+                    -0.1853553205728531,
+                    -0.10805413126945496,
+                    0.7406745553016663
+                ],
+                [
+                    -0.06296107918024063,
+                    -0.17654840648174286,
+                    0.7408208847045898
+                ],
+                [
+                    -0.19412358105182648,
+                    0.020098716020584106,
+                    0.7406420707702637
+                ]
+            ]
+        }
+    },
+    "episode_12": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{P}": "the frontmost object",
+            "{V}": "right",
+            "{a}": "left"
+        },
+        "layout": {
+            "object_count": 7,
+            "target_index": 5,
+            "position_key": "leftmost",
+            "observed_position_key": "frontmost",
+            "scene_assets": [
+                "048_stapler/base1",
+                "081_playingcards/base1",
+                "112_tea-box/base3",
+                "047_mouse/base0",
+                "107_soap/base2",
+                "050_bell/base1",
+                "071_can/base0"
+            ],
+            "scene_asset_aliases": [
+                "stapler",
+                "playingcards",
+                "tea_box",
+                "mouse",
+                "soap",
+                "bell",
+                "can"
+            ],
+            "target_asset_alias": "bell",
+            "view_name": "right",
+            "camera_view_name": "back",
+            "object_positions": [
+                [
+                    -0.05419013649225235,
+                    -0.04435008764266968,
+                    0.7407670617103577
+                ],
+                [
+                    -0.10026771575212479,
+                    -0.16292895376682281,
+                    0.7408551573753357
+                ],
+                [
+                    0.01721283793449402,
+                    -0.17004752159118652,
+                    0.7406741380691528
+                ],
+                [
+                    0.08592583239078522,
+                    -0.014536566101014614,
+                    0.7406613230705261
+                ],
+                [
+                    0.15066638588905334,
+                    -0.16790704429149628,
+                    0.7408285737037659
+                ],
+                [
+                    -0.17840324342250824,
+                    0.027119116857647896,
+                    0.7406681180000305
+                ],
+                [
+                    0.20166373252868652,
+                    -0.03411649167537689,
+                    0.7404226660728455
+                ]
+            ]
+        }
+    },
+    "episode_13": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{P}": "the frontmost object",
+            "{V}": "left",
+            "{a}": "right"
+        },
+        "layout": {
+            "object_count": 7,
+            "target_index": 5,
+            "position_key": "rightmost",
+            "observed_position_key": "frontmost",
+            "scene_assets": [
+                "047_mouse/base0",
+                "112_tea-box/base5",
+                "050_bell/base1",
+                "081_playingcards/base1",
+                "071_can/base3",
+                "107_soap/base0",
+                "048_stapler/base1"
+            ],
+            "scene_asset_aliases": [
+                "mouse",
+                "tea_box",
+                "bell",
+                "playingcards",
+                "can",
+                "soap",
+                "stapler"
+            ],
+            "target_asset_alias": "soap",
+            "view_name": "left",
+            "camera_view_name": "back",
+            "object_positions": [
+                [
+                    -0.023516222834587097,
+                    -0.01803027093410492,
+                    0.7406613826751709
+                ],
+                [
+                    -0.17085731029510498,
+                    0.0014793667942285538,
+                    0.7406423091888428
+                ],
+                [
+                    0.12036528438329697,
+                    0.013942896388471127,
+                    0.7406681180000305
+                ],
+                [
+                    -0.1972227394580841,
+                    -0.14891374111175537,
+                    0.7408550381660461
+                ],
+                [
+                    0.05891559645533562,
+                    -0.18212980031967163,
+                    0.740805447101593
+                ],
+                [
+                    0.1857919842004776,
+                    -0.1270216852426529,
+                    0.7408357858657837
+                ],
+                [
+                    -0.06265166401863098,
+                    -0.15526510775089264,
+                    0.7407670617103577
+                ]
+            ]
+        }
+    },
+    "episode_14": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{P}": "the frontmost object",
+            "{V}": "robot's",
+            "{a}": "left"
+        },
+        "layout": {
+            "object_count": 7,
+            "target_index": 2,
+            "position_key": "frontmost",
+            "observed_position_key": "frontmost",
+            "scene_assets": [
+                "071_can/base0",
+                "107_soap/base1",
+                "081_playingcards/base1",
+                "047_mouse/base2",
+                "048_stapler/base3",
+                "050_bell/base1",
+                "112_tea-box/base3"
+            ],
+            "scene_asset_aliases": [
+                "can",
+                "soap",
+                "playingcards",
+                "mouse",
+                "stapler",
+                "bell",
+                "tea_box"
+            ],
+            "target_asset_alias": "playingcards",
+            "view_name": "back",
+            "camera_view_name": "back",
+            "object_positions": [
+                [
+                    0.05835636705160141,
+                    -0.039764825254678726,
+                    0.740422248840332
+                ],
+                [
+                    -0.0851256251335144,
+                    -0.08701885491609573,
+                    0.7408478856086731
+                ],
+                [
+                    -0.1595403105020523,
+                    0.040144097059965134,
+                    0.7408550977706909
+                ],
+                [
+                    0.14548559486865997,
+                    -0.16333413124084473,
+                    0.741098940372467
+                ],
+                [
+                    0.19001524150371552,
+                    -0.023069024085998535,
+                    0.7408511638641357
+                ],
+                [
+                    0.033386219292879105,
+                    -0.17204464972019196,
+                    0.7406681776046753
+                ],
+                [
+                    -0.1946326196193695,
+                    -0.10655722767114639,
+                    0.7406741380691528
+                ]
+            ]
+        }
+    },
+    "episode_15": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{P}": "the frontmost object",
+            "{V}": "opposite",
+            "{a}": "right"
+        },
+        "layout": {
+            "object_count": 7,
+            "target_index": 6,
+            "position_key": "backmost",
+            "observed_position_key": "frontmost",
+            "scene_assets": [
+                "081_playingcards/base1",
+                "107_soap/base0",
+                "050_bell/base0",
+                "048_stapler/base6",
+                "112_tea-box/base3",
+                "071_can/base5",
+                "047_mouse/base1"
+            ],
+            "scene_asset_aliases": [
+                "playingcards",
+                "soap",
+                "bell",
+                "stapler",
+                "tea_box",
+                "can",
+                "mouse"
+            ],
+            "target_asset_alias": "mouse",
+            "view_name": "front",
+            "camera_view_name": "back",
+            "object_positions": [
+                [
+                    -0.1839621365070343,
+                    -0.10387729108333588,
+                    0.7408550381660461
+                ],
+                [
+                    -0.06698478758335114,
+                    -0.10028254985809326,
+                    0.7408357262611389
+                ],
+                [
+                    0.15466181933879852,
+                    0.059059418737888336,
+                    0.7406895160675049
+                ],
+                [
+                    0.061773743480443954,
+                    -0.08141162991523743,
+                    0.7408208847045898
+                ],
+                [
+                    -0.1847880780696869,
+                    0.036530204117298126,
+                    0.7406741380691528
+                ],
+                [
+                    -0.031797051429748535,
+                    0.01679706759750843,
+                    0.7404073476791382
+                ],
+                [
+                    0.14123761653900146,
+                    -0.1737956404685974,
+                    0.7403846383094788
+                ]
+            ]
+        }
+    },
+    "episode_16": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{P}": "the frontmost object",
+            "{V}": "right",
+            "{a}": "left"
+        },
+        "layout": {
+            "object_count": 7,
+            "target_index": 3,
+            "position_key": "leftmost",
+            "observed_position_key": "frontmost",
+            "scene_assets": [
+                "071_can/base5",
+                "047_mouse/base0",
+                "050_bell/base1",
+                "048_stapler/base0",
+                "107_soap/base2",
+                "081_playingcards/base1",
+                "112_tea-box/base3"
+            ],
+            "scene_asset_aliases": [
+                "can",
+                "mouse",
+                "bell",
+                "stapler",
+                "soap",
+                "playingcards",
+                "tea_box"
+            ],
+            "target_asset_alias": "stapler",
+            "view_name": "right",
+            "camera_view_name": "back",
+            "object_positions": [
+                [
+                    0.14565573632717133,
+                    0.02949497289955616,
+                    0.7404072880744934
+                ],
+                [
+                    0.1915629357099533,
+                    -0.0839620977640152,
+                    0.7406745553016663
+                ],
+                [
+                    0.10717464983463287,
+                    -0.18735891580581665,
+                    0.7406681180000305
+                ],
+                [
+                    -0.14434075355529785,
+                    0.040903329849243164,
+                    0.7403590083122253
+                ],
+                [
+                    -0.08359190821647644,
+                    -0.17578190565109253,
+                    0.7408282160758972
+                ],
+                [
+                    0.00828487891703844,
+                    -0.0865711197257042,
+                    0.7408550381660461
+                ],
+                [
+                    -0.007385679055005312,
+                    0.04469901695847511,
+                    0.7406741976737976
+                ]
+            ]
+        }
+    },
+    "episode_17": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{P}": "the leftmost object",
+            "{V}": "opposite",
+            "{a}": "right"
+        },
+        "layout": {
+            "object_count": 7,
+            "target_index": 0,
+            "position_key": "rightmost",
+            "observed_position_key": "leftmost",
+            "scene_assets": [
+                "071_can/base6",
+                "050_bell/base1",
+                "081_playingcards/base1",
+                "112_tea-box/base4",
+                "107_soap/base2",
+                "048_stapler/base0",
+                "047_mouse/base1"
+            ],
+            "scene_asset_aliases": [
+                "can",
+                "bell",
+                "playingcards",
+                "tea_box",
+                "soap",
+                "stapler",
+                "mouse"
+            ],
+            "target_asset_alias": "can",
+            "view_name": "front",
+            "camera_view_name": "back",
+            "object_positions": [
+                [
+                    0.19484619796276093,
+                    -0.06480862945318222,
+                    0.7407248020172119
+                ],
+                [
+                    -0.19783997535705566,
+                    0.027801577001810074,
+                    0.7406681180000305
+                ],
+                [
+                    -0.005511086899787188,
+                    -0.10313744097948074,
+                    0.7408550977706909
+                ],
+                [
+                    0.09411919862031937,
+                    0.04534388706088066,
+                    0.7406969666481018
+                ],
+                [
+                    -0.18549808859825134,
+                    -0.146324023604393,
+                    0.7408282160758972
+                ],
+                [
+                    0.1266847550868988,
+                    -0.1672823578119278,
+                    0.740358829498291
+                ],
+                [
+                    -0.037340063601732254,
+                    0.04048113897442818,
+                    0.7403846979141235
+                ]
+            ]
+        }
+    },
+    "episode_18": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{P}": "the leftmost object",
+            "{V}": "left",
+            "{a}": "right"
+        },
+        "layout": {
+            "object_count": 7,
+            "target_index": 5,
+            "position_key": "frontmost",
+            "observed_position_key": "leftmost",
+            "scene_assets": [
+                "050_bell/base1",
+                "081_playingcards/base1",
+                "112_tea-box/base3",
+                "071_can/base6",
+                "048_stapler/base6",
+                "107_soap/base1",
+                "047_mouse/base0"
+            ],
+            "scene_asset_aliases": [
+                "bell",
+                "playingcards",
+                "tea_box",
+                "can",
+                "stapler",
+                "soap",
+                "mouse"
+            ],
+            "target_asset_alias": "soap",
+            "view_name": "left",
+            "camera_view_name": "back",
+            "object_positions": [
+                [
+                    0.18686141073703766,
+                    -0.06044657155871391,
+                    0.7406681180000305
+                ],
+                [
+                    -0.1559336930513382,
+                    -0.186764195561409,
+                    0.7408551573753357
+                ],
+                [
+                    -0.18041570484638214,
+                    -0.0212850384414196,
+                    0.7406740784645081
+                ],
+                [
+                    0.08358287811279297,
+                    -0.1749119907617569,
+                    0.7407246828079224
+                ],
+                [
+                    -0.03656226396560669,
+                    -0.029004842042922974,
+                    0.7408210635185242
+                ],
+                [
+                    0.08620254695415497,
+                    0.05181523784995079,
+                    0.7408475279808044
+                ],
+                [
+                    -0.03083105944097042,
+                    -0.16600075364112854,
+                    0.7406613826751709
+                ]
+            ]
+        }
+    },
+    "episode_19": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{P}": "the backmost object",
+            "{V}": "robot's",
+            "{a}": "left"
+        },
+        "layout": {
+            "object_count": 7,
+            "target_index": 5,
+            "position_key": "backmost",
+            "observed_position_key": "backmost",
+            "scene_assets": [
+                "112_tea-box/base3",
+                "048_stapler/base6",
+                "107_soap/base3",
+                "071_can/base2",
+                "047_mouse/base0",
+                "050_bell/base1",
+                "081_playingcards/base0"
+            ],
+            "scene_asset_aliases": [
+                "tea_box",
+                "stapler",
+                "soap",
+                "can",
+                "mouse",
+                "bell",
+                "playingcards"
+            ],
+            "target_asset_alias": "bell",
+            "view_name": "back",
+            "camera_view_name": "back",
+            "object_positions": [
+                [
+                    0.13351541757583618,
+                    0.03369440883398056,
+                    0.7406740784645081
+                ],
+                [
+                    0.003929901402443647,
+                    0.027671849355101585,
+                    0.7408208250999451
+                ],
+                [
+                    -0.09538993239402771,
+                    -0.08865488320589066,
+                    0.740810751914978
+                ],
+                [
+                    0.06355619430541992,
+                    -0.12100114673376083,
+                    0.7406733632087708
+                ],
+                [
+                    0.181360125541687,
+                    -0.11732703447341919,
+                    0.7406613826751709
+                ],
+                [
+                    -0.15665268898010254,
+                    -0.18634812533855438,
+                    0.7406681180000305
+                ],
+                [
+                    -0.19454778730869293,
+                    0.04370880872011185,
+                    0.7408456206321716
+                ]
+            ]
+        }
+    },
+    "episode_20": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{P}": "the backmost object",
+            "{V}": "left",
+            "{a}": "left"
+        },
+        "layout": {
+            "object_count": 7,
+            "target_index": 6,
+            "position_key": "leftmost",
+            "observed_position_key": "backmost",
+            "scene_assets": [
+                "048_stapler/base6",
+                "047_mouse/base1",
+                "107_soap/base3",
+                "050_bell/base1",
+                "112_tea-box/base4",
+                "071_can/base3",
+                "081_playingcards/base1"
+            ],
+            "scene_asset_aliases": [
+                "stapler",
+                "mouse",
+                "soap",
+                "bell",
+                "tea_box",
+                "can",
+                "playingcards"
+            ],
+            "target_asset_alias": "playingcards",
+            "view_name": "left",
+            "camera_view_name": "back",
+            "object_positions": [
+                [
+                    -0.06471055001020432,
+                    -0.14377053081989288,
+                    0.7408208847045898
+                ],
+                [
+                    0.0794735848903656,
+                    0.03019600547850132,
+                    0.7404155135154724
+                ],
+                [
+                    0.19230034947395325,
+                    -0.04067891836166382,
+                    0.7408108115196228
+                ],
+                [
+                    0.18918058276176453,
+                    -0.17727968096733093,
+                    0.7406681776046753
+                ],
+                [
+                    -0.128445103764534,
+                    0.019660567864775658,
+                    0.7406967878341675
+                ],
+                [
+                    0.07753270119428635,
+                    -0.17348933219909668,
+                    0.7408053278923035
+                ],
+                [
+                    -0.20346133410930634,
+                    -0.09032545238733292,
+                    0.7408550977706909
+                ]
+            ]
+        }
+    },
+    "episode_21": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{P}": "the backmost object",
+            "{V}": "right",
+            "{a}": "right"
+        },
+        "layout": {
+            "object_count": 7,
+            "target_index": 1,
+            "position_key": "rightmost",
+            "observed_position_key": "backmost",
+            "scene_assets": [
+                "071_can/base6",
+                "050_bell/base1",
+                "112_tea-box/base0",
+                "081_playingcards/base1",
+                "048_stapler/base4",
+                "047_mouse/base1",
+                "107_soap/base0"
+            ],
+            "scene_asset_aliases": [
+                "can",
+                "bell",
+                "tea_box",
+                "playingcards",
+                "stapler",
+                "mouse",
+                "soap"
+            ],
+            "target_asset_alias": "bell",
+            "view_name": "right",
+            "camera_view_name": "back",
+            "object_positions": [
+                [
+                    0.10663105547428131,
+                    0.05347153916954994,
+                    0.7407247424125671
+                ],
+                [
+                    0.19656884670257568,
+                    -0.09156060963869095,
+                    0.7406681180000305
+                ],
+                [
+                    -0.07924126088619232,
+                    -0.1276545524597168,
+                    0.7405535578727722
+                ],
+                [
+                    -0.01742478832602501,
+                    0.021578766405582428,
+                    0.7408550977706909
+                ],
+                [
+                    -0.16593363881111145,
+                    0.012946213595569134,
+                    0.7408455610275269
+                ],
+                [
+                    -0.19661927223205566,
+                    -0.1757267266511917,
+                    0.7404155731201172
+                ],
+                [
+                    0.03858561813831329,
+                    -0.12958265841007233,
+                    0.7408356070518494
+                ]
+            ]
+        }
+    },
+    "episode_22": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{P}": "the backmost object",
+            "{V}": "opposite",
+            "{a}": "right"
+        },
+        "layout": {
+            "object_count": 7,
+            "target_index": 6,
+            "position_key": "frontmost",
+            "observed_position_key": "backmost",
+            "scene_assets": [
+                "050_bell/base0",
+                "112_tea-box/base3",
+                "071_can/base3",
+                "048_stapler/base4",
+                "107_soap/base3",
+                "047_mouse/base0",
+                "081_playingcards/base1"
+            ],
+            "scene_asset_aliases": [
+                "bell",
+                "tea_box",
+                "can",
+                "stapler",
+                "soap",
+                "mouse",
+                "playingcards"
+            ],
+            "target_asset_alias": "playingcards",
+            "view_name": "front",
+            "camera_view_name": "back",
+            "object_positions": [
+                [
+                    0.07318294793367386,
+                    -0.02875792235136032,
+                    0.7406896352767944
+                ],
+                [
+                    0.16518305242061615,
+                    -0.12272752821445465,
+                    0.7406740784645081
+                ],
+                [
+                    -0.0536661222577095,
+                    -0.05539875477552414,
+                    0.7408052086830139
+                ],
+                [
+                    -0.19015589356422424,
+                    -0.04548006132245064,
+                    0.7408455610275269
+                ],
+                [
+                    -0.07762603461742401,
+                    -0.18769057095050812,
+                    0.740810751914978
+                ],
+                [
+                    0.04811624810099602,
+                    -0.16829867660999298,
+                    0.740674614906311
+                ],
+                [
+                    0.19787535071372986,
+                    0.05915297567844391,
+                    0.7408550381660461
+                ]
+            ]
+        }
+    },
+    "episode_23": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{P}": "the backmost object",
+            "{V}": "robot's",
+            "{a}": "left"
+        },
+        "layout": {
+            "object_count": 7,
+            "target_index": 4,
+            "position_key": "backmost",
+            "observed_position_key": "backmost",
+            "scene_assets": [
+                "071_can/base6",
+                "048_stapler/base5",
+                "107_soap/base0",
+                "081_playingcards/base2",
+                "047_mouse/base1",
+                "050_bell/base1",
+                "112_tea-box/base0"
+            ],
+            "scene_asset_aliases": [
+                "can",
+                "stapler",
+                "soap",
+                "playingcards",
+                "mouse",
+                "bell",
+                "tea_box"
+            ],
+            "target_asset_alias": "mouse",
+            "view_name": "back",
+            "camera_view_name": "back",
+            "object_positions": [
+                [
+                    -0.1593821942806244,
+                    0.027378024533391,
+                    0.7407247424125671
+                ],
+                [
+                    0.07243622839450836,
+                    -0.12144102156162262,
+                    0.7408461570739746
+                ],
+                [
+                    -0.033816706389188766,
+                    0.033609066158533096,
+                    0.7408356666564941
+                ],
+                [
+                    -0.20406986773014069,
+                    -0.11513378471136093,
+                    0.7408638000488281
+                ],
+                [
+                    -0.07418361306190491,
+                    -0.18396203219890594,
+                    0.7404154539108276
+                ],
+                [
+                    0.1916625052690506,
+                    -0.11412445455789566,
+                    0.7406681776046753
+                ],
+                [
+                    0.1449352204799652,
+                    0.04112562909722328,
+                    0.7405540347099304
+                ]
+            ]
+        }
+    },
+    "episode_24": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{P}": "the frontmost object",
+            "{V}": "right",
+            "{a}": "left"
+        },
+        "layout": {
+            "object_count": 7,
+            "target_index": 5,
+            "position_key": "leftmost",
+            "observed_position_key": "frontmost",
+            "scene_assets": [
+                "047_mouse/base1",
+                "081_playingcards/base1",
+                "112_tea-box/base3",
+                "048_stapler/base4",
+                "071_can/base1",
+                "107_soap/base2",
+                "050_bell/base0"
+            ],
+            "scene_asset_aliases": [
+                "mouse",
+                "playingcards",
+                "tea_box",
+                "stapler",
+                "can",
+                "soap",
+                "bell"
+            ],
+            "target_asset_alias": "soap",
+            "view_name": "right",
+            "camera_view_name": "back",
+            "object_positions": [
+                [
+                    0.17679744958877563,
+                    -0.15169435739517212,
+                    0.7404077649116516
+                ],
+                [
+                    -0.11759080737829208,
+                    0.021561775356531143,
+                    0.7408550977706909
+                ],
+                [
+                    0.05527590587735176,
+                    0.018482793122529984,
+                    0.7406741380691528
+                ],
+                [
+                    -0.0835702046751976,
+                    -0.1693854033946991,
+                    0.7408457398414612
+                ],
+                [
+                    0.18780505657196045,
+                    0.03228265792131424,
+                    0.7406225800514221
+                ],
+                [
+                    -0.20212814211845398,
+                    -0.09989527612924576,
+                    0.740828275680542
+                ],
+                [
+                    0.04847011715173721,
+                    -0.13907605409622192,
+                    0.7406894564628601
+                ]
+            ]
+        }
+    },
+    "episode_25": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{P}": "the rightmost object",
+            "{V}": "robot's",
+            "{a}": "right"
+        },
+        "layout": {
+            "object_count": 7,
+            "target_index": 4,
+            "position_key": "rightmost",
+            "observed_position_key": "rightmost",
+            "scene_assets": [
+                "112_tea-box/base5",
+                "048_stapler/base6",
+                "050_bell/base1",
+                "081_playingcards/base0",
+                "107_soap/base0",
+                "047_mouse/base2",
+                "071_can/base2"
+            ],
+            "scene_asset_aliases": [
+                "tea_box",
+                "stapler",
+                "bell",
+                "playingcards",
+                "soap",
+                "mouse",
+                "can"
+            ],
+            "target_asset_alias": "soap",
+            "view_name": "back",
+            "camera_view_name": "back",
+            "object_positions": [
+                [
+                    -0.045623913407325745,
+                    -0.17733295261859894,
+                    0.7406423687934875
+                ],
+                [
+                    0.13422031700611115,
+                    -0.001394537859596312,
+                    0.7408208847045898
+                ],
+                [
+                    -0.18245252966880798,
+                    -0.14978814125061035,
+                    0.7406681180000305
+                ],
+                [
+                    -0.1265018731355667,
+                    -0.037255629897117615,
+                    0.7408455610275269
+                ],
+                [
+                    0.19441542029380798,
+                    -0.17957176268100739,
+                    0.7408357858657837
+                ],
+                [
+                    0.06516223400831223,
+                    -0.1568673700094223,
+                    0.741094708442688
+                ],
+                [
+                    -0.0170403104275465,
+                    0.05272139236330986,
+                    0.7406743168830872
+                ]
+            ]
+        }
+    },
+    "episode_26": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{P}": "the backmost object",
+            "{V}": "opposite",
+            "{a}": "right"
+        },
+        "layout": {
+            "object_count": 7,
+            "target_index": 6,
+            "position_key": "frontmost",
+            "observed_position_key": "backmost",
+            "scene_assets": [
+                "071_can/base0",
+                "112_tea-box/base0",
+                "048_stapler/base2",
+                "081_playingcards/base0",
+                "047_mouse/base0",
+                "107_soap/base2",
+                "050_bell/base1"
+            ],
+            "scene_asset_aliases": [
+                "can",
+                "tea_box",
+                "stapler",
+                "playingcards",
+                "mouse",
+                "soap",
+                "bell"
+            ],
+            "target_asset_alias": "bell",
+            "view_name": "front",
+            "camera_view_name": "back",
+            "object_positions": [
+                [
+                    -0.09266078472137451,
+                    -0.008552984334528446,
+                    0.7404208183288574
+                ],
+                [
+                    0.04893461614847183,
+                    -0.027357734739780426,
+                    0.7405535578727722
+                ],
+                [
+                    0.05594400689005852,
+                    -0.1441381573677063,
+                    0.7408447861671448
+                ],
+                [
+                    -0.08601275086402893,
+                    -0.13166771829128265,
+                    0.7408455014228821
+                ],
+                [
+                    -0.19536501169204712,
+                    -0.06040778383612633,
+                    0.7406746745109558
+                ],
+                [
+                    0.1850866973400116,
+                    -0.1200861856341362,
+                    0.740828275680542
+                ],
+                [
+                    0.19950979948043823,
+                    0.055976394563913345,
+                    0.7406681180000305
+                ]
+            ]
+        }
+    },
+    "episode_27": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{P}": "the rightmost object",
+            "{V}": "left",
+            "{a}": "left"
+        },
+        "layout": {
+            "object_count": 7,
+            "target_index": 6,
+            "position_key": "backmost",
+            "observed_position_key": "rightmost",
+            "scene_assets": [
+                "050_bell/base0",
+                "081_playingcards/base0",
+                "048_stapler/base5",
+                "071_can/base0",
+                "047_mouse/base1",
+                "112_tea-box/base4",
+                "107_soap/base1"
+            ],
+            "scene_asset_aliases": [
+                "bell",
+                "playingcards",
+                "stapler",
+                "can",
+                "mouse",
+                "tea_box",
+                "soap"
+            ],
+            "target_asset_alias": "soap",
+            "view_name": "left",
+            "camera_view_name": "back",
+            "object_positions": [
+                [
+                    -0.06609015166759491,
+                    -0.11083190143108368,
+                    0.7406896352767944
+                ],
+                [
+                    0.18809747695922852,
+                    -0.11193011701107025,
+                    0.7408454418182373
+                ],
+                [
+                    -0.18996767699718475,
+                    -0.04763707518577576,
+                    0.7408461570739746
+                ],
+                [
+                    0.05093397572636604,
+                    -0.11395429819822311,
+                    0.7404215335845947
+                ],
+                [
+                    0.18590444326400757,
+                    0.03834570199251175,
+                    0.7403847575187683
+                ],
+                [
+                    -0.06704564392566681,
+                    0.0464661605656147,
+                    0.7406970858573914
+                ],
+                [
+                    -0.18621356785297394,
+                    -0.18050925433635712,
+                    0.7408478856086731
+                ]
+            ]
+        }
+    },
+    "episode_28": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{P}": "the backmost object",
+            "{V}": "left",
+            "{a}": "left"
+        },
+        "layout": {
+            "object_count": 7,
+            "target_index": 6,
+            "position_key": "leftmost",
+            "observed_position_key": "backmost",
+            "scene_assets": [
+                "050_bell/base0",
+                "081_playingcards/base0",
+                "048_stapler/base2",
+                "112_tea-box/base5",
+                "071_can/base1",
+                "107_soap/base3",
+                "047_mouse/base0"
+            ],
+            "scene_asset_aliases": [
+                "bell",
+                "playingcards",
+                "stapler",
+                "tea_box",
+                "can",
+                "soap",
+                "mouse"
+            ],
+            "target_asset_alias": "mouse",
+            "view_name": "left",
+            "camera_view_name": "back",
+            "object_positions": [
+                [
+                    0.18720978498458862,
+                    -0.08798623085021973,
+                    0.7406895160675049
+                ],
+                [
+                    0.07215658575296402,
+                    -0.005062715150415897,
+                    0.740837037563324
+                ],
+                [
+                    -0.041483018547296524,
+                    -0.14963795244693756,
+                    0.7408447861671448
+                ],
+                [
+                    -0.0581747405230999,
+                    0.03783220425248146,
+                    0.7406419515609741
+                ],
+                [
+                    0.20186015963554382,
+                    0.04514313489198685,
+                    0.7406224608421326
+                ],
+                [
+                    0.0872950479388237,
+                    -0.18336014449596405,
+                    0.740810751914978
+                ],
+                [
+                    -0.1881437748670578,
+                    -0.09889048337936401,
+                    0.7406745553016663
+                ]
+            ]
+        }
+    },
+    "episode_29": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{P}": "the backmost object",
+            "{V}": "right",
+            "{a}": "right"
+        },
+        "layout": {
+            "object_count": 7,
+            "target_index": 3,
+            "position_key": "rightmost",
+            "observed_position_key": "backmost",
+            "scene_assets": [
+                "112_tea-box/base3",
+                "048_stapler/base4",
+                "107_soap/base1",
+                "047_mouse/base1",
+                "071_can/base6",
+                "050_bell/base0",
+                "081_playingcards/base1"
+            ],
+            "scene_asset_aliases": [
+                "tea_box",
+                "stapler",
+                "soap",
+                "mouse",
+                "can",
+                "bell",
+                "playingcards"
+            ],
+            "target_asset_alias": "mouse",
+            "view_name": "right",
+            "camera_view_name": "back",
+            "object_positions": [
+                [
+                    -0.045901909470558167,
+                    -0.059448763728141785,
+                    0.7406741976737976
+                ],
+                [
+                    -0.05071602761745453,
+                    -0.17023706436157227,
+                    0.7408456206321716
+                ],
+                [
+                    -0.1791929304599762,
+                    -0.021107260137796402,
+                    0.7408478260040283
+                ],
+                [
+                    0.19179050624370575,
+                    -0.16813874244689941,
+                    0.740415632724762
+                ],
+                [
+                    0.10225377231836319,
+                    -0.02699156664311886,
+                    0.7407248020172119
+                ],
+                [
+                    -0.19866608083248138,
+                    -0.16088669002056122,
+                    0.7406896352767944
+                ],
+                [
+                    0.06852807104587555,
+                    -0.16497986018657684,
+                    0.7408550977706909
+                ]
+            ]
+        }
+    },
+    "episode_30": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{P}": "the frontmost object",
+            "{V}": "robot's",
+            "{a}": "left"
+        },
+        "layout": {
+            "object_count": 7,
+            "target_index": 1,
+            "position_key": "frontmost",
+            "observed_position_key": "frontmost",
+            "scene_assets": [
+                "071_can/base3",
+                "081_playingcards/base0",
+                "047_mouse/base0",
+                "050_bell/base1",
+                "107_soap/base0",
+                "112_tea-box/base5",
+                "048_stapler/base1"
+            ],
+            "scene_asset_aliases": [
+                "can",
+                "playingcards",
+                "mouse",
+                "bell",
+                "soap",
+                "tea_box",
+                "stapler"
+            ],
+            "target_asset_alias": "playingcards",
+            "view_name": "back",
+            "camera_view_name": "back",
+            "object_positions": [
+                [
+                    0.004331317730247974,
+                    -0.005285288672894239,
+                    0.7408049702644348
+                ],
+                [
+                    -0.2027897983789444,
+                    0.056662965565919876,
+                    0.7408456802368164
+                ],
+                [
+                    0.1783600002527237,
+                    -0.0036838992964476347,
+                    0.7406613826751709
+                ],
+                [
+                    0.024896472692489624,
+                    -0.1479606032371521,
+                    0.7406681180000305
+                ],
+                [
+                    -0.07930590212345123,
+                    -0.09690973162651062,
+                    0.7408356070518494
+                ],
+                [
+                    -0.18993781507015228,
+                    -0.17246922850608826,
+                    0.7406445145606995
+                ],
+                [
+                    0.16541045904159546,
+                    -0.17602919042110443,
+                    0.7407670617103577
+                ]
+            ]
+        }
+    },
+    "episode_31": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{P}": "the frontmost object",
+            "{V}": "opposite",
+            "{a}": "left"
+        },
+        "layout": {
+            "object_count": 7,
+            "target_index": 3,
+            "position_key": "backmost",
+            "observed_position_key": "frontmost",
+            "scene_assets": [
+                "107_soap/base2",
+                "050_bell/base0",
+                "048_stapler/base4",
+                "047_mouse/base2",
+                "071_can/base0",
+                "112_tea-box/base4",
+                "081_playingcards/base0"
+            ],
+            "scene_asset_aliases": [
+                "soap",
+                "bell",
+                "stapler",
+                "mouse",
+                "can",
+                "tea_box",
+                "playingcards"
+            ],
+            "target_asset_alias": "mouse",
+            "view_name": "front",
+            "camera_view_name": "back",
+            "object_positions": [
+                [
+                    0.09568527340888977,
+                    -0.11929826438426971,
+                    0.7408281564712524
+                ],
+                [
+                    -0.054351046681404114,
+                    -0.10086610913276672,
+                    0.7406894564628601
+                ],
+                [
+                    0.07507507503032684,
+                    0.04866395518183708,
+                    0.7408455610275269
+                ],
+                [
+                    -0.17248652875423431,
+                    -0.17932169139385223,
+                    0.7410986423492432
+                ],
+                [
+                    -0.05234316736459732,
+                    0.03428659215569496,
+                    0.740422248840332
+                ],
+                [
+                    -0.18146193027496338,
+                    -0.044712748378515244,
+                    0.7406976819038391
+                ],
+                [
+                    0.20766444504261017,
+                    -0.022134071215987206,
+                    0.740845799446106
+                ]
+            ]
+        }
+    },
+    "episode_32": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{P}": "the backmost object",
+            "{V}": "left",
+            "{a}": "left"
+        },
+        "layout": {
+            "object_count": 7,
+            "target_index": 0,
+            "position_key": "leftmost",
+            "observed_position_key": "backmost",
+            "scene_assets": [
+                "112_tea-box/base4",
+                "048_stapler/base3",
+                "071_can/base0",
+                "081_playingcards/base1",
+                "107_soap/base0",
+                "047_mouse/base0",
+                "050_bell/base0"
+            ],
+            "scene_asset_aliases": [
+                "tea_box",
+                "stapler",
+                "can",
+                "playingcards",
+                "soap",
+                "mouse",
+                "bell"
+            ],
+            "target_asset_alias": "tea_box",
+            "view_name": "left",
+            "camera_view_name": "back",
+            "object_positions": [
+                [
+                    -0.18859359622001648,
+                    -0.020771265029907227,
+                    0.7406968474388123
+                ],
+                [
+                    0.005033998750150204,
+                    -0.08532577008008957,
+                    0.7408511638641357
+                ],
+                [
+                    0.06538284569978714,
+                    0.024845382198691368,
+                    0.7404217720031738
+                ],
+                [
+                    -0.07250171154737473,
+                    0.0586700476706028,
+                    0.7408549785614014
+                ],
+                [
+                    0.06941214948892593,
+                    -0.18832360208034515,
+                    0.7408356070518494
+                ],
+                [
+                    -0.12283049523830414,
+                    -0.1814529001712799,
+                    0.7406745553016663
+                ],
+                [
+                    0.1841929852962494,
+                    -0.1553027629852295,
+                    0.7406894564628601
+                ]
+            ]
+        }
+    },
+    "episode_33": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{P}": "the leftmost object",
+            "{V}": "opposite",
+            "{a}": "right"
+        },
+        "layout": {
+            "object_count": 7,
+            "target_index": 6,
+            "position_key": "rightmost",
+            "observed_position_key": "leftmost",
+            "scene_assets": [
+                "112_tea-box/base5",
+                "047_mouse/base0",
+                "071_can/base6",
+                "107_soap/base1",
+                "081_playingcards/base2",
+                "050_bell/base0",
+                "048_stapler/base3"
+            ],
+            "scene_asset_aliases": [
+                "tea_box",
+                "mouse",
+                "can",
+                "soap",
+                "playingcards",
+                "bell",
+                "stapler"
+            ],
+            "target_asset_alias": "stapler",
+            "view_name": "front",
+            "camera_view_name": "back",
+            "object_positions": [
+                [
+                    0.042348410934209824,
+                    -0.1133510172367096,
+                    0.7406429648399353
+                ],
+                [
+                    -0.01879929192364216,
+                    0.03310637176036835,
+                    0.7406745553016663
+                ],
+                [
+                    -0.16340914368629456,
+                    0.007830122485756874,
+                    0.7407247424125671
+                ],
+                [
+                    -0.07138460874557495,
+                    -0.1636022925376892,
+                    0.7408475279808044
+                ],
+                [
+                    0.12778228521347046,
+                    0.039240967482328415,
+                    0.7408636808395386
+                ],
+                [
+                    -0.19206351041793823,
+                    -0.17324185371398926,
+                    0.7406896352767944
+                ],
+                [
+                    0.19038289785385132,
+                    -0.13924527168273926,
+                    0.7408525347709656
+                ]
+            ]
+        }
+    },
+    "episode_34": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{P}": "the frontmost object",
+            "{V}": "robot's",
+            "{a}": "right"
+        },
+        "layout": {
+            "object_count": 7,
+            "target_index": 4,
+            "position_key": "frontmost",
+            "observed_position_key": "frontmost",
+            "scene_assets": [
+                "047_mouse/base2",
+                "112_tea-box/base3",
+                "050_bell/base1",
+                "048_stapler/base2",
+                "071_can/base3",
+                "081_playingcards/base2",
+                "107_soap/base1"
+            ],
+            "scene_asset_aliases": [
+                "mouse",
+                "tea_box",
+                "bell",
+                "stapler",
+                "can",
+                "playingcards",
+                "soap"
+            ],
+            "target_asset_alias": "can",
+            "view_name": "back",
+            "camera_view_name": "back",
+            "object_positions": [
+                [
+                    -0.13023044168949127,
+                    -0.16199477016925812,
+                    0.7410929799079895
+                ],
+                [
+                    0.16278456151485443,
+                    -0.059319447726011276,
+                    0.7406741380691528
+                ],
+                [
+                    -0.034236568957567215,
+                    -0.04402316361665726,
+                    0.7406681776046753
+                ],
+                [
+                    0.14817820489406586,
+                    -0.17532330751419067,
+                    0.7408446073532104
+                ],
+                [
+                    0.08556880056858063,
+                    0.05678725242614746,
+                    0.7408050894737244
+                ],
+                [
+                    -0.17754289507865906,
+                    -0.0035015384200960398,
+                    0.7408603429794312
+                ],
+                [
+                    0.018734782934188843,
+                    -0.1642223298549652,
+                    0.7408474683761597
+                ]
+            ]
+        }
+    },
+    "episode_35": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{P}": "the leftmost object",
+            "{V}": "right",
+            "{a}": "left"
+        },
+        "layout": {
+            "object_count": 7,
+            "target_index": 6,
+            "position_key": "backmost",
+            "observed_position_key": "leftmost",
+            "scene_assets": [
+                "107_soap/base1",
+                "112_tea-box/base0",
+                "050_bell/base0",
+                "047_mouse/base2",
+                "071_can/base5",
+                "048_stapler/base5",
+                "081_playingcards/base1"
+            ],
+            "scene_asset_aliases": [
+                "soap",
+                "tea_box",
+                "bell",
+                "mouse",
+                "can",
+                "stapler",
+                "playingcards"
+            ],
+            "target_asset_alias": "playingcards",
+            "view_name": "right",
+            "camera_view_name": "back",
+            "object_positions": [
+                [
+                    0.19585967063903809,
+                    0.05628086254000664,
+                    0.7408479452133179
+                ],
+                [
+                    -0.07902146875858307,
+                    -0.085874043405056,
+                    0.7405540347099304
+                ],
+                [
+                    0.18531329929828644,
+                    -0.10237099975347519,
+                    0.7406893968582153
+                ],
+                [
+                    0.04142212122678757,
+                    -0.11686426401138306,
+                    0.7410919070243835
+                ],
+                [
+                    -0.11388379335403442,
+                    0.05424783006310463,
+                    0.7404073476791382
+                ],
+                [
+                    0.0279366634786129,
+                    0.02972520887851715,
+                    0.7408461570739746
+                ],
+                [
+                    -0.18861787021160126,
+                    -0.18520545959472656,
+                    0.7408550977706909
+                ]
+            ]
+        }
+    },
+    "episode_36": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{P}": "the leftmost object",
+            "{V}": "robot's",
+            "{a}": "left"
+        },
+        "layout": {
+            "object_count": 7,
+            "target_index": 6,
+            "position_key": "leftmost",
+            "observed_position_key": "leftmost",
+            "scene_assets": [
+                "050_bell/base1",
+                "107_soap/base3",
+                "071_can/base0",
+                "112_tea-box/base4",
+                "047_mouse/base2",
+                "048_stapler/base3",
+                "081_playingcards/base0"
+            ],
+            "scene_asset_aliases": [
+                "bell",
+                "soap",
+                "can",
+                "tea_box",
+                "mouse",
+                "stapler",
+                "playingcards"
+            ],
+            "target_asset_alias": "playingcards",
+            "view_name": "back",
+            "camera_view_name": "back",
+            "object_positions": [
+                [
+                    0.16572873294353485,
+                    -0.15575215220451355,
+                    0.7406681180000305
+                ],
+                [
+                    0.15283742547035217,
+                    -0.0018041001167148352,
+                    0.740810751914978
+                ],
+                [
+                    -0.09967704862356186,
+                    0.043668895959854126,
+                    0.7404215931892395
+                ],
+                [
+                    -0.08820811659097672,
+                    -0.13338571786880493,
+                    0.7406976222991943
+                ],
+                [
+                    0.02044643834233284,
+                    -0.010788320563733578,
+                    0.7410919070243835
+                ],
+                [
+                    0.032069213688373566,
+                    -0.17139177024364471,
+                    0.7408522367477417
+                ],
+                [
+                    -0.20539218187332153,
+                    -0.07167026400566101,
+                    0.7408455014228821
+                ]
+            ]
+        }
+    },
+    "episode_37": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{P}": "the frontmost object",
+            "{V}": "left",
+            "{a}": "right"
+        },
+        "layout": {
+            "object_count": 7,
+            "target_index": 0,
+            "position_key": "rightmost",
+            "observed_position_key": "frontmost",
+            "scene_assets": [
+                "107_soap/base2",
+                "047_mouse/base1",
+                "050_bell/base1",
+                "112_tea-box/base4",
+                "071_can/base5",
+                "048_stapler/base6",
+                "081_playingcards/base0"
+            ],
+            "scene_asset_aliases": [
+                "soap",
+                "mouse",
+                "bell",
+                "tea_box",
+                "can",
+                "stapler",
+                "playingcards"
+            ],
+            "target_asset_alias": "soap",
+            "view_name": "left",
+            "camera_view_name": "back",
+            "object_positions": [
+                [
+                    0.19917839765548706,
+                    -0.11538591235876083,
+                    0.7408282160758972
+                ],
+                [
+                    -0.04309770464897156,
+                    -0.17240779101848602,
+                    0.740384578704834
+                ],
+                [
+                    -0.1934610903263092,
+                    -0.09910320490598679,
+                    0.7406681180000305
+                ],
+                [
+                    -0.013822910375893116,
+                    -0.01748598925769329,
+                    0.7406930923461914
+                ],
+                [
+                    -0.17615003883838654,
+                    0.050546858459711075,
+                    0.7404073476791382
+                ],
+                [
+                    0.07966568320989609,
+                    -0.17599736154079437,
+                    0.7408208847045898
+                ],
+                [
+                    0.13208292424678802,
+                    0.019125012680888176,
+                    0.7408457398414612
+                ]
+            ]
+        }
+    },
+    "episode_38": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{P}": "the backmost object",
+            "{V}": "opposite",
+            "{a}": "left"
+        },
+        "layout": {
+            "object_count": 7,
+            "target_index": 1,
+            "position_key": "frontmost",
+            "observed_position_key": "backmost",
+            "scene_assets": [
+                "050_bell/base1",
+                "112_tea-box/base3",
+                "048_stapler/base1",
+                "047_mouse/base0",
+                "107_soap/base2",
+                "071_can/base1",
+                "081_playingcards/base2"
+            ],
+            "scene_asset_aliases": [
+                "bell",
+                "tea_box",
+                "stapler",
+                "mouse",
+                "soap",
+                "can",
+                "playingcards"
+            ],
+            "target_asset_alias": "tea_box",
+            "view_name": "front",
+            "camera_view_name": "back",
+            "object_positions": [
+                [
+                    -0.06471553444862366,
+                    -0.18345145881175995,
+                    0.7406681180000305
+                ],
+                [
+                    -0.1833282858133316,
+                    0.049506254494190216,
+                    0.7406741976737976
+                ],
+                [
+                    -0.010850293561816216,
+                    -0.015964806079864502,
+                    0.7407671213150024
+                ],
+                [
+                    0.07940062880516052,
+                    -0.13127784430980682,
+                    0.7406745553016663
+                ],
+                [
+                    -0.1788364201784134,
+                    -0.09402146190404892,
+                    0.7408282160758972
+                ],
+                [
+                    0.14579391479492188,
+                    -0.03636714443564415,
+                    0.7406277656555176
+                ],
+                [
+                    0.19761765003204346,
+                    -0.12721247971057892,
+                    0.7408636212348938
+                ]
+            ]
+        }
+    },
+    "episode_39": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{P}": "the leftmost object",
+            "{V}": "right",
+            "{a}": "left"
+        },
+        "layout": {
+            "object_count": 7,
+            "target_index": 4,
+            "position_key": "backmost",
+            "observed_position_key": "leftmost",
+            "scene_assets": [
+                "048_stapler/base4",
+                "047_mouse/base0",
+                "081_playingcards/base1",
+                "107_soap/base1",
+                "050_bell/base0",
+                "071_can/base0",
+                "112_tea-box/base5"
+            ],
+            "scene_asset_aliases": [
+                "stapler",
+                "mouse",
+                "playingcards",
+                "soap",
+                "bell",
+                "can",
+                "tea_box"
+            ],
+            "target_asset_alias": "bell",
+            "view_name": "right",
+            "camera_view_name": "back",
+            "object_positions": [
+                [
+                    -0.12270587682723999,
+                    -0.063801109790802,
+                    0.7408456206321716
+                ],
+                [
+                    0.008398909121751785,
+                    -0.08602353185415268,
+                    0.7406613826751709
+                ],
+                [
+                    0.14050693809986115,
+                    -0.10816710442304611,
+                    0.7408550381660461
+                ],
+                [
+                    0.13822349905967712,
+                    0.054343871772289276,
+                    0.7408477067947388
+                ],
+                [
+                    -0.14875489473342896,
+                    -0.17998501658439636,
+                    0.7406894564628601
+                ],
+                [
+                    -0.18379098176956177,
+                    0.05062464252114296,
+                    0.7404223084449768
+                ],
+                [
+                    -0.00027079798746854067,
+                    0.04927729815244675,
+                    0.7406463027000427
+                ]
+            ]
+        }
+    },
+    "episode_40": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{P}": "the rightmost object",
+            "{V}": "opposite",
+            "{a}": "left"
+        },
+        "layout": {
+            "object_count": 7,
+            "target_index": 5,
+            "position_key": "leftmost",
+            "observed_position_key": "rightmost",
+            "scene_assets": [
+                "050_bell/base1",
+                "047_mouse/base2",
+                "107_soap/base1",
+                "081_playingcards/base1",
+                "048_stapler/base3",
+                "071_can/base0",
+                "112_tea-box/base0"
+            ],
+            "scene_asset_aliases": [
+                "bell",
+                "mouse",
+                "soap",
+                "playingcards",
+                "stapler",
+                "can",
+                "tea_box"
+            ],
+            "target_asset_alias": "can",
+            "view_name": "front",
+            "camera_view_name": "back",
+            "object_positions": [
+                [
+                    0.05602520331740379,
+                    -0.002007430186495185,
+                    0.7406681776046753
+                ],
+                [
+                    -0.09946714341640472,
+                    0.054986778646707535,
+                    0.7410930395126343
+                ],
+                [
+                    0.04393297806382179,
+                    -0.14521022140979767,
+                    0.7408475279808044
+                ],
+                [
+                    -0.11804567277431488,
+                    -0.1731976419687271,
+                    0.7408550977706909
+                ],
+                [
+                    0.1879531890153885,
+                    -0.11986859887838364,
+                    0.7408512234687805
+                ],
+                [
+                    -0.20031343400478363,
+                    -0.046572230756282806,
+                    0.7404211759567261
+                ],
+                [
+                    0.18339070677757263,
+                    0.03217983618378639,
+                    0.7405540347099304
+                ]
+            ]
+        }
+    },
+    "episode_41": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{P}": "the backmost object",
+            "{V}": "right",
+            "{a}": "right"
+        },
+        "layout": {
+            "object_count": 7,
+            "target_index": 6,
+            "position_key": "rightmost",
+            "observed_position_key": "backmost",
+            "scene_assets": [
+                "048_stapler/base3",
+                "112_tea-box/base4",
+                "047_mouse/base1",
+                "050_bell/base1",
+                "107_soap/base3",
+                "081_playingcards/base0",
+                "071_can/base0"
+            ],
+            "scene_asset_aliases": [
+                "stapler",
+                "tea_box",
+                "mouse",
+                "bell",
+                "soap",
+                "playingcards",
+                "can"
+            ],
+            "target_asset_alias": "can",
+            "view_name": "right",
+            "camera_view_name": "back",
+            "object_positions": [
+                [
+                    0.08049207925796509,
+                    -0.03174249827861786,
+                    0.7408512234687805
+                ],
+                [
+                    -0.044897500425577164,
+                    -0.07791391760110855,
+                    0.740696907043457
+                ],
+                [
+                    -0.1569085419178009,
+                    0.047744523733854294,
+                    0.7404155135154724
+                ],
+                [
+                    0.05870329588651657,
+                    -0.1842925250530243,
+                    0.7406681776046753
+                ],
+                [
+                    -0.1670827567577362,
+                    -0.15838290750980377,
+                    0.7408106923103333
+                ],
+                [
+                    -0.05986274406313896,
+                    -0.19285373389720917,
+                    0.7408455014228821
+                ],
+                [
+                    0.20199643075466156,
+                    -0.013769572600722313,
+                    0.7404218316078186
+                ]
+            ]
+        }
+    },
+    "episode_42": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{P}": "the leftmost object",
+            "{V}": "left",
+            "{a}": "right"
+        },
+        "layout": {
+            "object_count": 7,
+            "target_index": 4,
+            "position_key": "frontmost",
+            "observed_position_key": "leftmost",
+            "scene_assets": [
+                "047_mouse/base1",
+                "071_can/base5",
+                "107_soap/base2",
+                "081_playingcards/base1",
+                "112_tea-box/base0",
+                "050_bell/base0",
+                "048_stapler/base2"
+            ],
+            "scene_asset_aliases": [
+                "mouse",
+                "can",
+                "soap",
+                "playingcards",
+                "tea_box",
+                "bell",
+                "stapler"
+            ],
+            "target_asset_alias": "tea_box",
+            "view_name": "left",
+            "camera_view_name": "back",
+            "object_positions": [
+                [
+                    0.14561034739017487,
+                    -0.018843378871679306,
+                    0.740415632724762
+                ],
+                [
+                    -0.13484883308410645,
+                    -0.023602260276675224,
+                    0.7404072284698486
+                ],
+                [
+                    -0.054358042776584625,
+                    -0.1822749376296997,
+                    0.7408284544944763
+                ],
+                [
+                    -0.19708991050720215,
+                    -0.17649637162685394,
+                    0.7408550977706909
+                ],
+                [
+                    0.017997201532125473,
+                    0.041887976229190826,
+                    0.7405540943145752
+                ],
+                [
+                    0.1860283464193344,
+                    -0.16060958802700043,
+                    0.7406894564628601
+                ],
+                [
+                    0.06464201956987381,
+                    -0.1713465005159378,
+                    0.7408447861671448
+                ]
+            ]
+        }
+    },
+    "episode_43": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{P}": "the backmost object",
+            "{V}": "robot's",
+            "{a}": "left"
+        },
+        "layout": {
+            "object_count": 7,
+            "target_index": 5,
+            "position_key": "backmost",
+            "observed_position_key": "backmost",
+            "scene_assets": [
+                "047_mouse/base0",
+                "048_stapler/base2",
+                "112_tea-box/base5",
+                "107_soap/base1",
+                "050_bell/base1",
+                "071_can/base6",
+                "081_playingcards/base0"
+            ],
+            "scene_asset_aliases": [
+                "mouse",
+                "stapler",
+                "tea_box",
+                "soap",
+                "bell",
+                "can",
+                "playingcards"
+            ],
+            "target_asset_alias": "can",
+            "view_name": "back",
+            "camera_view_name": "back",
+            "object_positions": [
+                [
+                    0.16871680319309235,
+                    0.05477847158908844,
+                    0.7406745553016663
+                ],
+                [
+                    -0.1754266321659088,
+                    0.036395225673913956,
+                    0.7408447861671448
+                ],
+                [
+                    0.05532823130488396,
+                    -0.09852534532546997,
+                    0.7406420111656189
+                ],
+                [
+                    -0.019333772361278534,
+                    0.031210921704769135,
+                    0.7408479452133179
+                ],
+                [
+                    0.19246746599674225,
+                    -0.10549598932266235,
+                    0.7406681180000305
+                ],
+                [
+                    -0.07905341684818268,
+                    -0.17697793245315552,
+                    0.7407241463661194
+                ],
+                [
+                    -0.20697610080242157,
+                    -0.11066383123397827,
+                    0.7408457398414612
+                ]
+            ]
+        }
+    },
+    "episode_44": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{P}": "the rightmost object",
+            "{V}": "opposite",
+            "{a}": "left"
+        },
+        "layout": {
+            "object_count": 7,
+            "target_index": 5,
+            "position_key": "leftmost",
+            "observed_position_key": "rightmost",
+            "scene_assets": [
+                "047_mouse/base1",
+                "107_soap/base2",
+                "071_can/base2",
+                "050_bell/base0",
+                "112_tea-box/base5",
+                "048_stapler/base1",
+                "081_playingcards/base2"
+            ],
+            "scene_asset_aliases": [
+                "mouse",
+                "soap",
+                "can",
+                "bell",
+                "tea_box",
+                "stapler",
+                "playingcards"
+            ],
+            "target_asset_alias": "stapler",
+            "view_name": "front",
+            "camera_view_name": "back",
+            "object_positions": [
+                [
+                    -0.05966992676258087,
+                    -0.158342182636261,
+                    0.7403847575187683
+                ],
+                [
+                    0.18963539600372314,
+                    0.05030704289674759,
+                    0.7408281564712524
+                ],
+                [
+                    0.17991849780082703,
+                    -0.14299792051315308,
+                    0.7406735420227051
+                ],
+                [
+                    -0.1212247684597969,
+                    0.059918247163295746,
+                    0.7406896352767944
+                ],
+                [
+                    0.043623581528663635,
+                    -0.001052199862897396,
+                    0.7406420111656189
+                ],
+                [
+                    -0.19160115718841553,
+                    -0.09420064836740494,
+                    0.7407671809196472
+                ],
+                [
+                    0.0669436976313591,
+                    -0.1813047081232071,
+                    0.7408636808395386
+                ]
+            ]
+        }
+    },
+    "episode_45": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{P}": "the frontmost object",
+            "{V}": "left",
+            "{a}": "right"
+        },
+        "layout": {
+            "object_count": 7,
+            "target_index": 5,
+            "position_key": "rightmost",
+            "observed_position_key": "frontmost",
+            "scene_assets": [
+                "112_tea-box/base5",
+                "047_mouse/base0",
+                "050_bell/base0",
+                "048_stapler/base1",
+                "071_can/base6",
+                "081_playingcards/base1",
+                "107_soap/base0"
+            ],
+            "scene_asset_aliases": [
+                "tea_box",
+                "mouse",
+                "bell",
+                "stapler",
+                "can",
+                "playingcards",
+                "soap"
+            ],
+            "target_asset_alias": "playingcards",
+            "view_name": "left",
+            "camera_view_name": "back",
+            "object_positions": [
+                [
+                    -0.1904817372560501,
+                    -0.05317824333906174,
+                    0.740642249584198
+                ],
+                [
+                    -0.1801437884569168,
+                    -0.1818622499704361,
+                    0.740674614906311
+                ],
+                [
+                    -0.049743812531232834,
+                    -0.10678280889987946,
+                    0.7406896352767944
+                ],
+                [
+                    0.12112614512443542,
+                    -0.17394289374351501,
+                    0.7407668232917786
+                ],
+                [
+                    -0.050901658833026886,
+                    0.013230481185019016,
+                    0.7407243251800537
+                ],
+                [
+                    0.2060983031988144,
+                    0.04383699223399162,
+                    0.7408550381660461
+                ],
+                [
+                    0.06032015010714531,
+                    -0.020875316113233566,
+                    0.7408357858657837
+                ]
+            ]
+        }
+    },
+    "episode_46": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{P}": "the rightmost object",
+            "{V}": "right",
+            "{a}": "left"
+        },
+        "layout": {
+            "object_count": 7,
+            "target_index": 6,
+            "position_key": "frontmost",
+            "observed_position_key": "rightmost",
+            "scene_assets": [
+                "081_playingcards/base1",
+                "107_soap/base0",
+                "071_can/base0",
+                "048_stapler/base2",
+                "050_bell/base1",
+                "047_mouse/base1",
+                "112_tea-box/base0"
+            ],
+            "scene_asset_aliases": [
+                "playingcards",
+                "soap",
+                "can",
+                "stapler",
+                "bell",
+                "mouse",
+                "tea_box"
+            ],
+            "target_asset_alias": "tea_box",
+            "view_name": "right",
+            "camera_view_name": "back",
+            "object_positions": [
+                [
+                    -0.013591011054813862,
+                    -0.16740144789218903,
+                    0.7408550977706909
+                ],
+                [
+                    -0.05841166898608208,
+                    -0.022651316598057747,
+                    0.7408356666564941
+                ],
+                [
+                    0.18244287371635437,
+                    -0.05285179987549782,
+                    0.7404213547706604
+                ],
+                [
+                    -0.15430483222007751,
+                    -0.15770399570465088,
+                    0.7408446669578552
+                ],
+                [
+                    0.11864781379699707,
+                    -0.1502528190612793,
+                    0.7406681180000305
+                ],
+                [
+                    0.07260619103908539,
+                    -0.024729138240218163,
+                    0.7403846383094788
+                ],
+                [
+                    -0.1794903576374054,
+                    0.03954509645700455,
+                    0.7405535578727722
+                ]
+            ]
+        }
+    },
+    "episode_47": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{P}": "the backmost object",
+            "{V}": "robot's",
+            "{a}": "left"
+        },
+        "layout": {
+            "object_count": 7,
+            "target_index": 5,
+            "position_key": "backmost",
+            "observed_position_key": "backmost",
+            "scene_assets": [
+                "047_mouse/base0",
+                "081_playingcards/base1",
+                "107_soap/base0",
+                "050_bell/base1",
+                "048_stapler/base5",
+                "071_can/base1",
+                "112_tea-box/base0"
+            ],
+            "scene_asset_aliases": [
+                "mouse",
+                "playingcards",
+                "soap",
+                "bell",
+                "stapler",
+                "can",
+                "tea_box"
+            ],
+            "target_asset_alias": "can",
+            "view_name": "back",
+            "camera_view_name": "back",
+            "object_positions": [
+                [
+                    0.09019061177968979,
+                    0.03711315244436264,
+                    0.7406613826751709
+                ],
+                [
+                    -0.06699459999799728,
+                    -0.12369226664304733,
+                    0.7408550977706909
+                ],
+                [
+                    0.059752847999334335,
+                    -0.1173606738448143,
+                    0.7408356070518494
+                ],
+                [
+                    -0.1879308521747589,
+                    -0.027427928522229195,
+                    0.7406681776046753
+                ],
+                [
+                    0.18698787689208984,
+                    -0.059962835162878036,
+                    0.7408464550971985
+                ],
+                [
+                    -0.18410198390483856,
+                    -0.1866079568862915,
+                    0.740627646446228
+                ],
+                [
+                    -0.047368403524160385,
+                    0.04076395556330681,
+                    0.7405540347099304
+                ]
+            ]
+        }
+    },
+    "episode_48": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{P}": "the rightmost object",
+            "{V}": "opposite",
+            "{a}": "left"
+        },
+        "layout": {
+            "object_count": 7,
+            "target_index": 5,
+            "position_key": "leftmost",
+            "observed_position_key": "rightmost",
+            "scene_assets": [
+                "071_can/base1",
+                "112_tea-box/base4",
+                "107_soap/base2",
+                "047_mouse/base2",
+                "081_playingcards/base2",
+                "048_stapler/base5",
+                "050_bell/base1"
+            ],
+            "scene_asset_aliases": [
+                "can",
+                "tea_box",
+                "soap",
+                "mouse",
+                "playingcards",
+                "stapler",
+                "bell"
+            ],
+            "target_asset_alias": "stapler",
+            "view_name": "front",
+            "camera_view_name": "back",
+            "object_positions": [
+                [
+                    -0.10757145285606384,
+                    0.047272369265556335,
+                    0.7406269311904907
+                ],
+                [
+                    0.09075245261192322,
+                    -0.033333681523799896,
+                    0.7406967878341675
+                ],
+                [
+                    -0.091652512550354,
+                    -0.17466828227043152,
+                    0.7408282160758972
+                ],
+                [
+                    0.05630258098244667,
+                    -0.1557147055864334,
+                    0.7410937547683716
+                ],
+                [
+                    -0.02828824520111084,
+                    -0.052085161209106445,
+                    0.7408638000488281
+                ],
+                [
+                    -0.1803423911333084,
+                    -0.057843390852212906,
+                    0.7408462166786194
+                ],
+                [
+                    0.1988460123538971,
+                    -0.1232728511095047,
+                    0.7406681180000305
+                ]
+            ]
+        }
+    },
+    "episode_49": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{P}": "the rightmost object",
+            "{V}": "robot's",
+            "{a}": "right"
+        },
+        "layout": {
+            "object_count": 7,
+            "target_index": 2,
+            "position_key": "rightmost",
+            "observed_position_key": "rightmost",
+            "scene_assets": [
+                "081_playingcards/base1",
+                "047_mouse/base2",
+                "050_bell/base0",
+                "112_tea-box/base5",
+                "071_can/base2",
+                "107_soap/base0",
+                "048_stapler/base2"
+            ],
+            "scene_asset_aliases": [
+                "playingcards",
+                "mouse",
+                "bell",
+                "tea_box",
+                "can",
+                "soap",
+                "stapler"
+            ],
+            "target_asset_alias": "bell",
+            "view_name": "back",
+            "camera_view_name": "back",
+            "object_positions": [
+                [
+                    -0.07240720093250275,
+                    -0.030381804332137108,
+                    0.7408550977706909
+                ],
+                [
+                    -0.04299158975481987,
+                    -0.17331629991531372,
+                    0.7410929203033447
+                ],
+                [
+                    0.18087394535541534,
+                    0.028630275279283524,
+                    0.7406896352767944
+                ],
+                [
+                    0.04644831642508507,
+                    0.010686252266168594,
+                    0.7406432032585144
+                ],
+                [
+                    -0.19062548875808716,
+                    -0.030862508341670036,
+                    0.7406733632087708
+                ],
+                [
+                    0.09619782119989395,
+                    -0.10218334197998047,
+                    0.7408356070518494
+                ],
+                [
+                    -0.1666499376296997,
+                    -0.16379278898239136,
+                    0.7408447861671448
+                ]
+            ]
+        }
+    }
+}
