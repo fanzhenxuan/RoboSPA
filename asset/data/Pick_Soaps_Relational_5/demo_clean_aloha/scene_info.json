@@ -1,0 +1,2252 @@
+{
+    "episode_0": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{R}": "to the back-left of the front-middle soap bar",
+            "{a}": "left"
+        },
+        "layout": {
+            "object_count": 9,
+            "grid_mode": "3x3",
+            "reference_slot": "front_middle",
+            "target_slot": "middle_left",
+            "occupied_slots": [
+                "front_left",
+                "front_middle",
+                "front_right",
+                "middle_left",
+                "center",
+                "middle_right",
+                "back_left",
+                "back_middle",
+                "back_right"
+            ],
+            "slot_descriptions": {
+                "front_left": "the front-left soap bar",
+                "front_middle": "the front-middle soap bar",
+                "front_right": "the front-right soap bar",
+                "middle_left": "the middle-left soap bar",
+                "center": "the center soap bar",
+                "middle_right": "the middle-right soap bar",
+                "back_left": "the back-left soap bar",
+                "back_middle": "the back-middle soap bar",
+                "back_right": "the back-right soap bar"
+            },
+            "reference_phrase": "the front-middle soap bar",
+            "clarification_phrase": "the front-middle soap bar",
+            "relation_kind": "xy",
+            "direction_key": "back_left",
+            "scene_asset": "107_soap/base0",
+            "scene_asset_alias": "soap bar"
+        }
+    },
+    "episode_1": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{R}": "to the front-right of the center soap bar",
+            "{a}": "right"
+        },
+        "layout": {
+            "object_count": 9,
+            "grid_mode": "3x3",
+            "reference_slot": "center",
+            "target_slot": "front_right",
+            "occupied_slots": [
+                "front_left",
+                "front_middle",
+                "front_right",
+                "middle_left",
+                "center",
+                "middle_right",
+                "back_left",
+                "back_middle",
+                "back_right"
+            ],
+            "slot_descriptions": {
+                "front_left": "the front-left soap bar",
+                "front_middle": "the front-middle soap bar",
+                "front_right": "the front-right soap bar",
+                "middle_left": "the middle-left soap bar",
+                "center": "the center soap bar",
+                "middle_right": "the middle-right soap bar",
+                "back_left": "the back-left soap bar",
+                "back_middle": "the back-middle soap bar",
+                "back_right": "the back-right soap bar"
+            },
+            "reference_phrase": "the center soap bar",
+            "clarification_phrase": "the center soap bar",
+            "relation_kind": "xy",
+            "direction_key": "front_right",
+            "scene_asset": "107_soap/base1",
+            "scene_asset_alias": "soap bar"
+        }
+    },
+    "episode_2": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{R}": "directly at the back of the front-left soap bar",
+            "{a}": "left"
+        },
+        "layout": {
+            "object_count": 9,
+            "grid_mode": "3x3",
+            "reference_slot": "front_left",
+            "target_slot": "middle_left",
+            "occupied_slots": [
+                "front_left",
+                "front_middle",
+                "front_right",
+                "middle_left",
+                "center",
+                "middle_right",
+                "back_left",
+                "back_middle",
+                "back_right"
+            ],
+            "slot_descriptions": {
+                "front_left": "the front-left soap bar",
+                "front_middle": "the front-middle soap bar",
+                "front_right": "the front-right soap bar",
+                "middle_left": "the middle-left soap bar",
+                "center": "the center soap bar",
+                "middle_right": "the middle-right soap bar",
+                "back_left": "the back-left soap bar",
+                "back_middle": "the back-middle soap bar",
+                "back_right": "the back-right soap bar"
+            },
+            "reference_phrase": "the front-left soap bar",
+            "clarification_phrase": "the front-left soap bar",
+            "relation_kind": "direct_y",
+            "direction_key": "back",
+            "scene_asset": "107_soap/base2",
+            "scene_asset_alias": "soap bar"
+        }
+    },
+    "episode_3": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{R}": "to the front-left of the back-right soap bar",
+            "{a}": "left"
+        },
+        "layout": {
+            "object_count": 9,
+            "grid_mode": "3x3",
+            "reference_slot": "back_right",
+            "target_slot": "center",
+            "occupied_slots": [
+                "front_left",
+                "front_middle",
+                "front_right",
+                "middle_left",
+                "center",
+                "middle_right",
+                "back_left",
+                "back_middle",
+                "back_right"
+            ],
+            "slot_descriptions": {
+                "front_left": "the front-left soap bar",
+                "front_middle": "the front-middle soap bar",
+                "front_right": "the front-right soap bar",
+                "middle_left": "the middle-left soap bar",
+                "center": "the center soap bar",
+                "middle_right": "the middle-right soap bar",
+                "back_left": "the back-left soap bar",
+                "back_middle": "the back-middle soap bar",
+                "back_right": "the back-right soap bar"
+            },
+            "reference_phrase": "the back-right soap bar",
+            "clarification_phrase": "the back-right soap bar",
+            "relation_kind": "xy",
+            "direction_key": "front_left",
+            "scene_asset": "107_soap/base3",
+            "scene_asset_alias": "soap bar"
+        }
+    },
+    "episode_4": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{R}": "to the back-right of the center soap bar",
+            "{a}": "right"
+        },
+        "layout": {
+            "object_count": 9,
+            "grid_mode": "3x3",
+            "reference_slot": "center",
+            "target_slot": "back_right",
+            "occupied_slots": [
+                "front_left",
+                "front_middle",
+                "front_right",
+                "middle_left",
+                "center",
+                "middle_right",
+                "back_left",
+                "back_middle",
+                "back_right"
+            ],
+            "slot_descriptions": {
+                "front_left": "the front-left soap bar",
+                "front_middle": "the front-middle soap bar",
+                "front_right": "the front-right soap bar",
+                "middle_left": "the middle-left soap bar",
+                "center": "the center soap bar",
+                "middle_right": "the middle-right soap bar",
+                "back_left": "the back-left soap bar",
+                "back_middle": "the back-middle soap bar",
+                "back_right": "the back-right soap bar"
+            },
+            "reference_phrase": "the center soap bar",
+            "clarification_phrase": "the center soap bar",
+            "relation_kind": "xy",
+            "direction_key": "back_right",
+            "scene_asset": "107_soap/base0",
+            "scene_asset_alias": "soap bar"
+        }
+    },
+    "episode_5": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{R}": "directly to the right of the back-left soap bar",
+            "{a}": "left"
+        },
+        "layout": {
+            "object_count": 9,
+            "grid_mode": "3x3",
+            "reference_slot": "back_left",
+            "target_slot": "back_middle",
+            "occupied_slots": [
+                "front_left",
+                "front_middle",
+                "front_right",
+                "middle_left",
+                "center",
+                "middle_right",
+                "back_left",
+                "back_middle",
+                "back_right"
+            ],
+            "slot_descriptions": {
+                "front_left": "the front-left soap bar",
+                "front_middle": "the front-middle soap bar",
+                "front_right": "the front-right soap bar",
+                "middle_left": "the middle-left soap bar",
+                "center": "the center soap bar",
+                "middle_right": "the middle-right soap bar",
+                "back_left": "the back-left soap bar",
+                "back_middle": "the back-middle soap bar",
+                "back_right": "the back-right soap bar"
+            },
+            "reference_phrase": "the back-left soap bar",
+            "clarification_phrase": "the back-left soap bar",
+            "relation_kind": "direct_x",
+            "direction_key": "right",
+            "scene_asset": "107_soap/base1",
+            "scene_asset_alias": "soap bar"
+        }
+    },
+    "episode_6": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{R}": "directly to the left of the back-right soap bar",
+            "{a}": "right"
+        },
+        "layout": {
+            "object_count": 9,
+            "grid_mode": "3x3",
+            "reference_slot": "back_right",
+            "target_slot": "back_middle",
+            "occupied_slots": [
+                "front_left",
+                "front_middle",
+                "front_right",
+                "middle_left",
+                "center",
+                "middle_right",
+                "back_left",
+                "back_middle",
+                "back_right"
+            ],
+            "slot_descriptions": {
+                "front_left": "the front-left soap bar",
+                "front_middle": "the front-middle soap bar",
+                "front_right": "the front-right soap bar",
+                "middle_left": "the middle-left soap bar",
+                "center": "the center soap bar",
+                "middle_right": "the middle-right soap bar",
+                "back_left": "the back-left soap bar",
+                "back_middle": "the back-middle soap bar",
+                "back_right": "the back-right soap bar"
+            },
+            "reference_phrase": "the back-right soap bar",
+            "clarification_phrase": "the back-right soap bar",
+            "relation_kind": "direct_x",
+            "direction_key": "left",
+            "scene_asset": "107_soap/base2",
+            "scene_asset_alias": "soap bar"
+        }
+    },
+    "episode_7": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{R}": "to the back-right of the center soap bar",
+            "{a}": "left"
+        },
+        "layout": {
+            "object_count": 9,
+            "grid_mode": "3x3",
+            "reference_slot": "center",
+            "target_slot": "back_right",
+            "occupied_slots": [
+                "front_left",
+                "front_middle",
+                "front_right",
+                "middle_left",
+                "center",
+                "middle_right",
+                "back_left",
+                "back_middle",
+                "back_right"
+            ],
+            "slot_descriptions": {
+                "front_left": "the front-left soap bar",
+                "front_middle": "the front-middle soap bar",
+                "front_right": "the front-right soap bar",
+                "middle_left": "the middle-left soap bar",
+                "center": "the center soap bar",
+                "middle_right": "the middle-right soap bar",
+                "back_left": "the back-left soap bar",
+                "back_middle": "the back-middle soap bar",
+                "back_right": "the back-right soap bar"
+            },
+            "reference_phrase": "the center soap bar",
+            "clarification_phrase": "the center soap bar",
+            "relation_kind": "xy",
+            "direction_key": "back_right",
+            "scene_asset": "107_soap/base3",
+            "scene_asset_alias": "soap bar"
+        }
+    },
+    "episode_8": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{R}": "to the front-left of the middle-right soap bar",
+            "{a}": "left"
+        },
+        "layout": {
+            "object_count": 9,
+            "grid_mode": "3x3",
+            "reference_slot": "middle_right",
+            "target_slot": "front_middle",
+            "occupied_slots": [
+                "front_left",
+                "front_middle",
+                "front_right",
+                "middle_left",
+                "center",
+                "middle_right",
+                "back_left",
+                "back_middle",
+                "back_right"
+            ],
+            "slot_descriptions": {
+                "front_left": "the front-left soap bar",
+                "front_middle": "the front-middle soap bar",
+                "front_right": "the front-right soap bar",
+                "middle_left": "the middle-left soap bar",
+                "center": "the center soap bar",
+                "middle_right": "the middle-right soap bar",
+                "back_left": "the back-left soap bar",
+                "back_middle": "the back-middle soap bar",
+                "back_right": "the back-right soap bar"
+            },
+            "reference_phrase": "the middle-right soap bar",
+            "clarification_phrase": "the middle-right soap bar",
+            "relation_kind": "xy",
+            "direction_key": "front_left",
+            "scene_asset": "107_soap/base0",
+            "scene_asset_alias": "soap bar"
+        }
+    },
+    "episode_9": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{R}": "directly at the back of the center soap bar",
+            "{a}": "right"
+        },
+        "layout": {
+            "object_count": 9,
+            "grid_mode": "3x3",
+            "reference_slot": "center",
+            "target_slot": "back_middle",
+            "occupied_slots": [
+                "front_left",
+                "front_middle",
+                "front_right",
+                "middle_left",
+                "center",
+                "middle_right",
+                "back_left",
+                "back_middle",
+                "back_right"
+            ],
+            "slot_descriptions": {
+                "front_left": "the front-left soap bar",
+                "front_middle": "the front-middle soap bar",
+                "front_right": "the front-right soap bar",
+                "middle_left": "the middle-left soap bar",
+                "center": "the center soap bar",
+                "middle_right": "the middle-right soap bar",
+                "back_left": "the back-left soap bar",
+                "back_middle": "the back-middle soap bar",
+                "back_right": "the back-right soap bar"
+            },
+            "reference_phrase": "the center soap bar",
+            "clarification_phrase": "the center soap bar",
+            "relation_kind": "direct_y",
+            "direction_key": "back",
+            "scene_asset": "107_soap/base1",
+            "scene_asset_alias": "soap bar"
+        }
+    },
+    "episode_10": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{R}": "to the back-left of the front-middle soap bar",
+            "{a}": "left"
+        },
+        "layout": {
+            "object_count": 9,
+            "grid_mode": "3x3",
+            "reference_slot": "front_middle",
+            "target_slot": "middle_left",
+            "occupied_slots": [
+                "front_left",
+                "front_middle",
+                "front_right",
+                "middle_left",
+                "center",
+                "middle_right",
+                "back_left",
+                "back_middle",
+                "back_right"
+            ],
+            "slot_descriptions": {
+                "front_left": "the front-left soap bar",
+                "front_middle": "the front-middle soap bar",
+                "front_right": "the front-right soap bar",
+                "middle_left": "the middle-left soap bar",
+                "center": "the center soap bar",
+                "middle_right": "the middle-right soap bar",
+                "back_left": "the back-left soap bar",
+                "back_middle": "the back-middle soap bar",
+                "back_right": "the back-right soap bar"
+            },
+            "reference_phrase": "the front-middle soap bar",
+            "clarification_phrase": "the front-middle soap bar",
+            "relation_kind": "xy",
+            "direction_key": "back_left",
+            "scene_asset": "107_soap/base2",
+            "scene_asset_alias": "soap bar"
+        }
+    },
+    "episode_11": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{R}": "directly to the right of the back-middle soap bar",
+            "{a}": "right"
+        },
+        "layout": {
+            "object_count": 9,
+            "grid_mode": "3x3",
+            "reference_slot": "back_middle",
+            "target_slot": "back_right",
+            "occupied_slots": [
+                "front_left",
+                "front_middle",
+                "front_right",
+                "middle_left",
+                "center",
+                "middle_right",
+                "back_left",
+                "back_middle",
+                "back_right"
+            ],
+            "slot_descriptions": {
+                "front_left": "the front-left soap bar",
+                "front_middle": "the front-middle soap bar",
+                "front_right": "the front-right soap bar",
+                "middle_left": "the middle-left soap bar",
+                "center": "the center soap bar",
+                "middle_right": "the middle-right soap bar",
+                "back_left": "the back-left soap bar",
+                "back_middle": "the back-middle soap bar",
+                "back_right": "the back-right soap bar"
+            },
+            "reference_phrase": "the back-middle soap bar",
+            "clarification_phrase": "the back-middle soap bar",
+            "relation_kind": "direct_x",
+            "direction_key": "right",
+            "scene_asset": "107_soap/base3",
+            "scene_asset_alias": "soap bar"
+        }
+    },
+    "episode_12": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{R}": "directly to the right of the back-middle soap bar",
+            "{a}": "left"
+        },
+        "layout": {
+            "object_count": 9,
+            "grid_mode": "3x3",
+            "reference_slot": "back_middle",
+            "target_slot": "back_right",
+            "occupied_slots": [
+                "front_left",
+                "front_middle",
+                "front_right",
+                "middle_left",
+                "center",
+                "middle_right",
+                "back_left",
+                "back_middle",
+                "back_right"
+            ],
+            "slot_descriptions": {
+                "front_left": "the front-left soap bar",
+                "front_middle": "the front-middle soap bar",
+                "front_right": "the front-right soap bar",
+                "middle_left": "the middle-left soap bar",
+                "center": "the center soap bar",
+                "middle_right": "the middle-right soap bar",
+                "back_left": "the back-left soap bar",
+                "back_middle": "the back-middle soap bar",
+                "back_right": "the back-right soap bar"
+            },
+            "reference_phrase": "the back-middle soap bar",
+            "clarification_phrase": "the back-middle soap bar",
+            "relation_kind": "direct_x",
+            "direction_key": "right",
+            "scene_asset": "107_soap/base0",
+            "scene_asset_alias": "soap bar"
+        }
+    },
+    "episode_13": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{R}": "to the front-right of the back-middle soap bar",
+            "{a}": "right"
+        },
+        "layout": {
+            "object_count": 9,
+            "grid_mode": "3x3",
+            "reference_slot": "back_middle",
+            "target_slot": "middle_right",
+            "occupied_slots": [
+                "front_left",
+                "front_middle",
+                "front_right",
+                "middle_left",
+                "center",
+                "middle_right",
+                "back_left",
+                "back_middle",
+                "back_right"
+            ],
+            "slot_descriptions": {
+                "front_left": "the front-left soap bar",
+                "front_middle": "the front-middle soap bar",
+                "front_right": "the front-right soap bar",
+                "middle_left": "the middle-left soap bar",
+                "center": "the center soap bar",
+                "middle_right": "the middle-right soap bar",
+                "back_left": "the back-left soap bar",
+                "back_middle": "the back-middle soap bar",
+                "back_right": "the back-right soap bar"
+            },
+            "reference_phrase": "the back-middle soap bar",
+            "clarification_phrase": "the back-middle soap bar",
+            "relation_kind": "xy",
+            "direction_key": "front_right",
+            "scene_asset": "107_soap/base1",
+            "scene_asset_alias": "soap bar"
+        }
+    },
+    "episode_14": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{R}": "to the front-right of the middle-left soap bar",
+            "{a}": "left"
+        },
+        "layout": {
+            "object_count": 9,
+            "grid_mode": "3x3",
+            "reference_slot": "middle_left",
+            "target_slot": "front_middle",
+            "occupied_slots": [
+                "front_left",
+                "front_middle",
+                "front_right",
+                "middle_left",
+                "center",
+                "middle_right",
+                "back_left",
+                "back_middle",
+                "back_right"
+            ],
+            "slot_descriptions": {
+                "front_left": "the front-left soap bar",
+                "front_middle": "the front-middle soap bar",
+                "front_right": "the front-right soap bar",
+                "middle_left": "the middle-left soap bar",
+                "center": "the center soap bar",
+                "middle_right": "the middle-right soap bar",
+                "back_left": "the back-left soap bar",
+                "back_middle": "the back-middle soap bar",
+                "back_right": "the back-right soap bar"
+            },
+            "reference_phrase": "the middle-left soap bar",
+            "clarification_phrase": "the middle-left soap bar",
+            "relation_kind": "xy",
+            "direction_key": "front_right",
+            "scene_asset": "107_soap/base2",
+            "scene_asset_alias": "soap bar"
+        }
+    },
+    "episode_15": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{R}": "to the back-left of the middle-right soap bar",
+            "{a}": "left"
+        },
+        "layout": {
+            "object_count": 9,
+            "grid_mode": "3x3",
+            "reference_slot": "middle_right",
+            "target_slot": "back_middle",
+            "occupied_slots": [
+                "front_left",
+                "front_middle",
+                "front_right",
+                "middle_left",
+                "center",
+                "middle_right",
+                "back_left",
+                "back_middle",
+                "back_right"
+            ],
+            "slot_descriptions": {
+                "front_left": "the front-left soap bar",
+                "front_middle": "the front-middle soap bar",
+                "front_right": "the front-right soap bar",
+                "middle_left": "the middle-left soap bar",
+                "center": "the center soap bar",
+                "middle_right": "the middle-right soap bar",
+                "back_left": "the back-left soap bar",
+                "back_middle": "the back-middle soap bar",
+                "back_right": "the back-right soap bar"
+            },
+            "reference_phrase": "the middle-right soap bar",
+            "clarification_phrase": "the middle-right soap bar",
+            "relation_kind": "xy",
+            "direction_key": "back_left",
+            "scene_asset": "107_soap/base3",
+            "scene_asset_alias": "soap bar"
+        }
+    },
+    "episode_16": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{R}": "to the front-left of the back-right soap bar",
+            "{a}": "right"
+        },
+        "layout": {
+            "object_count": 9,
+            "grid_mode": "3x3",
+            "reference_slot": "back_right",
+            "target_slot": "center",
+            "occupied_slots": [
+                "front_left",
+                "front_middle",
+                "front_right",
+                "middle_left",
+                "center",
+                "middle_right",
+                "back_left",
+                "back_middle",
+                "back_right"
+            ],
+            "slot_descriptions": {
+                "front_left": "the front-left soap bar",
+                "front_middle": "the front-middle soap bar",
+                "front_right": "the front-right soap bar",
+                "middle_left": "the middle-left soap bar",
+                "center": "the center soap bar",
+                "middle_right": "the middle-right soap bar",
+                "back_left": "the back-left soap bar",
+                "back_middle": "the back-middle soap bar",
+                "back_right": "the back-right soap bar"
+            },
+            "reference_phrase": "the back-right soap bar",
+            "clarification_phrase": "the back-right soap bar",
+            "relation_kind": "xy",
+            "direction_key": "front_left",
+            "scene_asset": "107_soap/base0",
+            "scene_asset_alias": "soap bar"
+        }
+    },
+    "episode_17": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{R}": "to the back-right of the center soap bar",
+            "{a}": "right"
+        },
+        "layout": {
+            "object_count": 9,
+            "grid_mode": "3x3",
+            "reference_slot": "center",
+            "target_slot": "back_right",
+            "occupied_slots": [
+                "front_left",
+                "front_middle",
+                "front_right",
+                "middle_left",
+                "center",
+                "middle_right",
+                "back_left",
+                "back_middle",
+                "back_right"
+            ],
+            "slot_descriptions": {
+                "front_left": "the front-left soap bar",
+                "front_middle": "the front-middle soap bar",
+                "front_right": "the front-right soap bar",
+                "middle_left": "the middle-left soap bar",
+                "center": "the center soap bar",
+                "middle_right": "the middle-right soap bar",
+                "back_left": "the back-left soap bar",
+                "back_middle": "the back-middle soap bar",
+                "back_right": "the back-right soap bar"
+            },
+            "reference_phrase": "the center soap bar",
+            "clarification_phrase": "the center soap bar",
+            "relation_kind": "xy",
+            "direction_key": "back_right",
+            "scene_asset": "107_soap/base1",
+            "scene_asset_alias": "soap bar"
+        }
+    },
+    "episode_18": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{R}": "to the front-left of the back-middle soap bar",
+            "{a}": "left"
+        },
+        "layout": {
+            "object_count": 9,
+            "grid_mode": "3x3",
+            "reference_slot": "back_middle",
+            "target_slot": "middle_left",
+            "occupied_slots": [
+                "front_left",
+                "front_middle",
+                "front_right",
+                "middle_left",
+                "center",
+                "middle_right",
+                "back_left",
+                "back_middle",
+                "back_right"
+            ],
+            "slot_descriptions": {
+                "front_left": "the front-left soap bar",
+                "front_middle": "the front-middle soap bar",
+                "front_right": "the front-right soap bar",
+                "middle_left": "the middle-left soap bar",
+                "center": "the center soap bar",
+                "middle_right": "the middle-right soap bar",
+                "back_left": "the back-left soap bar",
+                "back_middle": "the back-middle soap bar",
+                "back_right": "the back-right soap bar"
+            },
+            "reference_phrase": "the back-middle soap bar",
+            "clarification_phrase": "the back-middle soap bar",
+            "relation_kind": "xy",
+            "direction_key": "front_left",
+            "scene_asset": "107_soap/base2",
+            "scene_asset_alias": "soap bar"
+        }
+    },
+    "episode_19": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{R}": "to the front-right of the back-left soap bar",
+            "{a}": "right"
+        },
+        "layout": {
+            "object_count": 9,
+            "grid_mode": "3x3",
+            "reference_slot": "back_left",
+            "target_slot": "center",
+            "occupied_slots": [
+                "front_left",
+                "front_middle",
+                "front_right",
+                "middle_left",
+                "center",
+                "middle_right",
+                "back_left",
+                "back_middle",
+                "back_right"
+            ],
+            "slot_descriptions": {
+                "front_left": "the front-left soap bar",
+                "front_middle": "the front-middle soap bar",
+                "front_right": "the front-right soap bar",
+                "middle_left": "the middle-left soap bar",
+                "center": "the center soap bar",
+                "middle_right": "the middle-right soap bar",
+                "back_left": "the back-left soap bar",
+                "back_middle": "the back-middle soap bar",
+                "back_right": "the back-right soap bar"
+            },
+            "reference_phrase": "the back-left soap bar",
+            "clarification_phrase": "the back-left soap bar",
+            "relation_kind": "xy",
+            "direction_key": "front_right",
+            "scene_asset": "107_soap/base3",
+            "scene_asset_alias": "soap bar"
+        }
+    },
+    "episode_20": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{R}": "to the back-left of the front-right soap bar",
+            "{a}": "right"
+        },
+        "layout": {
+            "object_count": 9,
+            "grid_mode": "3x3",
+            "reference_slot": "front_right",
+            "target_slot": "center",
+            "occupied_slots": [
+                "front_left",
+                "front_middle",
+                "front_right",
+                "middle_left",
+                "center",
+                "middle_right",
+                "back_left",
+                "back_middle",
+                "back_right"
+            ],
+            "slot_descriptions": {
+                "front_left": "the front-left soap bar",
+                "front_middle": "the front-middle soap bar",
+                "front_right": "the front-right soap bar",
+                "middle_left": "the middle-left soap bar",
+                "center": "the center soap bar",
+                "middle_right": "the middle-right soap bar",
+                "back_left": "the back-left soap bar",
+                "back_middle": "the back-middle soap bar",
+                "back_right": "the back-right soap bar"
+            },
+            "reference_phrase": "the front-right soap bar",
+            "clarification_phrase": "the front-right soap bar",
+            "relation_kind": "xy",
+            "direction_key": "back_left",
+            "scene_asset": "107_soap/base0",
+            "scene_asset_alias": "soap bar"
+        }
+    },
+    "episode_21": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{R}": "directly to the right of the front-left soap bar",
+            "{a}": "left"
+        },
+        "layout": {
+            "object_count": 9,
+            "grid_mode": "3x3",
+            "reference_slot": "front_left",
+            "target_slot": "front_middle",
+            "occupied_slots": [
+                "front_left",
+                "front_middle",
+                "front_right",
+                "middle_left",
+                "center",
+                "middle_right",
+                "back_left",
+                "back_middle",
+                "back_right"
+            ],
+            "slot_descriptions": {
+                "front_left": "the front-left soap bar",
+                "front_middle": "the front-middle soap bar",
+                "front_right": "the front-right soap bar",
+                "middle_left": "the middle-left soap bar",
+                "center": "the center soap bar",
+                "middle_right": "the middle-right soap bar",
+                "back_left": "the back-left soap bar",
+                "back_middle": "the back-middle soap bar",
+                "back_right": "the back-right soap bar"
+            },
+            "reference_phrase": "the front-left soap bar",
+            "clarification_phrase": "the front-left soap bar",
+            "relation_kind": "direct_x",
+            "direction_key": "right",
+            "scene_asset": "107_soap/base1",
+            "scene_asset_alias": "soap bar"
+        }
+    },
+    "episode_22": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{R}": "to the back-right of the center soap bar",
+            "{a}": "right"
+        },
+        "layout": {
+            "object_count": 9,
+            "grid_mode": "3x3",
+            "reference_slot": "center",
+            "target_slot": "back_right",
+            "occupied_slots": [
+                "front_left",
+                "front_middle",
+                "front_right",
+                "middle_left",
+                "center",
+                "middle_right",
+                "back_left",
+                "back_middle",
+                "back_right"
+            ],
+            "slot_descriptions": {
+                "front_left": "the front-left soap bar",
+                "front_middle": "the front-middle soap bar",
+                "front_right": "the front-right soap bar",
+                "middle_left": "the middle-left soap bar",
+                "center": "the center soap bar",
+                "middle_right": "the middle-right soap bar",
+                "back_left": "the back-left soap bar",
+                "back_middle": "the back-middle soap bar",
+                "back_right": "the back-right soap bar"
+            },
+            "reference_phrase": "the center soap bar",
+            "clarification_phrase": "the center soap bar",
+            "relation_kind": "xy",
+            "direction_key": "back_right",
+            "scene_asset": "107_soap/base2",
+            "scene_asset_alias": "soap bar"
+        }
+    },
+    "episode_23": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{R}": "to the back-left of the center soap bar",
+            "{a}": "left"
+        },
+        "layout": {
+            "object_count": 9,
+            "grid_mode": "3x3",
+            "reference_slot": "center",
+            "target_slot": "back_left",
+            "occupied_slots": [
+                "front_left",
+                "front_middle",
+                "front_right",
+                "middle_left",
+                "center",
+                "middle_right",
+                "back_left",
+                "back_middle",
+                "back_right"
+            ],
+            "slot_descriptions": {
+                "front_left": "the front-left soap bar",
+                "front_middle": "the front-middle soap bar",
+                "front_right": "the front-right soap bar",
+                "middle_left": "the middle-left soap bar",
+                "center": "the center soap bar",
+                "middle_right": "the middle-right soap bar",
+                "back_left": "the back-left soap bar",
+                "back_middle": "the back-middle soap bar",
+                "back_right": "the back-right soap bar"
+            },
+            "reference_phrase": "the center soap bar",
+            "clarification_phrase": "the center soap bar",
+            "relation_kind": "xy",
+            "direction_key": "back_left",
+            "scene_asset": "107_soap/base3",
+            "scene_asset_alias": "soap bar"
+        }
+    },
+    "episode_24": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{R}": "directly in front of the back-middle soap bar",
+            "{a}": "left"
+        },
+        "layout": {
+            "object_count": 9,
+            "grid_mode": "3x3",
+            "reference_slot": "back_middle",
+            "target_slot": "center",
+            "occupied_slots": [
+                "front_left",
+                "front_middle",
+                "front_right",
+                "middle_left",
+                "center",
+                "middle_right",
+                "back_left",
+                "back_middle",
+                "back_right"
+            ],
+            "slot_descriptions": {
+                "front_left": "the front-left soap bar",
+                "front_middle": "the front-middle soap bar",
+                "front_right": "the front-right soap bar",
+                "middle_left": "the middle-left soap bar",
+                "center": "the center soap bar",
+                "middle_right": "the middle-right soap bar",
+                "back_left": "the back-left soap bar",
+                "back_middle": "the back-middle soap bar",
+                "back_right": "the back-right soap bar"
+            },
+            "reference_phrase": "the back-middle soap bar",
+            "clarification_phrase": "the back-middle soap bar",
+            "relation_kind": "direct_y",
+            "direction_key": "front",
+            "scene_asset": "107_soap/base0",
+            "scene_asset_alias": "soap bar"
+        }
+    },
+    "episode_25": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{R}": "to the back-right of the front-middle soap bar",
+            "{a}": "right"
+        },
+        "layout": {
+            "object_count": 9,
+            "grid_mode": "3x3",
+            "reference_slot": "front_middle",
+            "target_slot": "middle_right",
+            "occupied_slots": [
+                "front_left",
+                "front_middle",
+                "front_right",
+                "middle_left",
+                "center",
+                "middle_right",
+                "back_left",
+                "back_middle",
+                "back_right"
+            ],
+            "slot_descriptions": {
+                "front_left": "the front-left soap bar",
+                "front_middle": "the front-middle soap bar",
+                "front_right": "the front-right soap bar",
+                "middle_left": "the middle-left soap bar",
+                "center": "the center soap bar",
+                "middle_right": "the middle-right soap bar",
+                "back_left": "the back-left soap bar",
+                "back_middle": "the back-middle soap bar",
+                "back_right": "the back-right soap bar"
+            },
+            "reference_phrase": "the front-middle soap bar",
+            "clarification_phrase": "the front-middle soap bar",
+            "relation_kind": "xy",
+            "direction_key": "back_right",
+            "scene_asset": "107_soap/base1",
+            "scene_asset_alias": "soap bar"
+        }
+    },
+    "episode_26": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{R}": "to the front-left of the back-middle soap bar",
+            "{a}": "left"
+        },
+        "layout": {
+            "object_count": 9,
+            "grid_mode": "3x3",
+            "reference_slot": "back_middle",
+            "target_slot": "middle_left",
+            "occupied_slots": [
+                "front_left",
+                "front_middle",
+                "front_right",
+                "middle_left",
+                "center",
+                "middle_right",
+                "back_left",
+                "back_middle",
+                "back_right"
+            ],
+            "slot_descriptions": {
+                "front_left": "the front-left soap bar",
+                "front_middle": "the front-middle soap bar",
+                "front_right": "the front-right soap bar",
+                "middle_left": "the middle-left soap bar",
+                "center": "the center soap bar",
+                "middle_right": "the middle-right soap bar",
+                "back_left": "the back-left soap bar",
+                "back_middle": "the back-middle soap bar",
+                "back_right": "the back-right soap bar"
+            },
+            "reference_phrase": "the back-middle soap bar",
+            "clarification_phrase": "the back-middle soap bar",
+            "relation_kind": "xy",
+            "direction_key": "front_left",
+            "scene_asset": "107_soap/base2",
+            "scene_asset_alias": "soap bar"
+        }
+    },
+    "episode_27": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{R}": "directly to the left of the front-middle soap bar",
+            "{a}": "left"
+        },
+        "layout": {
+            "object_count": 9,
+            "grid_mode": "3x3",
+            "reference_slot": "front_middle",
+            "target_slot": "front_left",
+            "occupied_slots": [
+                "front_left",
+                "front_middle",
+                "front_right",
+                "middle_left",
+                "center",
+                "middle_right",
+                "back_left",
+                "back_middle",
+                "back_right"
+            ],
+            "slot_descriptions": {
+                "front_left": "the front-left soap bar",
+                "front_middle": "the front-middle soap bar",
+                "front_right": "the front-right soap bar",
+                "middle_left": "the middle-left soap bar",
+                "center": "the center soap bar",
+                "middle_right": "the middle-right soap bar",
+                "back_left": "the back-left soap bar",
+                "back_middle": "the back-middle soap bar",
+                "back_right": "the back-right soap bar"
+            },
+            "reference_phrase": "the front-middle soap bar",
+            "clarification_phrase": "the front-middle soap bar",
+            "relation_kind": "direct_x",
+            "direction_key": "left",
+            "scene_asset": "107_soap/base3",
+            "scene_asset_alias": "soap bar"
+        }
+    },
+    "episode_28": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{R}": "directly to the left of the back-middle soap bar",
+            "{a}": "left"
+        },
+        "layout": {
+            "object_count": 9,
+            "grid_mode": "3x3",
+            "reference_slot": "back_middle",
+            "target_slot": "back_left",
+            "occupied_slots": [
+                "front_left",
+                "front_middle",
+                "front_right",
+                "middle_left",
+                "center",
+                "middle_right",
+                "back_left",
+                "back_middle",
+                "back_right"
+            ],
+            "slot_descriptions": {
+                "front_left": "the front-left soap bar",
+                "front_middle": "the front-middle soap bar",
+                "front_right": "the front-right soap bar",
+                "middle_left": "the middle-left soap bar",
+                "center": "the center soap bar",
+                "middle_right": "the middle-right soap bar",
+                "back_left": "the back-left soap bar",
+                "back_middle": "the back-middle soap bar",
+                "back_right": "the back-right soap bar"
+            },
+            "reference_phrase": "the back-middle soap bar",
+            "clarification_phrase": "the back-middle soap bar",
+            "relation_kind": "direct_x",
+            "direction_key": "left",
+            "scene_asset": "107_soap/base0",
+            "scene_asset_alias": "soap bar"
+        }
+    },
+    "episode_29": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{R}": "directly at the back of the middle-right soap bar",
+            "{a}": "right"
+        },
+        "layout": {
+            "object_count": 9,
+            "grid_mode": "3x3",
+            "reference_slot": "middle_right",
+            "target_slot": "back_right",
+            "occupied_slots": [
+                "front_left",
+                "front_middle",
+                "front_right",
+                "middle_left",
+                "center",
+                "middle_right",
+                "back_left",
+                "back_middle",
+                "back_right"
+            ],
+            "slot_descriptions": {
+                "front_left": "the front-left soap bar",
+                "front_middle": "the front-middle soap bar",
+                "front_right": "the front-right soap bar",
+                "middle_left": "the middle-left soap bar",
+                "center": "the center soap bar",
+                "middle_right": "the middle-right soap bar",
+                "back_left": "the back-left soap bar",
+                "back_middle": "the back-middle soap bar",
+                "back_right": "the back-right soap bar"
+            },
+            "reference_phrase": "the middle-right soap bar",
+            "clarification_phrase": "the middle-right soap bar",
+            "relation_kind": "direct_y",
+            "direction_key": "back",
+            "scene_asset": "107_soap/base1",
+            "scene_asset_alias": "soap bar"
+        }
+    },
+    "episode_30": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{R}": "to the back-right of the middle-left soap bar",
+            "{a}": "left"
+        },
+        "layout": {
+            "object_count": 9,
+            "grid_mode": "3x3",
+            "reference_slot": "middle_left",
+            "target_slot": "back_middle",
+            "occupied_slots": [
+                "front_left",
+                "front_middle",
+                "front_right",
+                "middle_left",
+                "center",
+                "middle_right",
+                "back_left",
+                "back_middle",
+                "back_right"
+            ],
+            "slot_descriptions": {
+                "front_left": "the front-left soap bar",
+                "front_middle": "the front-middle soap bar",
+                "front_right": "the front-right soap bar",
+                "middle_left": "the middle-left soap bar",
+                "center": "the center soap bar",
+                "middle_right": "the middle-right soap bar",
+                "back_left": "the back-left soap bar",
+                "back_middle": "the back-middle soap bar",
+                "back_right": "the back-right soap bar"
+            },
+            "reference_phrase": "the middle-left soap bar",
+            "clarification_phrase": "the middle-left soap bar",
+            "relation_kind": "xy",
+            "direction_key": "back_right",
+            "scene_asset": "107_soap/base2",
+            "scene_asset_alias": "soap bar"
+        }
+    },
+    "episode_31": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{R}": "directly to the left of the back-middle soap bar",
+            "{a}": "left"
+        },
+        "layout": {
+            "object_count": 9,
+            "grid_mode": "3x3",
+            "reference_slot": "back_middle",
+            "target_slot": "back_left",
+            "occupied_slots": [
+                "front_left",
+                "front_middle",
+                "front_right",
+                "middle_left",
+                "center",
+                "middle_right",
+                "back_left",
+                "back_middle",
+                "back_right"
+            ],
+            "slot_descriptions": {
+                "front_left": "the front-left soap bar",
+                "front_middle": "the front-middle soap bar",
+                "front_right": "the front-right soap bar",
+                "middle_left": "the middle-left soap bar",
+                "center": "the center soap bar",
+                "middle_right": "the middle-right soap bar",
+                "back_left": "the back-left soap bar",
+                "back_middle": "the back-middle soap bar",
+                "back_right": "the back-right soap bar"
+            },
+            "reference_phrase": "the back-middle soap bar",
+            "clarification_phrase": "the back-middle soap bar",
+            "relation_kind": "direct_x",
+            "direction_key": "left",
+            "scene_asset": "107_soap/base3",
+            "scene_asset_alias": "soap bar"
+        }
+    },
+    "episode_32": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{R}": "directly to the right of the back-left soap bar",
+            "{a}": "right"
+        },
+        "layout": {
+            "object_count": 9,
+            "grid_mode": "3x3",
+            "reference_slot": "back_left",
+            "target_slot": "back_middle",
+            "occupied_slots": [
+                "front_left",
+                "front_middle",
+                "front_right",
+                "middle_left",
+                "center",
+                "middle_right",
+                "back_left",
+                "back_middle",
+                "back_right"
+            ],
+            "slot_descriptions": {
+                "front_left": "the front-left soap bar",
+                "front_middle": "the front-middle soap bar",
+                "front_right": "the front-right soap bar",
+                "middle_left": "the middle-left soap bar",
+                "center": "the center soap bar",
+                "middle_right": "the middle-right soap bar",
+                "back_left": "the back-left soap bar",
+                "back_middle": "the back-middle soap bar",
+                "back_right": "the back-right soap bar"
+            },
+            "reference_phrase": "the back-left soap bar",
+            "clarification_phrase": "the back-left soap bar",
+            "relation_kind": "direct_x",
+            "direction_key": "right",
+            "scene_asset": "107_soap/base0",
+            "scene_asset_alias": "soap bar"
+        }
+    },
+    "episode_33": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{R}": "to the back-right of the center soap bar",
+            "{a}": "right"
+        },
+        "layout": {
+            "object_count": 9,
+            "grid_mode": "3x3",
+            "reference_slot": "center",
+            "target_slot": "back_right",
+            "occupied_slots": [
+                "front_left",
+                "front_middle",
+                "front_right",
+                "middle_left",
+                "center",
+                "middle_right",
+                "back_left",
+                "back_middle",
+                "back_right"
+            ],
+            "slot_descriptions": {
+                "front_left": "the front-left soap bar",
+                "front_middle": "the front-middle soap bar",
+                "front_right": "the front-right soap bar",
+                "middle_left": "the middle-left soap bar",
+                "center": "the center soap bar",
+                "middle_right": "the middle-right soap bar",
+                "back_left": "the back-left soap bar",
+                "back_middle": "the back-middle soap bar",
+                "back_right": "the back-right soap bar"
+            },
+            "reference_phrase": "the center soap bar",
+            "clarification_phrase": "the center soap bar",
+            "relation_kind": "xy",
+            "direction_key": "back_right",
+            "scene_asset": "107_soap/base1",
+            "scene_asset_alias": "soap bar"
+        }
+    },
+    "episode_34": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{R}": "to the front-left of the back-right soap bar",
+            "{a}": "left"
+        },
+        "layout": {
+            "object_count": 9,
+            "grid_mode": "3x3",
+            "reference_slot": "back_right",
+            "target_slot": "center",
+            "occupied_slots": [
+                "front_left",
+                "front_middle",
+                "front_right",
+                "middle_left",
+                "center",
+                "middle_right",
+                "back_left",
+                "back_middle",
+                "back_right"
+            ],
+            "slot_descriptions": {
+                "front_left": "the front-left soap bar",
+                "front_middle": "the front-middle soap bar",
+                "front_right": "the front-right soap bar",
+                "middle_left": "the middle-left soap bar",
+                "center": "the center soap bar",
+                "middle_right": "the middle-right soap bar",
+                "back_left": "the back-left soap bar",
+                "back_middle": "the back-middle soap bar",
+                "back_right": "the back-right soap bar"
+            },
+            "reference_phrase": "the back-right soap bar",
+            "clarification_phrase": "the back-right soap bar",
+            "relation_kind": "xy",
+            "direction_key": "front_left",
+            "scene_asset": "107_soap/base2",
+            "scene_asset_alias": "soap bar"
+        }
+    },
+    "episode_35": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{R}": "to the back-left of the front-middle soap bar",
+            "{a}": "left"
+        },
+        "layout": {
+            "object_count": 9,
+            "grid_mode": "3x3",
+            "reference_slot": "front_middle",
+            "target_slot": "middle_left",
+            "occupied_slots": [
+                "front_left",
+                "front_middle",
+                "front_right",
+                "middle_left",
+                "center",
+                "middle_right",
+                "back_left",
+                "back_middle",
+                "back_right"
+            ],
+            "slot_descriptions": {
+                "front_left": "the front-left soap bar",
+                "front_middle": "the front-middle soap bar",
+                "front_right": "the front-right soap bar",
+                "middle_left": "the middle-left soap bar",
+                "center": "the center soap bar",
+                "middle_right": "the middle-right soap bar",
+                "back_left": "the back-left soap bar",
+                "back_middle": "the back-middle soap bar",
+                "back_right": "the back-right soap bar"
+            },
+            "reference_phrase": "the front-middle soap bar",
+            "clarification_phrase": "the front-middle soap bar",
+            "relation_kind": "xy",
+            "direction_key": "back_left",
+            "scene_asset": "107_soap/base3",
+            "scene_asset_alias": "soap bar"
+        }
+    },
+    "episode_36": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{R}": "directly in front of the back-left soap bar",
+            "{a}": "left"
+        },
+        "layout": {
+            "object_count": 9,
+            "grid_mode": "3x3",
+            "reference_slot": "back_left",
+            "target_slot": "middle_left",
+            "occupied_slots": [
+                "front_left",
+                "front_middle",
+                "front_right",
+                "middle_left",
+                "center",
+                "middle_right",
+                "back_left",
+                "back_middle",
+                "back_right"
+            ],
+            "slot_descriptions": {
+                "front_left": "the front-left soap bar",
+                "front_middle": "the front-middle soap bar",
+                "front_right": "the front-right soap bar",
+                "middle_left": "the middle-left soap bar",
+                "center": "the center soap bar",
+                "middle_right": "the middle-right soap bar",
+                "back_left": "the back-left soap bar",
+                "back_middle": "the back-middle soap bar",
+                "back_right": "the back-right soap bar"
+            },
+            "reference_phrase": "the back-left soap bar",
+            "clarification_phrase": "the back-left soap bar",
+            "relation_kind": "direct_y",
+            "direction_key": "front",
+            "scene_asset": "107_soap/base0",
+            "scene_asset_alias": "soap bar"
+        }
+    },
+    "episode_37": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{R}": "directly to the left of the center soap bar",
+            "{a}": "left"
+        },
+        "layout": {
+            "object_count": 9,
+            "grid_mode": "3x3",
+            "reference_slot": "center",
+            "target_slot": "middle_left",
+            "occupied_slots": [
+                "front_left",
+                "front_middle",
+                "front_right",
+                "middle_left",
+                "center",
+                "middle_right",
+                "back_left",
+                "back_middle",
+                "back_right"
+            ],
+            "slot_descriptions": {
+                "front_left": "the front-left soap bar",
+                "front_middle": "the front-middle soap bar",
+                "front_right": "the front-right soap bar",
+                "middle_left": "the middle-left soap bar",
+                "center": "the center soap bar",
+                "middle_right": "the middle-right soap bar",
+                "back_left": "the back-left soap bar",
+                "back_middle": "the back-middle soap bar",
+                "back_right": "the back-right soap bar"
+            },
+            "reference_phrase": "the center soap bar",
+            "clarification_phrase": "the center soap bar",
+            "relation_kind": "direct_x",
+            "direction_key": "left",
+            "scene_asset": "107_soap/base1",
+            "scene_asset_alias": "soap bar"
+        }
+    },
+    "episode_38": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{R}": "to the front-left of the back-right soap bar",
+            "{a}": "right"
+        },
+        "layout": {
+            "object_count": 9,
+            "grid_mode": "3x3",
+            "reference_slot": "back_right",
+            "target_slot": "center",
+            "occupied_slots": [
+                "front_left",
+                "front_middle",
+                "front_right",
+                "middle_left",
+                "center",
+                "middle_right",
+                "back_left",
+                "back_middle",
+                "back_right"
+            ],
+            "slot_descriptions": {
+                "front_left": "the front-left soap bar",
+                "front_middle": "the front-middle soap bar",
+                "front_right": "the front-right soap bar",
+                "middle_left": "the middle-left soap bar",
+                "center": "the center soap bar",
+                "middle_right": "the middle-right soap bar",
+                "back_left": "the back-left soap bar",
+                "back_middle": "the back-middle soap bar",
+                "back_right": "the back-right soap bar"
+            },
+            "reference_phrase": "the back-right soap bar",
+            "clarification_phrase": "the back-right soap bar",
+            "relation_kind": "xy",
+            "direction_key": "front_left",
+            "scene_asset": "107_soap/base2",
+            "scene_asset_alias": "soap bar"
+        }
+    },
+    "episode_39": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{R}": "directly to the right of the back-middle soap bar",
+            "{a}": "left"
+        },
+        "layout": {
+            "object_count": 9,
+            "grid_mode": "3x3",
+            "reference_slot": "back_middle",
+            "target_slot": "back_right",
+            "occupied_slots": [
+                "front_left",
+                "front_middle",
+                "front_right",
+                "middle_left",
+                "center",
+                "middle_right",
+                "back_left",
+                "back_middle",
+                "back_right"
+            ],
+            "slot_descriptions": {
+                "front_left": "the front-left soap bar",
+                "front_middle": "the front-middle soap bar",
+                "front_right": "the front-right soap bar",
+                "middle_left": "the middle-left soap bar",
+                "center": "the center soap bar",
+                "middle_right": "the middle-right soap bar",
+                "back_left": "the back-left soap bar",
+                "back_middle": "the back-middle soap bar",
+                "back_right": "the back-right soap bar"
+            },
+            "reference_phrase": "the back-middle soap bar",
+            "clarification_phrase": "the back-middle soap bar",
+            "relation_kind": "direct_x",
+            "direction_key": "right",
+            "scene_asset": "107_soap/base3",
+            "scene_asset_alias": "soap bar"
+        }
+    },
+    "episode_40": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{R}": "to the back-right of the center soap bar",
+            "{a}": "left"
+        },
+        "layout": {
+            "object_count": 9,
+            "grid_mode": "3x3",
+            "reference_slot": "center",
+            "target_slot": "back_right",
+            "occupied_slots": [
+                "front_left",
+                "front_middle",
+                "front_right",
+                "middle_left",
+                "center",
+                "middle_right",
+                "back_left",
+                "back_middle",
+                "back_right"
+            ],
+            "slot_descriptions": {
+                "front_left": "the front-left soap bar",
+                "front_middle": "the front-middle soap bar",
+                "front_right": "the front-right soap bar",
+                "middle_left": "the middle-left soap bar",
+                "center": "the center soap bar",
+                "middle_right": "the middle-right soap bar",
+                "back_left": "the back-left soap bar",
+                "back_middle": "the back-middle soap bar",
+                "back_right": "the back-right soap bar"
+            },
+            "reference_phrase": "the center soap bar",
+            "clarification_phrase": "the center soap bar",
+            "relation_kind": "xy",
+            "direction_key": "back_right",
+            "scene_asset": "107_soap/base0",
+            "scene_asset_alias": "soap bar"
+        }
+    },
+    "episode_41": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{R}": "to the back-right of the middle-left soap bar",
+            "{a}": "left"
+        },
+        "layout": {
+            "object_count": 9,
+            "grid_mode": "3x3",
+            "reference_slot": "middle_left",
+            "target_slot": "back_middle",
+            "occupied_slots": [
+                "front_left",
+                "front_middle",
+                "front_right",
+                "middle_left",
+                "center",
+                "middle_right",
+                "back_left",
+                "back_middle",
+                "back_right"
+            ],
+            "slot_descriptions": {
+                "front_left": "the front-left soap bar",
+                "front_middle": "the front-middle soap bar",
+                "front_right": "the front-right soap bar",
+                "middle_left": "the middle-left soap bar",
+                "center": "the center soap bar",
+                "middle_right": "the middle-right soap bar",
+                "back_left": "the back-left soap bar",
+                "back_middle": "the back-middle soap bar",
+                "back_right": "the back-right soap bar"
+            },
+            "reference_phrase": "the middle-left soap bar",
+            "clarification_phrase": "the middle-left soap bar",
+            "relation_kind": "xy",
+            "direction_key": "back_right",
+            "scene_asset": "107_soap/base1",
+            "scene_asset_alias": "soap bar"
+        }
+    },
+    "episode_42": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{R}": "to the front-right of the back-left soap bar",
+            "{a}": "left"
+        },
+        "layout": {
+            "object_count": 9,
+            "grid_mode": "3x3",
+            "reference_slot": "back_left",
+            "target_slot": "center",
+            "occupied_slots": [
+                "front_left",
+                "front_middle",
+                "front_right",
+                "middle_left",
+                "center",
+                "middle_right",
+                "back_left",
+                "back_middle",
+                "back_right"
+            ],
+            "slot_descriptions": {
+                "front_left": "the front-left soap bar",
+                "front_middle": "the front-middle soap bar",
+                "front_right": "the front-right soap bar",
+                "middle_left": "the middle-left soap bar",
+                "center": "the center soap bar",
+                "middle_right": "the middle-right soap bar",
+                "back_left": "the back-left soap bar",
+                "back_middle": "the back-middle soap bar",
+                "back_right": "the back-right soap bar"
+            },
+            "reference_phrase": "the back-left soap bar",
+            "clarification_phrase": "the back-left soap bar",
+            "relation_kind": "xy",
+            "direction_key": "front_right",
+            "scene_asset": "107_soap/base2",
+            "scene_asset_alias": "soap bar"
+        }
+    },
+    "episode_43": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{R}": "to the front-left of the back-right soap bar",
+            "{a}": "left"
+        },
+        "layout": {
+            "object_count": 9,
+            "grid_mode": "3x3",
+            "reference_slot": "back_right",
+            "target_slot": "center",
+            "occupied_slots": [
+                "front_left",
+                "front_middle",
+                "front_right",
+                "middle_left",
+                "center",
+                "middle_right",
+                "back_left",
+                "back_middle",
+                "back_right"
+            ],
+            "slot_descriptions": {
+                "front_left": "the front-left soap bar",
+                "front_middle": "the front-middle soap bar",
+                "front_right": "the front-right soap bar",
+                "middle_left": "the middle-left soap bar",
+                "center": "the center soap bar",
+                "middle_right": "the middle-right soap bar",
+                "back_left": "the back-left soap bar",
+                "back_middle": "the back-middle soap bar",
+                "back_right": "the back-right soap bar"
+            },
+            "reference_phrase": "the back-right soap bar",
+            "clarification_phrase": "the back-right soap bar",
+            "relation_kind": "xy",
+            "direction_key": "front_left",
+            "scene_asset": "107_soap/base3",
+            "scene_asset_alias": "soap bar"
+        }
+    },
+    "episode_44": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{R}": "directly at the back of the middle-left soap bar",
+            "{a}": "left"
+        },
+        "layout": {
+            "object_count": 9,
+            "grid_mode": "3x3",
+            "reference_slot": "middle_left",
+            "target_slot": "back_left",
+            "occupied_slots": [
+                "front_left",
+                "front_middle",
+                "front_right",
+                "middle_left",
+                "center",
+                "middle_right",
+                "back_left",
+                "back_middle",
+                "back_right"
+            ],
+            "slot_descriptions": {
+                "front_left": "the front-left soap bar",
+                "front_middle": "the front-middle soap bar",
+                "front_right": "the front-right soap bar",
+                "middle_left": "the middle-left soap bar",
+                "center": "the center soap bar",
+                "middle_right": "the middle-right soap bar",
+                "back_left": "the back-left soap bar",
+                "back_middle": "the back-middle soap bar",
+                "back_right": "the back-right soap bar"
+            },
+            "reference_phrase": "the middle-left soap bar",
+            "clarification_phrase": "the middle-left soap bar",
+            "relation_kind": "direct_y",
+            "direction_key": "back",
+            "scene_asset": "107_soap/base0",
+            "scene_asset_alias": "soap bar"
+        }
+    },
+    "episode_45": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{R}": "to the front-left of the center soap bar",
+            "{a}": "left"
+        },
+        "layout": {
+            "object_count": 9,
+            "grid_mode": "3x3",
+            "reference_slot": "center",
+            "target_slot": "front_left",
+            "occupied_slots": [
+                "front_left",
+                "front_middle",
+                "front_right",
+                "middle_left",
+                "center",
+                "middle_right",
+                "back_left",
+                "back_middle",
+                "back_right"
+            ],
+            "slot_descriptions": {
+                "front_left": "the front-left soap bar",
+                "front_middle": "the front-middle soap bar",
+                "front_right": "the front-right soap bar",
+                "middle_left": "the middle-left soap bar",
+                "center": "the center soap bar",
+                "middle_right": "the middle-right soap bar",
+                "back_left": "the back-left soap bar",
+                "back_middle": "the back-middle soap bar",
+                "back_right": "the back-right soap bar"
+            },
+            "reference_phrase": "the center soap bar",
+            "clarification_phrase": "the center soap bar",
+            "relation_kind": "xy",
+            "direction_key": "front_left",
+            "scene_asset": "107_soap/base1",
+            "scene_asset_alias": "soap bar"
+        }
+    },
+    "episode_46": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{R}": "directly at the back of the middle-right soap bar",
+            "{a}": "right"
+        },
+        "layout": {
+            "object_count": 9,
+            "grid_mode": "3x3",
+            "reference_slot": "middle_right",
+            "target_slot": "back_right",
+            "occupied_slots": [
+                "front_left",
+                "front_middle",
+                "front_right",
+                "middle_left",
+                "center",
+                "middle_right",
+                "back_left",
+                "back_middle",
+                "back_right"
+            ],
+            "slot_descriptions": {
+                "front_left": "the front-left soap bar",
+                "front_middle": "the front-middle soap bar",
+                "front_right": "the front-right soap bar",
+                "middle_left": "the middle-left soap bar",
+                "center": "the center soap bar",
+                "middle_right": "the middle-right soap bar",
+                "back_left": "the back-left soap bar",
+                "back_middle": "the back-middle soap bar",
+                "back_right": "the back-right soap bar"
+            },
+            "reference_phrase": "the middle-right soap bar",
+            "clarification_phrase": "the middle-right soap bar",
+            "relation_kind": "direct_y",
+            "direction_key": "back",
+            "scene_asset": "107_soap/base2",
+            "scene_asset_alias": "soap bar"
+        }
+    },
+    "episode_47": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{R}": "directly in front of the middle-left soap bar",
+            "{a}": "left"
+        },
+        "layout": {
+            "object_count": 9,
+            "grid_mode": "3x3",
+            "reference_slot": "middle_left",
+            "target_slot": "front_left",
+            "occupied_slots": [
+                "front_left",
+                "front_middle",
+                "front_right",
+                "middle_left",
+                "center",
+                "middle_right",
+                "back_left",
+                "back_middle",
+                "back_right"
+            ],
+            "slot_descriptions": {
+                "front_left": "the front-left soap bar",
+                "front_middle": "the front-middle soap bar",
+                "front_right": "the front-right soap bar",
+                "middle_left": "the middle-left soap bar",
+                "center": "the center soap bar",
+                "middle_right": "the middle-right soap bar",
+                "back_left": "the back-left soap bar",
+                "back_middle": "the back-middle soap bar",
+                "back_right": "the back-right soap bar"
+            },
+            "reference_phrase": "the middle-left soap bar",
+            "clarification_phrase": "the middle-left soap bar",
+            "relation_kind": "direct_y",
+            "direction_key": "front",
+            "scene_asset": "107_soap/base3",
+            "scene_asset_alias": "soap bar"
+        }
+    },
+    "episode_48": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{R}": "directly in front of the back-left soap bar",
+            "{a}": "left"
+        },
+        "layout": {
+            "object_count": 9,
+            "grid_mode": "3x3",
+            "reference_slot": "back_left",
+            "target_slot": "middle_left",
+            "occupied_slots": [
+                "front_left",
+                "front_middle",
+                "front_right",
+                "middle_left",
+                "center",
+                "middle_right",
+                "back_left",
+                "back_middle",
+                "back_right"
+            ],
+            "slot_descriptions": {
+                "front_left": "the front-left soap bar",
+                "front_middle": "the front-middle soap bar",
+                "front_right": "the front-right soap bar",
+                "middle_left": "the middle-left soap bar",
+                "center": "the center soap bar",
+                "middle_right": "the middle-right soap bar",
+                "back_left": "the back-left soap bar",
+                "back_middle": "the back-middle soap bar",
+                "back_right": "the back-right soap bar"
+            },
+            "reference_phrase": "the back-left soap bar",
+            "clarification_phrase": "the back-left soap bar",
+            "relation_kind": "direct_y",
+            "direction_key": "front",
+            "scene_asset": "107_soap/base0",
+            "scene_asset_alias": "soap bar"
+        }
+    },
+    "episode_49": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{R}": "to the front-right of the back-middle soap bar",
+            "{a}": "left"
+        },
+        "layout": {
+            "object_count": 9,
+            "grid_mode": "3x3",
+            "reference_slot": "back_middle",
+            "target_slot": "middle_right",
+            "occupied_slots": [
+                "front_left",
+                "front_middle",
+                "front_right",
+                "middle_left",
+                "center",
+                "middle_right",
+                "back_left",
+                "back_middle",
+                "back_right"
+            ],
+            "slot_descriptions": {
+                "front_left": "the front-left soap bar",
+                "front_middle": "the front-middle soap bar",
+                "front_right": "the front-right soap bar",
+                "middle_left": "the middle-left soap bar",
+                "center": "the center soap bar",
+                "middle_right": "the middle-right soap bar",
+                "back_left": "the back-left soap bar",
+                "back_middle": "the back-middle soap bar",
+                "back_right": "the back-right soap bar"
+            },
+            "reference_phrase": "the back-middle soap bar",
+            "clarification_phrase": "the back-middle soap bar",
+            "relation_kind": "xy",
+            "direction_key": "front_right",
+            "scene_asset": "107_soap/base1",
+            "scene_asset_alias": "soap bar"
+        }
+    }
+}

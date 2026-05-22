@@ -1,0 +1,802 @@
+{
+    "episode_0": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{A}": "003_plate/base0",
+            "{B}": "002_bowl/base3",
+            "{a}": "right",
+            "{b}": "right",
+            "{c}": "left",
+            "{d}": "right",
+            "{e}": "left"
+        }
+    },
+    "episode_1": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{A}": "003_plate/base0",
+            "{B}": "002_bowl/base3",
+            "{a}": "right",
+            "{b}": "right",
+            "{c}": "left",
+            "{d}": "right",
+            "{e}": "left"
+        }
+    },
+    "episode_2": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{A}": "003_plate/base0",
+            "{B}": "002_bowl/base3",
+            "{a}": "right",
+            "{b}": "right",
+            "{c}": "left",
+            "{d}": "right",
+            "{e}": "left"
+        }
+    },
+    "episode_3": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{A}": "003_plate/base0",
+            "{B}": "002_bowl/base3",
+            "{a}": "right",
+            "{b}": "left",
+            "{c}": "right",
+            "{d}": "right",
+            "{e}": "left"
+        }
+    },
+    "episode_4": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{A}": "003_plate/base0",
+            "{B}": "002_bowl/base3",
+            "{a}": "left",
+            "{b}": "left",
+            "{c}": "right",
+            "{d}": "left",
+            "{e}": "right"
+        }
+    },
+    "episode_5": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{A}": "003_plate/base0",
+            "{B}": "002_bowl/base3",
+            "{a}": "right",
+            "{b}": "right",
+            "{c}": "left",
+            "{d}": "right",
+            "{e}": "left"
+        }
+    },
+    "episode_6": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{A}": "003_plate/base0",
+            "{B}": "002_bowl/base3",
+            "{a}": "right",
+            "{b}": "right",
+            "{c}": "left",
+            "{d}": "right",
+            "{e}": "left"
+        }
+    },
+    "episode_7": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{A}": "003_plate/base0",
+            "{B}": "002_bowl/base3",
+            "{a}": "left",
+            "{b}": "right",
+            "{c}": "left",
+            "{d}": "left",
+            "{e}": "right"
+        }
+    },
+    "episode_8": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{A}": "003_plate/base0",
+            "{B}": "002_bowl/base3",
+            "{a}": "left",
+            "{b}": "left",
+            "{c}": "right",
+            "{d}": "left",
+            "{e}": "right"
+        }
+    },
+    "episode_9": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{A}": "003_plate/base0",
+            "{B}": "002_bowl/base3",
+            "{a}": "left",
+            "{b}": "right",
+            "{c}": "right",
+            "{d}": "left",
+            "{e}": "right"
+        }
+    },
+    "episode_10": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{A}": "003_plate/base0",
+            "{B}": "002_bowl/base3",
+            "{a}": "left",
+            "{b}": "left",
+            "{c}": "right",
+            "{d}": "left",
+            "{e}": "right"
+        }
+    },
+    "episode_11": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{A}": "003_plate/base0",
+            "{B}": "002_bowl/base3",
+            "{a}": "right",
+            "{b}": "right",
+            "{c}": "left",
+            "{d}": "right",
+            "{e}": "left"
+        }
+    },
+    "episode_12": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{A}": "003_plate/base0",
+            "{B}": "002_bowl/base3",
+            "{a}": "right",
+            "{b}": "right",
+            "{c}": "left",
+            "{d}": "right",
+            "{e}": "left"
+        }
+    },
+    "episode_13": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{A}": "003_plate/base0",
+            "{B}": "002_bowl/base3",
+            "{a}": "left",
+            "{b}": "left",
+            "{c}": "right",
+            "{d}": "left",
+            "{e}": "right"
+        }
+    },
+    "episode_14": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{A}": "003_plate/base0",
+            "{B}": "002_bowl/base3",
+            "{a}": "right",
+            "{b}": "left",
+            "{c}": "left",
+            "{d}": "right",
+            "{e}": "left"
+        }
+    },
+    "episode_15": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{A}": "003_plate/base0",
+            "{B}": "002_bowl/base3",
+            "{a}": "left",
+            "{b}": "right",
+            "{c}": "right",
+            "{d}": "left",
+            "{e}": "right"
+        }
+    },
+    "episode_16": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{A}": "003_plate/base0",
+            "{B}": "002_bowl/base3",
+            "{a}": "left",
+            "{b}": "right",
+            "{c}": "left",
+            "{d}": "right",
+            "{e}": "left"
+        }
+    },
+    "episode_17": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{A}": "003_plate/base0",
+            "{B}": "002_bowl/base3",
+            "{a}": "left",
+            "{b}": "left",
+            "{c}": "right",
+            "{d}": "left",
+            "{e}": "right"
+        }
+    },
+    "episode_18": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{A}": "003_plate/base0",
+            "{B}": "002_bowl/base3",
+            "{a}": "right",
+            "{b}": "left",
+            "{c}": "right",
+            "{d}": "right",
+            "{e}": "left"
+        }
+    },
+    "episode_19": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{A}": "003_plate/base0",
+            "{B}": "002_bowl/base3",
+            "{a}": "right",
+            "{b}": "left",
+            "{c}": "right",
+            "{d}": "left",
+            "{e}": "right"
+        }
+    },
+    "episode_20": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{A}": "003_plate/base0",
+            "{B}": "002_bowl/base3",
+            "{a}": "right",
+            "{b}": "right",
+            "{c}": "left",
+            "{d}": "right",
+            "{e}": "left"
+        }
+    },
+    "episode_21": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{A}": "003_plate/base0",
+            "{B}": "002_bowl/base3",
+            "{a}": "right",
+            "{b}": "left",
+            "{c}": "right",
+            "{d}": "left",
+            "{e}": "right"
+        }
+    },
+    "episode_22": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{A}": "003_plate/base0",
+            "{B}": "002_bowl/base3",
+            "{a}": "left",
+            "{b}": "right",
+            "{c}": "left",
+            "{d}": "left",
+            "{e}": "right"
+        }
+    },
+    "episode_23": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{A}": "003_plate/base0",
+            "{B}": "002_bowl/base3",
+            "{a}": "right",
+            "{b}": "left",
+            "{c}": "left",
+            "{d}": "right",
+            "{e}": "left"
+        }
+    },
+    "episode_24": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{A}": "003_plate/base0",
+            "{B}": "002_bowl/base3",
+            "{a}": "right",
+            "{b}": "left",
+            "{c}": "right",
+            "{d}": "left",
+            "{e}": "right"
+        }
+    },
+    "episode_25": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{A}": "003_plate/base0",
+            "{B}": "002_bowl/base3",
+            "{a}": "right",
+            "{b}": "right",
+            "{c}": "left",
+            "{d}": "right",
+            "{e}": "left"
+        }
+    },
+    "episode_26": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{A}": "003_plate/base0",
+            "{B}": "002_bowl/base3",
+            "{a}": "right",
+            "{b}": "right",
+            "{c}": "left",
+            "{d}": "right",
+            "{e}": "left"
+        }
+    },
+    "episode_27": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{A}": "003_plate/base0",
+            "{B}": "002_bowl/base3",
+            "{a}": "left",
+            "{b}": "left",
+            "{c}": "right",
+            "{d}": "left",
+            "{e}": "right"
+        }
+    },
+    "episode_28": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{A}": "003_plate/base0",
+            "{B}": "002_bowl/base3",
+            "{a}": "left",
+            "{b}": "right",
+            "{c}": "left",
+            "{d}": "left",
+            "{e}": "right"
+        }
+    },
+    "episode_29": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{A}": "003_plate/base0",
+            "{B}": "002_bowl/base3",
+            "{a}": "left",
+            "{b}": "right",
+            "{c}": "left",
+            "{d}": "right",
+            "{e}": "left"
+        }
+    },
+    "episode_30": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{A}": "003_plate/base0",
+            "{B}": "002_bowl/base3",
+            "{a}": "left",
+            "{b}": "left",
+            "{c}": "right",
+            "{d}": "left",
+            "{e}": "right"
+        }
+    },
+    "episode_31": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{A}": "003_plate/base0",
+            "{B}": "002_bowl/base3",
+            "{a}": "right",
+            "{b}": "right",
+            "{c}": "left",
+            "{d}": "right",
+            "{e}": "left"
+        }
+    },
+    "episode_32": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{A}": "003_plate/base0",
+            "{B}": "002_bowl/base3",
+            "{a}": "left",
+            "{b}": "left",
+            "{c}": "right",
+            "{d}": "left",
+            "{e}": "right"
+        }
+    },
+    "episode_33": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{A}": "003_plate/base0",
+            "{B}": "002_bowl/base3",
+            "{a}": "right",
+            "{b}": "right",
+            "{c}": "left",
+            "{d}": "right",
+            "{e}": "left"
+        }
+    },
+    "episode_34": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{A}": "003_plate/base0",
+            "{B}": "002_bowl/base3",
+            "{a}": "right",
+            "{b}": "left",
+            "{c}": "right",
+            "{d}": "right",
+            "{e}": "left"
+        }
+    },
+    "episode_35": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{A}": "003_plate/base0",
+            "{B}": "002_bowl/base3",
+            "{a}": "left",
+            "{b}": "right",
+            "{c}": "right",
+            "{d}": "left",
+            "{e}": "right"
+        }
+    },
+    "episode_36": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{A}": "003_plate/base0",
+            "{B}": "002_bowl/base3",
+            "{a}": "left",
+            "{b}": "left",
+            "{c}": "right",
+            "{d}": "left",
+            "{e}": "right"
+        }
+    },
+    "episode_37": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{A}": "003_plate/base0",
+            "{B}": "002_bowl/base3",
+            "{a}": "left",
+            "{b}": "right",
+            "{c}": "left",
+            "{d}": "right",
+            "{e}": "left"
+        }
+    },
+    "episode_38": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{A}": "003_plate/base0",
+            "{B}": "002_bowl/base3",
+            "{a}": "right",
+            "{b}": "right",
+            "{c}": "left",
+            "{d}": "right",
+            "{e}": "left"
+        }
+    },
+    "episode_39": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{A}": "003_plate/base0",
+            "{B}": "002_bowl/base3",
+            "{a}": "left",
+            "{b}": "left",
+            "{c}": "right",
+            "{d}": "left",
+            "{e}": "right"
+        }
+    },
+    "episode_40": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{A}": "003_plate/base0",
+            "{B}": "002_bowl/base3",
+            "{a}": "right",
+            "{b}": "right",
+            "{c}": "left",
+            "{d}": "right",
+            "{e}": "left"
+        }
+    },
+    "episode_41": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{A}": "003_plate/base0",
+            "{B}": "002_bowl/base3",
+            "{a}": "left",
+            "{b}": "left",
+            "{c}": "right",
+            "{d}": "left",
+            "{e}": "right"
+        }
+    },
+    "episode_42": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{A}": "003_plate/base0",
+            "{B}": "002_bowl/base3",
+            "{a}": "left",
+            "{b}": "right",
+            "{c}": "left",
+            "{d}": "right",
+            "{e}": "left"
+        }
+    },
+    "episode_43": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{A}": "003_plate/base0",
+            "{B}": "002_bowl/base3",
+            "{a}": "right",
+            "{b}": "left",
+            "{c}": "left",
+            "{d}": "right",
+            "{e}": "left"
+        }
+    },
+    "episode_44": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{A}": "003_plate/base0",
+            "{B}": "002_bowl/base3",
+            "{a}": "right",
+            "{b}": "left",
+            "{c}": "right",
+            "{d}": "right",
+            "{e}": "left"
+        }
+    },
+    "episode_45": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{A}": "003_plate/base0",
+            "{B}": "002_bowl/base3",
+            "{a}": "left",
+            "{b}": "left",
+            "{c}": "right",
+            "{d}": "left",
+            "{e}": "right"
+        }
+    },
+    "episode_46": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{A}": "003_plate/base0",
+            "{B}": "002_bowl/base3",
+            "{a}": "right",
+            "{b}": "left",
+            "{c}": "left",
+            "{d}": "right",
+            "{e}": "left"
+        }
+    },
+    "episode_47": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{A}": "003_plate/base0",
+            "{B}": "002_bowl/base3",
+            "{a}": "left",
+            "{b}": "right",
+            "{c}": "left",
+            "{d}": "right",
+            "{e}": "left"
+        }
+    },
+    "episode_48": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{A}": "003_plate/base0",
+            "{B}": "002_bowl/base3",
+            "{a}": "right",
+            "{b}": "right",
+            "{c}": "left",
+            "{d}": "right",
+            "{e}": "left"
+        }
+    },
+    "episode_49": {
+        "cluttered_table_info": [],
+        "texture_info": {
+            "wall_texture": null,
+            "table_texture": null
+        },
+        "info": {
+            "{A}": "003_plate/base0",
+            "{B}": "002_bowl/base3",
+            "{a}": "right",
+            "{b}": "left",
+            "{c}": "right",
+            "{d}": "right",
+            "{e}": "left"
+        }
+    }
+}
