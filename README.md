@@ -1,8 +1,6 @@
 # RoboSPA
 
-This repository contains task environment code and the corresponding collected demonstration data for RoboSPA.
-
-**We only include the 10 tasks shown in the main figure of the paper.**
+This repository contains the task environment code and corresponding collected demonstration data for selected RoboSPA tasks.
 
 ## Repository Structure
 
@@ -15,7 +13,7 @@ RoboSPA/
 
 ## envs
 
-The `envs` folder contains the implementation code for the tasks. Each task has a corresponding Python file in this folder.
+The `envs` folder contains the expert code for the tasks. Each task has a corresponding Python file in this folder.
 
 The task files include:
 
@@ -33,13 +31,13 @@ envs/
 └── Remember_Orientation_Restore_5.py
 ```
 
-In addition to task-specific files, `envs` may also contain shared base classes, utilities, robot/camera configurations, and other supporting modules used by the tasks.
+In addition to task-specific files, `envs` also contain shared base classes, utilities, robot/camera configurations, and other supporting modules used by the tasks.
 
 ## data
 
 The `data` folder contains the collected demonstration data corresponding to the tasks in `envs`.
 
-Each task folder contains one collected trajectory, named `episode0`.
+Each folder contains an example trajectory named `episode0`.
 
 The task data folders include:
 
@@ -75,7 +73,7 @@ data/
         └── seed.txt
 ```
 
-## File Description
+## Data Structure
 
 For each task:
 
@@ -85,10 +83,3 @@ For each task:
 - `_traj_data/episode0.pkl` stores additional trajectory-related data.
 - `scene_info.json` stores scene information for the task.
 - `seed.txt` stores the random seed used for the task.
-
-## Notes
-
-- `envs` contains the task implementation code.
-- `data` contains the collected demonstration data for the corresponding tasks.
-- Each task currently contains only one trajectory: `episode0`.
-- The task names in `data` correspond to the task implementation files in `envs`.
