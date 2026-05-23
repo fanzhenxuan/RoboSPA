@@ -1,7 +1,7 @@
-from .pick_relative_position_fixed_asset_base_lyt_0310 import PickRelativePositionFixedAssetBaseLyt0310
+from .pick_relative_position_fixed_asset_base import PickRelativePositionFixedAssetBase
 
 
-class Pick_Soaps_Relational_5(PickRelativePositionFixedAssetBaseLyt0310):
+class Pick_Soaps_Relational_5(PickRelativePositionFixedAssetBase):
     object_count = 9
     fixed_asset_alias = "soap"
     fixed_modelname = "107_soap"
