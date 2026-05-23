@@ -57,7 +57,6 @@ def local_timer(name: str):
 
 class Point:
     points: list["Point"] = []
-    """特定 base 坐标系下的点"""
 
     def __init__(
         self,
@@ -167,7 +166,7 @@ class Point:
         return opt_mat
 
     def base2world(self, entity_mat, scale=1.0) -> sapien.Pose:
-        """将 base 坐标系下的矩阵转换到世界坐标系下"""
+        """Transform a matrix from the base coordinate frame to the world coordinate frame."""
         entity_mat = np.array(entity_mat)
         base_mat = self.base.get_pose().to_transformation_matrix()
         p = entity_mat[:3, 3] * scale + base_mat[:3, 3]
@@ -175,7 +174,7 @@ class Point:
         return sapien.Pose(p, t3d.quaternions.mat2quat(q_mat))
 
     def word2base(self, entity_mat, scale=1.0) -> sapien.Pose:
-        """将世界坐标系下的矩阵转换到 base 坐标系下"""
+        """Transform a matrix from the world coordinate frame to the base coordinate frame."""
         entity_mat = np.array(entity_mat)
         base_mat = self.base.get_pose().to_transformation_matrix()
         p = entity_mat[:3, 3] - base_mat[:3, 3]
@@ -183,7 +182,7 @@ class Point:
         return sapien.Pose(p, t3d.quaternions.mat2quat(q_mat))
 
     def set_pose(self, new_pose: sapien.Pose):
-        """更新点的位置"""
+        """Update the point position."""
         self.pose = new_pose
         self.point.set_pose(self.pose)
         self.mat = self.word2base(new_pose.to_transformation_matrix()).to_transformation_matrix()
@@ -280,17 +279,31 @@ def rotate_along_axis(
     camera_face=None,
 ) -> list:
     """
-    以 center 为中心，沿着指定轴旋转指定角度。通过 towards 可指定旋转方向（方向为 center->target 向量与 towards 向量乘积为正的方向）
+    Rotate around a specified axis by a given angle, using center as the rotation center.
+    The rotation direction can be specified by towards, where the direction is chosen
+    such that the product between the center-to-target vector and the towards vector is positive.
 
-    target_pose: 目标点（比如在物体正上方的预抓取点）
-    center_pose: 中心点（比如物体的位置）
-    axis: 旋转轴
-    theta: 旋转角度（单位：弧度）
-    axis_type: 旋转轴的类型（'center'：相对于 center_pose，'target'：相对于 target_pose，'world'：世界坐标系），默认是 'center'
-    towards: 旋转方向（可选），如果指定了这个参数，则会根据这个参数来决定旋转的方向
-    camera_face: 相机朝向（可选），会限制相机向量与该向量点积为正；如果设置为 None，只旋转不考虑相机朝向
-    返回值：列表，前3个元素是坐标，后4个元素是四元数
+    Args:
+        target_pose: Target point, such as a pre-grasp point above the object.
+        center_pose: Center point, such as the object position.
+        axis: Rotation axis.
+        theta: Rotation angle in radians.
+        axis_type: Type of the rotation axis. Options are:
+            'center': relative to center_pose,
+            'target': relative to target_pose,
+            'world': in the world coordinate frame.
+            Defaults to 'center'.
+        towards: Optional rotation direction. If specified, it is used to determine
+            the rotation direction.
+        camera_face: Optional camera-facing direction. If specified, the camera vector
+            is constrained to have a positive dot product with this vector. If set to
+            None, only rotation is applied without considering the camera direction.
+
+    Returns:
+        A list where the first three elements are the position and the last four
+        elements are the quaternion.
     """
+
     target_pose, center_pose = _toPose(target_pose), _toPose(center_pose)
     if theta == 0:
         return target_pose.p.tolist() + target_pose.q.tolist()
@@ -322,7 +335,7 @@ def rotate_along_axis(
 
 def rotate2rob(target_pose, rob_pose, box_pose, theta: float = 0.5) -> list:
     """
-    向指定的 rob_pose 偏移
+    Apply an offset to the specified rob_pose.
     """
     target_pose, rob_pose, box_pose = (
         _toPose(target_pose),
@@ -384,7 +397,7 @@ def cal_quat_dis(quat1, quat2):
 
 def get_align_matrix(v1: np.ndarray, v2: np.ndarray) -> np.ndarray:
     """
-    获取从 v1 到 v2 的旋转矩阵
+    Compute the rotation matrix from v1 to v2.
     """
     v1 = np.array(v1).reshape(3)
     v2 = np.array(v2).reshape(3)
@@ -407,7 +420,7 @@ def generate_rotate_vectors(
     vector: np.ndarray | list = [1, 0, 0],
 ) -> np.ndarray:
     """
-    获取从 base 到 axis 的旋转矩阵
+    Compute the rotation matrix from base to axis.
     """
     if base is None:
         base = np.eye(4)
@@ -439,7 +452,7 @@ def generate_rotate_vectors(
 
 def get_product_vector(v1: np.ndarray, v2: np.ndarray) -> np.ndarray:
     """
-    获取 v2 在 v1 上的投影向量
+    Compute the projection vector of v2 onto v1.
     """
     v1 = np.array(v1).reshape(3)
     v1 = v1 / np.linalg.norm(v1)
@@ -457,38 +470,43 @@ def get_place_pose(
     z_transform: bool = True,
 ) -> list:
     """
-    获取物体应当被放置到的位置
-    考虑因素：
-        1. 三维坐标与给定坐标一致
-        2. 物体的朝向合理
-            - 物体 z 轴与给定坐标 z 轴一致
-            - 满足在 xy 平面上的一定约束
-                - 无约束（直接采用物体当前的 x,y 在 xOy 平面上的投影）
-                - 物体的 x 轴对齐给定 x 轴
-                - 选取物体的 x 轴与给定的世界轴单位向量集合中点积最小的方向
+    Compute the pose where the object should be placed.
 
-    actor_pose: 物体当前的 pose
-    target_pose: 物体应当被放置到的位置
-    constrain: 物体的约束类型
-        - free: 无约束
-        - align: 物体的 x 轴与给定的世界轴向量集合中点积最小的方向
-    align_axis: 给定的世界轴向量集合，如果设置为 None，默认使用 target_pose 的 x 轴
-    actor_axis: 计算点积的 actor 轴，默认使用 x 轴
-    actor_axis_type: actor_axis 的类型，默认使用局部坐标系
-        - actor: actor_pose 的局部坐标系
-        - world: 世界坐标系
+    Considerations:
+        1. The 3D position should match the given target position.
+        2. The object orientation should be reasonable:
+            - The object's z-axis should align with the z-axis of the target pose.
+            - Certain constraints should be satisfied in the xy plane:
+                - No constraint, directly using the projection of the object's current
+                x and y axes onto the xOy plane.
+                - Align the object's x-axis with the given x-axis.
+                - Select the direction whose dot product between the object's x-axis
+                and the given set of world-axis unit vectors is minimized.
+
+    Args:
+        actor_pose: Current pose of the object.
+        target_pose: Desired pose where the object should be placed.
+        constrain: Constraint type for the object:
+            - free: No constraint.
+            - align: Align the object's x-axis with the direction that has the minimum
+            dot product with the given set of world-axis vectors.
+        align_axis: Given set of world-axis vectors. If set to None, the x-axis of
+            target_pose is used by default.
+        actor_axis: Actor axis used for computing the dot product. Defaults to the x-axis.
+        actor_axis_type: Type of actor_axis. Defaults to the local coordinate frame:
+            - actor: Local coordinate frame of actor_pose.
+            - world: World coordinate frame.
     """
+
     actor_pose_mat = _toPose(actor_pose).to_transformation_matrix()
     target_pose_mat = _toPose(target_pose).to_transformation_matrix()
 
-    # 将物体的三维坐标与给定坐标对齐
     actor_pose_mat[:3, 3] = target_pose_mat[:3, 3]
 
     target_x = target_pose_mat[:3, 0]
     target_y = target_pose_mat[:3, 1]
     target_z = target_pose_mat[:3, 2]
 
-    # 将物体的 z 轴与给定坐标的 z 轴对齐
     actor2world = np.array([[1.0, 0.0, 0.0], [0.0, 0.0, -1.0], [0.0, 1.0, 0.0]]).T
     if z_transform:
         z_align_matrix = get_align_matrix(actor_pose_mat[:3, :3] @ actor2world[:3, 2], target_z)

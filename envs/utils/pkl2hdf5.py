@@ -41,10 +41,8 @@ def append_data_to_structure(data_structure, data):
     for key in data_structure:
         if key in data:
             if isinstance(data_structure[key], list):
-                # 如果是叶子节点，直接追加数据
                 data_structure[key].append(data[key])
             elif isinstance(data_structure[key], dict):
-                # 如果是嵌套字典，递归处理
                 append_data_to_structure(data_structure[key], data[key])
 
 

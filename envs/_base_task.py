@@ -72,8 +72,8 @@ class Base_Task(gym.Env):
 
         self.need_topp = True  # TODO
 
-        self.stage_sum=0 # 用于该任务阶段综述
-        self.task_success = [] # 用于评估任务成功与否
+        self.stage_sum=0 # Record the total number of task steps.
+        self.task_success = [] # Determine whether each action step succeeds.
         # Random
         random_setting = kwags.get("domain_randomization")
         self.random_background = random_setting.get("random_background", False)
@@ -660,12 +660,10 @@ class Base_Task(gym.Env):
         padding=0.01,
     ):
 
-        # 传的是 pose 或 list
         if (isinstance(actor, sapien.Pose) or isinstance(actor, list) or isinstance(actor, np.ndarray)):
             actor_pose = transforms._toPose(actor)
             actor_data = {}
         else:
-        # 传的是 Actor
             actor_pose = actor.get_pose()
             if isinstance(actor, Actor):
                 actor_data = actor.config
@@ -673,9 +671,7 @@ class Base_Task(gym.Env):
                 actor_data = {}
 
         scale: float = actor_data.get("scale", 1)
-        # 计算物体原始包围盒尺寸
         origin_bounding_size = (np.array(actor_data.get("extents", [0.1, 0.1, 0.1])) * scale / 2)
-        # 构造 8 个角点
         origin_bounding_pts = (np.array([
             [-1, -1, -1],
             [-1, -1, 1],
@@ -686,19 +682,14 @@ class Base_Task(gym.Env):
             [1, 1, -1],
             [1, 1, 1],
         ]) * origin_bounding_size)
-        # 变换到世界坐标系
-        # print("进行to_transformation_matrix_682，actor_pose:",actor_pose)
         actor_matrix = actor_pose.to_transformation_matrix()
         trans_bounding_pts = actor_matrix[:3, :3] @ origin_bounding_pts.T + actor_matrix[:3, 3].reshape(3, 1)
-        # 计算 XY 平面投影范围
-        # padding给物体包围盒再扩展 1cm 安全边界
         x_min = np.min(trans_bounding_pts[0]) - padding
         x_max = np.max(trans_bounding_pts[0]) + padding
         y_min = np.min(trans_bounding_pts[1]) - padding
         y_max = np.max(trans_bounding_pts[1]) + padding
         # add_robot_visual_box(self, [x_min, y_min, actor_matrix[3, 3]])
         # add_robot_visual_box(self, [x_max, y_max, actor_matrix[3, 3]])
-        # 加入禁止区域列表
         self.prohibited_area.append([x_min, y_min, x_max, y_max])
 
     def is_left_gripper_open(self):
@@ -757,7 +748,6 @@ class Base_Task(gym.Env):
             return
         if pose is None:
             self.plan_success = False
-            #print("错误原因：left_move_to_pose：pose是空！！！")
             return
         if type(pose) == sapien.Pose:
             pose = pose.p.tolist() + pose.q.tolist()
@@ -771,7 +761,6 @@ class Base_Task(gym.Env):
 
         if left_result["status"] != "Success":
             self.plan_success = False
-            #print("错误原因：left_move_to_pose：left_result['status'] != Success")
             return
 
         return left_result
@@ -792,7 +781,6 @@ class Base_Task(gym.Env):
             return
         if pose is None:
             self.plan_success = False
-            #print("错误原因：right_move_to_pose：pose是空！！！")
             return
         if type(pose) == sapien.Pose:
             pose = pose.p.tolist() + pose.q.tolist()
@@ -806,7 +794,6 @@ class Base_Task(gym.Env):
 
         if right_result["status"] != "Success":
             self.plan_success = False
-            #print("错误原因：right_move_to_pose：right_result['status'] != Success")
             return
 
         return right_result
@@ -829,7 +816,6 @@ class Base_Task(gym.Env):
             return
         if left_target_pose is None or right_target_pose is None:
             self.plan_success = False
-            #print("错误原因：together_move_to_pose：left_target_pose或right_target_pose是空！！！")
             return
         if type(left_target_pose) == sapien.Pose:
             left_target_pose = left_target_pose.p.tolist() + left_target_pose.q.tolist()
@@ -852,12 +838,10 @@ class Base_Task(gym.Env):
             right_success = right_result["status"] == "Success"
             if not left_success or not right_success:
                 self.plan_success = False
-                #print("错误原因：together_move_to_pose：left_success或right_success为False！！！")
                 # return TODO
         except Exception as e:
             if left_result is None or right_result is None:
                 self.plan_success = False
-                #print("错误原因：together_move_to_pose：left_result或right_result为空！！！")
                 return  # TODO
 
         if save_freq != None:
@@ -913,29 +897,13 @@ class Base_Task(gym.Env):
         """
         Take action for the robot.
         """
-        # 不管你传入的两组动作谁是 left 谁是 right，都能取到指定 arm_tag 对应的动作列表。
-        # actions是一个长度为 2 的列表，[
-        #    actions_by_arm1,
-        #    actions_by_arm2
-        # ]
-
-        # arm_tag
-        # 要获取哪个机械臂的动作：
-        # "left"或"right"
         def get_actions(actions, arm_tag: ArmTag) -> list[Action]:
-            # 只传了一个动作列表
             if actions[1] is None:
-                # print("只传了一个手臂的动作进来")
-                # 判断这组动作是不是目标手
                 if actions[0][0] == arm_tag:
-                    # print("动作是目标手，可以执行，成功返回动作")
                     return actions[0][1]
                 else:
-                    # print("动作不是是目标手！！！！返回空！！！")
                     return []
-            # 传了两组动作列表
             else:
-                # print("传了两个手臂的动作进来")
                 if actions[0][0] == actions[0][1]:
                     raise ValueError("")
                 if actions[0][0] == arm_tag:
@@ -944,27 +912,20 @@ class Base_Task(gym.Env):
                     return actions[1][1]
 
         if self.plan_success is False:
-            # print("错误原因：plan_success为False！！！")
             return False
-        # 把输入拆成“左动作序列/右动作序列”
         actions = [actions_by_arm1, actions_by_arm2]
         left_actions = get_actions(actions, "left")
         right_actions = get_actions(actions, "right")
-        # 对齐左右动作长度：按“时间步”同步
         max_len = max(len(left_actions), len(right_actions))
         left_actions += [None] * (max_len - len(left_actions))
         right_actions += [None] * (max_len - len(right_actions))
 
         for left, right in zip(left_actions, right_actions):
-            # 避免出现“左动作列表里塞了一个 right 的 action”这种混乱情况。
             if (left is not None and left.arm_tag != "left") or (right is not None
                                                                  and right.arm_tag != "right"):  # check
                 raise ValueError(f"Invalid arm tag: {left.arm_tag} or {right.arm_tag}. Must be 'left' or 'right'.")
-            # 双臂同时 move
-            # 当两只手都要 move 时，不分别规划，而是做一个“耦合规划/同步规划”
             if (left is not None and left.action == "move") and (right is not None
                                                                  and right.action == "move"):  # together move
-                #print("一起移动")
                 self.together_move_to_pose(  # TODO
                     left_target_pose=left.target_pose,
                     right_target_pose=right.target_pose,
@@ -972,12 +933,9 @@ class Base_Task(gym.Env):
                     right_constraint_pose=right.args.get("constraint_pose"),
                 )
                 if self.plan_success is False:
-                    # print("错误原因：plan_success为False！！！")
                     return False
                 continue  # TODO
-            # 否则：分别规划 left / right 的 move 或 gripper
             else:
-                # print("移动左臂或者右臂")
                 control_seq = {
                     "left_arm": None,
                     "left_gripper": None,
@@ -986,28 +944,23 @@ class Base_Task(gym.Env):
                 }
                 if left is not None:
                     if left.action == "move":
-                        #print("执行左臂move")
 
                         control_seq["left_arm"] = self.left_move_to_pose(
                             pose=left.target_pose,
                             constraint_pose=left.args.get("constraint_pose"),
                         )
-                    else:  # left.action == 'gripper'
-                        #print("执行左臂gripper")
-
+                    else:
                         control_seq["left_gripper"] = self.set_gripper(left_pos=left.target_gripper_pos, set_tag="left")
                     if self.plan_success is False:
                         return False
 
                 if right is not None:
                     if right.action == "move":
-                        #print("执行右臂move")
                         control_seq["right_arm"] = self.right_move_to_pose(
                             pose=right.target_pose,
                             constraint_pose=right.args.get("constraint_pose"),
                         )
-                    else:  # right.action == 'gripper'
-                        #print("执行右臂gripper")
+                    else:
                         control_seq["right_gripper"] = self.set_gripper(right_pos=right.target_gripper_pos,
                                                                         set_tag="right")
                     if self.plan_success is False:
@@ -1040,7 +993,6 @@ class Base_Task(gym.Env):
             if (contact.bodies[0].entity.name == actor1
                     and contact.bodies[1].entity.name == actor2) or (contact.bodies[0].entity.name == actor2
                                                                      and contact.bodies[1].entity.name == actor1):
-                # print("发生了接触！")
                 return True
         return False
 
@@ -1154,9 +1106,7 @@ class Base_Task(gym.Env):
         res_pre_pose = None
         res_pose = None
         dis = 1e9
-        # 决定偏好方向
         pref_direction = self.robot.get_grasp_perfect_direction(arm_tag)
-        # 从 pre_pose 推出最终 pose（靠近）
         def get_grasp_pose(pre_grasp_pose, pre_grasp_dis):
             grasp_pose = deepcopy(pre_grasp_pose)
             grasp_pose = np.array(grasp_pose)
@@ -1175,8 +1125,6 @@ class Base_Task(gym.Env):
                 return False
             pre_qpos = pre_path["position"][-1]
             return plan_func(pose)["status"] == "Success"
-        # 决定要遍历哪些 contact points
-        # 不指定就遍历物体所有 contact points。
         if contact_point_id is not None:
             if type(contact_point_id) != list:
                 contact_point_id = [contact_point_id]
@@ -1185,18 +1133,15 @@ class Base_Task(gym.Env):
             contact_point_id = actor.iter_contact_points()
 
         for i, _ in contact_point_id:
-            # 遍历每个接触点：生成候选 pose 并打分
             pre_pose = self.get_grasp_pose(actor, arm_tag, contact_point_id=i, pre_dis=pre_dis)
             if pre_pose is None:
                 continue
             pose = get_grasp_pose(pre_pose, pre_dis - target_dis)
-            # 然后算两个方向距离：
             now_dis_top_down = cal_quat_dis(
                 pose[-4:],
                 GRASP_DIRECTION_DIC[("top_down_little_left" if arm_tag == "right" else "top_down_little_right")],
             )
             now_dis_side = cal_quat_dis(pose[-4:], GRASP_DIRECTION_DIC[pref_direction])
-            # 并更新最优候选（top_down / side / combined）。
             if res_pre_top_down_pose is None or now_dis_top_down < dis_top_down:
                 res_pre_top_down_pose = pre_pose
                 res_top_down_pose = pose
@@ -1212,18 +1157,13 @@ class Base_Task(gym.Env):
                 res_pre_pose = pre_pose
                 res_pose = pose
                 dis = now_dis
-        # 最后按阈值优先返回
         if dis_top_down < 0.15:
-            #print("choose_grasp_pose返回(第一个)：", res_pre_top_down_pose, res_top_down_pose)
             return res_pre_top_down_pose, res_top_down_pose
         if dis_side < 0.15:
-            #print("choose_grasp_pose返回(第二个)：", res_pre_side_pose, res_side_pose)
             return res_pre_side_pose, res_side_pose
         
-        #print("choose_grasp_pose返回(第三个)：", res_pre_pose, res_pose)
         return res_pre_pose, res_pose
 
-    # grasp_actor 是一个抓取动作原语：它不直接控制关节，而是返回一串高层 Action（移动/闭合夹爪）。后面你调用 self.move(...) 时，系统会把这些 Action 交给规划器/控制器去执行。
     def grasp_actor(
         self,
         actor: Actor,
@@ -1233,29 +1173,15 @@ class Base_Task(gym.Env):
         gripper_pos=0.0,
         contact_point_id: list | float = None,
     ):
-    # actor: Actor：要抓的物体（有 functional/contact 点信息）
-    # arm_tag: ArmTag：用哪只手（left / right）
-    # pre_grasp_dis=0.1：预抓取距离（离物体远一点的“准备位姿”）
-    # grasp_dis=0：最终抓取距离（靠近到多近，0 表示贴到接触点）
-    # gripper_pos=0.0：闭合后的夹爪位置（数值越小可能越闭）
-    # contact_point_id：指定用物体的哪个接触点/抓取点（不传就内部选一个）
-        # 如果之前规划已经失败：直接返回空
         if not self.plan_success:
             return None, []
-        # 如果 need_plan == False（回放阶段）：返回“占位动作”
         if self.need_plan == False:
-            # 这是你第二阶段 Collect Data 的情况：不再规划，只回放轨迹。
-            # 这里返回的 target_pose=[0,0,0,0,0,0,0] 基本是“占位符”——真正的轨迹会由 set_path_lst(args) 加载的 joint_path 来执行，而不是靠这些 pose。
-            # 如果 pre_grasp_dis == grasp_dis
-            #print("need_plan == False（回放阶段）：返回“占位动作”")
             if pre_grasp_dis == grasp_dis:
-                # 不需要两段靠近，只要一次 move（占位）然后 close。
                 return arm_tag, [
                     Action(arm_tag, "move", target_pose=[0, 0, 0, 0, 0, 0, 0]),
                     Action(arm_tag, "close", target_gripper_pos=gripper_pos),
                 ]
             else:
-                # 否则（需要两段：到预抓取 → 再靠近）
                 return arm_tag, [
                     Action(arm_tag, "move", target_pose=[0, 0, 0, 0, 0, 0, 0]),
                     Action(
@@ -1266,11 +1192,6 @@ class Base_Task(gym.Env):
                     ),
                     Action(arm_tag, "close", target_gripper_pos=gripper_pos),
                 ]
-        # 如果 need_plan == True（规划阶段）：真正算抓取位姿
-        # 这一步是关键：根据物体的接触点、几何、抓取方向偏好等，计算两个 EE 目标位姿：
-        # pre_grasp_pose：离物体一段距离的预抓取位姿（用于安全接近）
-        # grasp_pose：真正贴近、准备闭合夹爪的位姿
-        #print("选择抓取位姿")
         pre_grasp_pose, grasp_pose = self.choose_grasp_pose(
             actor,
             arm_tag=arm_tag,
@@ -1278,22 +1199,12 @@ class Base_Task(gym.Env):
             target_dis=grasp_dis,
             contact_point_id=contact_point_id,
         )
-        # 如果两个 pose 一样：只需要一步 move
-        # 说明：不需要分两段接近（比如 pre_grasp_dis=grasp_dis）。
         if pre_grasp_pose == grasp_pose:
-            #print("返回两段抓取，分别是target_pose:", pre_grasp_pose, "和constraint_pose:", grasp_pose)
             return arm_tag, [
                 Action(arm_tag, "move", target_pose=pre_grasp_pose),
                 Action(arm_tag, "close", target_gripper_pos=gripper_pos),
             ]
-        # 否则：标准三段抓取（预抓取 → 直线靠近 → 合爪）
-        # 通常表示一种“约束运动”：
-        # 前三位 1,1,1：位置 xyz 受约束（要到指定位置）
-        # 后三位 0,0,0：姿态不强约束/允许自由（或相反，取决于你们定义）
-        # 在抓取里常见意图是：
-        # 第二段用更“受控”的方式接近（例如直线接近、减少姿态变化、避免绕路撞到物体）。
         else:
-            #print("返回三段抓取")
             return arm_tag, [
                 Action(arm_tag, "move", target_pose=pre_grasp_pose),
                 Action(
@@ -1321,7 +1232,6 @@ class Base_Task(gym.Env):
 
         if not self.plan_success:
             return [-1, -1, -1, -1, -1, -1, -1]
-        #print("进行to_transformation_matrix_1315，actor.get_pose:",actor.get_pose())
         actor_matrix = actor.get_pose().to_transformation_matrix()
         if functional_point_id is not None:
             place_start_pose = actor.get_functional_point(functional_point_id, "pose")
@@ -1345,7 +1255,6 @@ class Base_Task(gym.Env):
                     z_transform=z_transform,
                 )
             else:
-                #print("进行to_transformation_matrix(1339):",transforms._toPose(end_effector_pose))
                 camera_vec = transforms._toPose(end_effector_pose).to_transformation_matrix()[:3, 2]
                 place_pose = get_place_pose(
                     place_start_pose,
@@ -1366,8 +1275,6 @@ class Base_Task(gym.Env):
                 align_axis=align_axis,
                 z_transform=z_transform,
             )
-        #print("to_transformation_matrix_1360:",transforms._toPose(place_pose))
-        #print("to_transformation_matrix_1361:",place_start_pose)
         start2target = (transforms._toPose(place_pose).to_transformation_matrix()[:3, :3]
                         @ place_start_pose.to_transformation_matrix()[:3, :3].T)
         target_point = (start2target @ (actor_matrix[:3, 3] - place_start_pose.p).reshape(3, 1)).reshape(3) + np.array(
@@ -1396,8 +1303,6 @@ class Base_Task(gym.Env):
             target_dis_vec /= np.linalg.norm(target_dis_vec)
         res_pose = (target_point - grasp_bias - pre_dis * target_dis_vec).tolist() + target_grasp_qpose.tolist()
         return res_pose
-    # 这个 place_actor 是你任务框架里的 放置（place）动作模板函数。
-    # 它不会直接控制关节，而是生成一串高层 Action（move / open），交给后续的 self.move() 去规划和执行。
     def place_actor(
         self,
         actor: Actor,
@@ -1409,14 +1314,9 @@ class Base_Task(gym.Env):
         is_open: bool = True,
         **args,
     ):
-        # 如果之前的动作规划失败：
-        # 不再生成新的动作（防止连锁错误）
         if not self.plan_success:
             return None, []
-        # 规划阶段
         if self.need_plan:
-            # 第一步：计算预放置位姿
-            # 在目标位置上方（沿法向退 pre_dis 距离）生成一个安全接近位姿。
             place_pre_pose = self.get_place_pose(
                 actor,
                 arm_tag,
@@ -1425,8 +1325,6 @@ class Base_Task(gym.Env):
                 pre_dis=pre_dis,
                 **args,
             )
-            # 第二步：计算最终放置位姿
-            # 生成一个更贴近目标的位姿
             place_pose = self.get_place_pose(
                 actor,
                 arm_tag,
@@ -1435,25 +1333,16 @@ class Base_Task(gym.Env):
                 pre_dis=dis,
                 **args,
             )
-        # 回放阶段
         else:
-            # 这是第二阶段数据采集时的情况。
-            # 不再用 IK/规划
-            # 轨迹来自第一阶段保存的 joint_path
-            # 这里的 pose 只是“占位符”
             place_pre_pose = [0, 0, 0, 0, 0, 0, 0]
             place_pose = [0, 0, 0, 0, 0, 0, 0]
-        # 生成动作序列
         actions = [
             Action(arm_tag, "move", target_pose=place_pre_pose),
             Action(arm_tag, "move", target_pose=place_pose),
         ]
-        # 是否松开夹爪
-        # 放到目标位置后 → 打开夹爪 → 释放物体
         if is_open:
             actions.append(Action(arm_tag, "open", target_gripper_pos=1.0))
         return arm_tag, actions
-    # 从当前末端位姿出发，沿世界坐标或沿机械臂自身方向移动一小段距离。
     def move_by_displacement(
         self,
         arm_tag: ArmTag,
@@ -1463,28 +1352,20 @@ class Base_Task(gym.Env):
         quat: list = None,
         move_axis: Literal["world", "arm"] = "world",
     ):
-        # 读取当前末端位姿
         if arm_tag == "left":
             origin_pose = np.array(self.robot.get_left_ee_pose(), dtype=np.float64)
         elif arm_tag == "right":
             origin_pose = np.array(self.robot.get_right_ee_pose(), dtype=np.float64)
         else:
             raise ValueError(f'arm_tag must be either "left" or "right", not {arm_tag}')
-        # 初始化位移向量
         displacement = np.zeros(7, dtype=np.float64)
-        # 根据 move_axis 决定怎么移动
         if move_axis == "world":
-            # 情况 A：沿世界坐标移动（默认）
             displacement[:3] = np.array([x, y, z], dtype=np.float64)
         else:
-            # 情况 B：沿机械臂自身方向移动
-            #print("进行to_transformation_matrix(1472):",transforms._toPose(origin_pose))
             dir_vec = transforms._toPose(origin_pose).to_transformation_matrix()[:3, 0]
             dir_vec /= np.linalg.norm(dir_vec)
             displacement[:3] = -z * dir_vec
-        # 更新位姿
         origin_pose += displacement
-        # 如果给了 quat，就覆盖姿态
         if quat is not None:
             origin_pose[3:] = quat
         return arm_tag, [Action(arm_tag, "move", target_pose=origin_pose)]
@@ -1590,32 +1471,22 @@ class Base_Task(gym.Env):
             self._take_picture()
 
         return True  # TODO: maybe need try error
-    # 把你给的一步高层动作（关节角 or 末端位姿）变成一段可执行的低层控制序列，并在仿真里循环 step，直到执行完或任务成功。
     def take_action(self, action, action_type:Literal['qpos', 'ee']='qpos'):  # action_type: qpos or ee
-        # 入口与早停
-        # 达到最大步数 step_lim 或已经成功 eval_success=True 就直接不再执行。
         if self.take_action_cnt == self.step_lim or self.eval_success:
             return
 
         eval_video_freq = 1  # fixed
-        # 录制评估视频
-        # 把当前观测 head_camera/rgb 的 raw bytes 写入 ffmpeg stdin（说明外面开了 ffmpeg pipe）。
-        # eval_video_freq=1 表示每一步都写。
         if (self.eval_video_path is not None and self.take_action_cnt % eval_video_freq == 0):
             self.eval_video_ffmpeg.stdin.write(self.now_obs["observation"]["head_camera"]["rgb"].tobytes())
-        # 计数、渲染更新
         self.take_action_cnt += 1
         print(f"step: \033[92m{self.take_action_cnt} / {self.step_lim}\033[0m", end="\r")
 
         self._update_render()
         if self.render_freq:
             self.viewer.render()
-        # 动作向量切分：左臂、左夹爪、右臂、右夹爪
         actions = np.array([action])
         left_jointstate = self.robot.get_left_arm_jointState()
         right_jointstate = self.robot.get_right_arm_jointState()
-        # action_type=='qpos'：臂的动作维度 = 关节数（这里 len(...) - 1，通常最后一个可能是 gripper 或额外字段）。
-        # action_type=='ee'：臂动作维度固定为 7（常见是 xyz + quaternion(4) 或 xyz + rpy + ???，具体要看 left_plan_path 的定义）。
         left_arm_dim = len(left_jointstate) - 1 if action_type == 'qpos' else 7
         right_arm_dim = len(right_jointstate) - 1 if action_type == 'qpos' else 7
         current_jointstate = np.array(left_jointstate + right_jointstate)
@@ -1632,10 +1503,6 @@ class Base_Task(gym.Env):
             [],
             [],
         )
-        # 也就是动作格式是：
-        # qpos 时：[左臂qpos..., 左grip, 右臂qpos..., 右grip]
-        # ee 时：[左臂ee(7), 左grip, 右臂ee(7), 右grip]
-        # 注意：这里 actions 只有一行，所以 left_gripper_actions 实际是一个标量（shape (1,)），但后面代码按“序列”写法处理，依赖 numpy 广播/len 行为。
         left_arm_actions, left_gripper_actions = (
             actions[:, :left_arm_dim],
             actions[:, left_arm_dim],
@@ -1644,8 +1511,6 @@ class Base_Task(gym.Env):
             actions[:, left_arm_dim + 1:left_arm_dim + right_arm_dim + 1],
             actions[:, left_arm_dim + right_arm_dim + 1],
         )
-        # 构造夹爪插值路径（从当前到目标）
-        # 夹爪不是直接一步跳到目标，而是后面用 linspace 插成很多小步，让夹爪动作和手臂轨迹长度对齐、执行更平滑。
         left_current_gripper, right_current_gripper = (
             self.robot.get_left_gripper_val(),
             self.robot.get_right_gripper_val(),
@@ -1654,9 +1519,7 @@ class Base_Task(gym.Env):
         left_gripper_path = np.hstack((left_current_gripper, left_gripper_actions))
         right_gripper_path = np.hstack((right_current_gripper, right_gripper_actions))
         
-        # 生成手臂轨迹：两种模式
         if action_type == 'qpos':
-            # 只给了“当前关节角 → 目标关节角”的两点路径。
             left_current_qpos, right_current_qpos = (
                 current_jointstate[:left_arm_dim],
                 current_jointstate[left_arm_dim + 1:left_arm_dim + right_arm_dim + 1],
@@ -1669,25 +1532,20 @@ class Base_Task(gym.Env):
             topp_left_flag, topp_right_flag = True, True
 
             try:
-                # 然后关键一步：TOPP 时间最优参数化（把几何路径变成带速度的时间轨迹）
                 times, left_pos, left_vel, acc, duration = (self.robot.left_mplib_planner.TOPP(left_path,
                                                                                             1 / 250,
                                                                                             verbose=True))
                 left_result = dict()
                 left_result["position"], left_result["velocity"] = left_pos, left_vel
                 left_n_step = left_result["position"].shape[0]
-            # 如果 TOPP 失败
             except Exception as e:
                 # print("left arm TOPP error: ", e)
                 topp_left_flag = False
-                # 强行给 50 步的长度，保证后面控制循环还能跑；但因为 flag=False，手臂关节不会 set，只会动夹爪/仿真 step
                 left_n_step = 50  # fixed
 
             if left_n_step == 0:
                 topp_left_flag = False
                 left_n_step = 50  # fixed
-            # 同样对右臂做一遍
-            # 直觉：qpos 模式 = 你给目标关节角，它用 TOPP 生成“可执行的关节轨迹 + 速度”。
             try:
                 times, right_pos, right_vel, acc, duration = (self.robot.right_mplib_planner.TOPP(right_path,
                                                                                                 1 / 250,
@@ -1705,11 +1563,8 @@ class Base_Task(gym.Env):
                 right_n_step = 50  # fixed
         
         elif action_type == 'ee':
-            # 这里不是 TOPP，而是调用某个 planner（可能是 cuRobo/mplib）从末端位姿规划出关节轨迹。
             left_result = self.robot.left_plan_path(left_arm_actions[0])
             right_result = self.robot.right_plan_path(right_arm_actions[0])
-            # 看 status 是否 Success：
-            # 直觉：ee 模式 = 你给末端目标位姿，它先做 IK/路径规划得到关节轨迹（成功才执行）。
             if left_result["status"] != "Success":
                 left_n_step = 50
                 topp_left_flag = False
@@ -1726,12 +1581,10 @@ class Base_Task(gym.Env):
                 right_n_step = right_result["position"].shape[0]
                 topp_right_flag = True
 
-        # 这段是在把“夹爪从当前到目标”的变化，拉伸成 left_n_step 个步长：
         # ========== Gripper ==========
 
         left_mod_num = left_n_step % len(left_gripper_actions)
         right_mod_num = right_n_step % len(right_gripper_actions)
-        # 计算每段需要插多少步（这里其实只有一段，因为动作里只有一个目标）
         left_gripper_step = [0] + [
             left_n_step // len(left_gripper_actions) + (1 if i < left_mod_num else 0)
             for i in range(len(left_gripper_actions))
@@ -1743,7 +1596,6 @@ class Base_Task(gym.Env):
 
         left_gripper = []
         for gripper_step in range(1, left_gripper_path.shape[0]):
-            # 用 np.linspace 插出每一个控制 step 的夹爪值：
             region_left_gripper = np.linspace(
                 left_gripper_path[gripper_step - 1],
                 left_gripper_path[gripper_step],
@@ -1765,24 +1617,17 @@ class Base_Task(gym.Env):
         now_left_id, now_right_id = 0, 0
 
         # ========== Control Loop ==========
-        # 控制循环：双臂“按进度同步”执行
         while now_left_id < left_n_step or now_right_id < right_n_step:
-            # 它不是严格一左一右交替，而是用“完成比例”来同步：
-            # 如果左臂相对进度落后/不超前太多，就让左臂走一步。
             if (now_left_id < left_n_step and now_left_id / left_n_step <= now_right_id / right_n_step):
-                # 执行左臂一步时：
-                # 如果轨迹有效（topp_left_flag=True），就发关节位置+速度：
                 if topp_left_flag:
                     self.robot.set_arm_joints(
                         left_result["position"][now_left_id],
                         left_result["velocity"][now_left_id],
                         "left",
                     )
-                # 夹爪每步都发：
                 self.robot.set_gripper(left_gripper[now_left_id], "left")
 
                 now_left_id += 1
-            # 右臂同理。
             if (now_right_id < right_n_step and now_right_id / right_n_step <= now_left_id / left_n_step):
                 if topp_right_flag:
                     self.robot.set_arm_joints(
@@ -1797,16 +1642,14 @@ class Base_Task(gym.Env):
             self.scene.step()
             self._update_render()
             # ********************************
-            self.update_progress()     # 对无顺序任务：啥也不做
+            self.update_progress()     
 
-            # 成功检测与早退（并补一帧视频）
             if self.check_success():
                 self.eval_success = True
                 self.get_obs() # update obs
                 if (self.eval_video_path is not None):
                     self.eval_video_ffmpeg.stdin.write(self.now_obs["observation"]["head_camera"]["rgb"].tobytes())
                 return
-        # 执行完再渲染一次
         self._update_render()
         if self.render_freq:  # UI
             self.viewer.render()
@@ -1868,7 +1711,7 @@ class Base_Task(gym.Env):
         
         return image_data
 
-    # ************************用于更新任务进度，顺序依赖性任务需要********************************************
+    # ************************Update the task progress.********************************************
     def update_progress(self):
         """Default: no-op for tasks without temporal order."""
         return
