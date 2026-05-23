@@ -2,6 +2,8 @@
 
 This repository contains task environment code and the corresponding collected demonstration data for RoboSPA.
 
+**We only include the 10 tasks shown in the main figure of the paper.**
+
 ## Repository Structure
 
 ```text
