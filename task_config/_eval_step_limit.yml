@@ -1,0 +1,335 @@
+Pick_Blocks_Size_1: 150
+Pick_Blocks_Size_2: 150
+Pick_Blocks_Size_3: 150
+Pick_Blocks_Size_4: 150
+Pick_Blocks_Size_5: 150
+
+Pick_Blocks_Height_1: 150
+Pick_Blocks_Height_2: 150
+Pick_Blocks_Height_3: 150
+Pick_Blocks_Height_4: 150
+Pick_Blocks_Height_5: 150
+
+Pick_Blocks_Length_1: 150
+Pick_Blocks_Length_2: 150
+Pick_Blocks_Length_3: 150
+Pick_Blocks_Length_4: 150
+Pick_Blocks_Length_5: 150
+
+Pick_Blocks_Area_1: 150
+Pick_Blocks_Area_2: 150
+Pick_Blocks_Area_3: 150
+Pick_Blocks_Area_4: 150
+Pick_Blocks_Area_5: 150
+
+Pick_Blocks_Distance_1: 150
+Pick_Blocks_Distance_2: 150
+Pick_Blocks_Distance_3: 150
+Pick_Blocks_Distance_4: 150
+Pick_Blocks_Distance_5: 150
+
+Pick_Mugs_Distance_1: 150
+Pick_Mugs_Distance_2: 150
+Pick_Mugs_Distance_3: 150
+Pick_Mugs_Distance_4: 150
+Pick_Mugs_Distance_5: 150
+
+Pick_Mixed_Objects_Distance_A_1: 150
+Pick_Mixed_Objects_Distance_A_2: 150
+Pick_Mixed_Objects_Distance_A_3: 150
+Pick_Mixed_Objects_Distance_A_4: 150
+Pick_Mixed_Objects_Distance_A_5: 150
+
+Pick_Mixed_Objects_Distance_B_1: 150
+Pick_Mixed_Objects_Distance_B_2: 150
+Pick_Mixed_Objects_Distance_B_3: 150
+Pick_Mixed_Objects_Distance_B_4: 150
+Pick_Mixed_Objects_Distance_B_5: 150
+
+Pick_Pill_Bottles_Distance_1: 150
+Pick_Pill_Bottles_Distance_2: 150
+Pick_Pill_Bottles_Distance_3: 150
+Pick_Pill_Bottles_Distance_4: 150
+Pick_Pill_Bottles_Distance_5: 150
+
+Pick_Blocks_Canonical_1: 150
+Pick_Blocks_Canonical_2: 150
+Pick_Blocks_Canonical_3: 150
+Pick_Blocks_Canonical_4: 150
+Pick_Blocks_Canonical_5: 150
+
+Pick_Cups_Canonical_1: 150
+Pick_Cups_Canonical_2: 150
+Pick_Cups_Canonical_3: 150
+Pick_Cups_Canonical_4: 150
+Pick_Cups_Canonical_5: 150
+
+Pick_Rubik_Cubes_Canonical_1: 150
+Pick_Rubik_Cubes_Canonical_2: 150
+Pick_Rubik_Cubes_Canonical_3: 150
+Pick_Rubik_Cubes_Canonical_4: 150
+Pick_Rubik_Cubes_Canonical_5: 150
+
+Pick_Mixed_Objects_Canonical_A_1: 150
+Pick_Mixed_Objects_Canonical_A_2: 150
+Pick_Mixed_Objects_Canonical_A_3: 150
+Pick_Mixed_Objects_Canonical_A_4: 150
+Pick_Mixed_Objects_Canonical_A_5: 150
+
+Pick_Mixed_Objects_Canonical_B_1: 150
+Pick_Mixed_Objects_Canonical_B_2: 150
+Pick_Mixed_Objects_Canonical_B_3: 150
+Pick_Mixed_Objects_Canonical_B_4: 150
+Pick_Mixed_Objects_Canonical_B_5: 150
+
+Pick_Cans_Relational_1: 150
+Pick_Cans_Relational_2: 150
+Pick_Cans_Relational_3: 150
+Pick_Cans_Relational_4: 150
+Pick_Cans_Relational_5: 150
+
+Pick_Soaps_Relational_1: 150
+Pick_Soaps_Relational_2: 150
+Pick_Soaps_Relational_3: 150
+Pick_Soaps_Relational_4: 150
+Pick_Soaps_Relational_5: 150
+
+Pick_Tea_Box_Relational_1: 150
+Pick_Tea_Box_Relational_2: 150
+Pick_Tea_Box_Relational_3: 150
+Pick_Tea_Box_Relational_4: 150
+Pick_Tea_Box_Relational_5: 150
+
+Pick_Mixed_Objects_Relational_A_1: 150
+Pick_Mixed_Objects_Relational_A_2: 150
+Pick_Mixed_Objects_Relational_A_3: 150
+Pick_Mixed_Objects_Relational_A_4: 150
+Pick_Mixed_Objects_Relational_A_5: 150
+
+Pick_Mixed_Objects_Relational_B_1: 150
+Pick_Mixed_Objects_Relational_B_2: 150
+Pick_Mixed_Objects_Relational_B_3: 150
+Pick_Mixed_Objects_Relational_B_4: 150
+Pick_Mixed_Objects_Relational_B_5: 150
+
+Pick_Breads_Multi_View_1: 150
+Pick_Breads_Multi_View_2: 150
+Pick_Breads_Multi_View_3: 150
+Pick_Breads_Multi_View_4: 150
+Pick_Breads_Multi_View_5: 150
+
+Pick_Sauce_Can_Multi_View_1: 150
+Pick_Sauce_Can_Multi_View_2: 150
+Pick_Sauce_Can_Multi_View_3: 150
+Pick_Sauce_Can_Multi_View_4: 150
+Pick_Sauce_Can_Multi_View_5: 150
+
+Pick_Seals_Multi_View_1: 150
+Pick_Seals_Multi_View_2: 150
+Pick_Seals_Multi_View_3: 150
+Pick_Seals_Multi_View_4: 150
+Pick_Seals_Multi_View_5: 150
+
+Pick_Mixed_Objects_Multi_View_A_1: 150
+Pick_Mixed_Objects_Multi_View_A_2: 150
+Pick_Mixed_Objects_Multi_View_A_3: 150
+Pick_Mixed_Objects_Multi_View_A_4: 150
+Pick_Mixed_Objects_Multi_View_A_5: 150
+
+Pick_Mixed_Objects_Multi_View_B_1: 150
+Pick_Mixed_Objects_Multi_View_B_2: 150
+Pick_Mixed_Objects_Multi_View_B_3: 150
+Pick_Mixed_Objects_Multi_View_B_4: 150
+Pick_Mixed_Objects_Multi_View_B_5: 150
+
+Press_Stapler_Repeat_1: 200
+Press_Stapler_Repeat_2: 400
+Press_Stapler_Repeat_3: 600
+Press_Stapler_Repeat_4: 800
+Press_Stapler_Repeat_5: 1000
+
+Lift_Pot_Repeat_1: 200
+Lift_Pot_Repeat_2: 400
+Lift_Pot_Repeat_3: 600
+Lift_Pot_Repeat_4: 800
+Lift_Pot_Repeat_5: 1000
+
+Lift_Fan_Repeat_1: 200
+Lift_Fan_Repeat_2: 400
+Lift_Fan_Repeat_3: 600
+Lift_Fan_Repeat_4: 800
+Lift_Fan_Repeat_5: 1000
+
+Click_Bell_Repeat_1: 200
+Click_Bell_Repeat_2: 400
+Click_Bell_Repeat_3: 600
+Click_Bell_Repeat_4: 800
+Click_Bell_Repeat_5: 1000
+
+Put_Bottles_Dustbin_1: 400
+Put_Bottles_Dustbin_2: 800
+Put_Bottles_Dustbin_3: 1200
+Put_Bottles_Dustbin_4: 1600
+Put_Bottles_Dustbin_5: 2000
+
+Move_Blocks_Apart_1: 200
+Move_Blocks_Apart_2: 400
+Move_Blocks_Apart_3: 600
+Move_Blocks_Apart_4: 800
+Move_Blocks_Apart_5: 1000
+
+Move_Playing_Cards_Away_1: 200
+Move_Playing_Cards_Away_2: 400
+Move_Playing_Cards_Away_3: 600
+Move_Playing_Cards_Away_4: 800
+Move_Playing_Cards_Away_5: 1000
+
+Place_Bowls_Plates_1: 200
+Place_Bowls_Plates_2: 400
+Place_Bowls_Plates_3: 600
+Place_Bowls_Plates_4: 800
+Place_Bowls_Plates_5: 1000
+
+Separate_Fries_Bread_1: 200
+Separate_Fries_Bread_2: 400
+Separate_Fries_Bread_3: 600
+Separate_Fries_Bread_4: 800
+Separate_Fries_Bread_5: 1000
+
+Rank_Blocks_Height_1: 200
+Rank_Blocks_Height_2: 400
+Rank_Blocks_Height_3: 600
+Rank_Blocks_Height_4: 800
+Rank_Blocks_Height_5: 1000
+
+Rank_Blocks_Color_1: 200
+Rank_Blocks_Color_2: 400
+Rank_Blocks_Color_3: 600
+Rank_Blocks_Color_4: 800
+Rank_Blocks_Color_5: 1000
+
+Rank_Blocks_Size_1: 200
+Rank_Blocks_Size_2: 400
+Rank_Blocks_Size_3: 600
+Rank_Blocks_Size_4: 800
+Rank_Blocks_Size_5: 1000
+
+Hit_Blocks_Hammer_Order_1: 200
+Hit_Blocks_Hammer_Order_2: 400
+Hit_Blocks_Hammer_Order_3: 600
+Hit_Blocks_Hammer_Order_4: 800
+Hit_Blocks_Hammer_Order_5: 1000
+
+Click_Objects_Order_1: 200
+Click_Objects_Order_2: 400
+Click_Objects_Order_3: 600
+Click_Objects_Order_4: 800
+Click_Objects_Order_5: 1000
+
+Stamp_Seals_Order_1: 200
+Stamp_Seals_Order_2: 400
+Stamp_Seals_Order_3: 600
+Stamp_Seals_Order_4: 800
+Stamp_Seals_Order_5: 1000
+
+Click_Bell_Clockwise_Order_1: 200
+Click_Bell_Clockwise_Order_2: 400
+Click_Bell_Clockwise_Order_3: 600
+Click_Bell_Clockwise_Order_4: 800
+Click_Bell_Clockwise_Order_5: 1000
+
+Stack_Blocks_Color_Order_1: 200
+Stack_Blocks_Color_Order_2: 400
+Stack_Blocks_Color_Order_3: 600
+Stack_Blocks_Color_Order_4: 800
+Stack_Blocks_Color_Order_5: 1000
+
+Stack_Blocks_Size_Order_1: 200
+Stack_Blocks_Size_Order_2: 400
+Stack_Blocks_Size_Order_3: 600
+Stack_Blocks_Size_Order_4: 800
+Stack_Blocks_Size_Order_5: 1000
+
+Stack_Blocks_Length_Order_1: 200
+Stack_Blocks_Length_Order_2: 400
+Stack_Blocks_Length_Order_3: 600
+Stack_Blocks_Length_Order_4: 800
+Stack_Blocks_Length_Order_5: 1000
+
+Place_Phone_Press_Stapler_1: 400
+Place_Phone_Press_Stapler_2: 600
+Place_Phone_Press_Stapler_3: 800
+Place_Phone_Press_Stapler_4: 1000
+Place_Phone_Press_Stapler_5: 1300
+
+Place_Bottle_Cup_1: 400
+Place_Bottle_Cup_2: 800
+Place_Bottle_Cup_3: 1200
+Place_Bottle_Cup_4: 1400
+Place_Bottle_Cup_5: 1600
+
+Hang_Mug_Stack_Blocks_1: 400
+Hang_Mug_Stack_Blocks_2: 600
+Hang_Mug_Stack_Blocks_3: 800
+Hang_Mug_Stack_Blocks_4: 1000
+Hang_Mug_Stack_Blocks_5: 1200
+
+Place_Object_Scale_Click_1: 200
+Place_Object_Scale_Click_2: 400
+Place_Object_Scale_Click_3: 600
+Place_Object_Scale_Click_4: 800
+Place_Object_Scale_Click_5: 1000
+
+Place_Burger_Fries_Click_Bell_1: 200
+Place_Burger_Fries_Click_Bell_2: 400
+Place_Burger_Fries_Click_Bell_3: 600
+Place_Burger_Fries_Click_Bell_4: 800
+Place_Burger_Fries_Click_Bell_5: 1000
+
+Click_Can_Place_Items_1: 200
+Click_Can_Place_Items_2: 400
+Click_Can_Place_Items_3: 600
+Click_Can_Place_Items_4: 800
+Click_Can_Place_Items_5: 1000
+
+Stamp_Seals_Press_Stapler_1: 200
+Stamp_Seals_Press_Stapler_2: 400
+Stamp_Seals_Press_Stapler_3: 600
+Stamp_Seals_Press_Stapler_4: 800
+Stamp_Seals_Press_Stapler_5: 1000
+
+Click_Bell_Open_Microwave_Place_Object_1: 200
+Click_Bell_Open_Microwave_Place_Object_2: 1000
+Click_Bell_Open_Microwave_Place_Object_3: 1200
+Click_Bell_Open_Microwave_Place_Object_4: 1400
+Click_Bell_Open_Microwave_Place_Object_5: 1600
+
+Observe_Blocks_Move_Memory_1: 250
+Observe_Blocks_Move_Memory_2: 450
+Observe_Blocks_Move_Memory_3: 650
+Observe_Blocks_Move_Memory_4: 850
+Observe_Blocks_Move_Memory_5: 1050
+
+Observe_Objects_Click_Memory_1: 250
+Observe_Objects_Click_Memory_2: 450
+Observe_Objects_Click_Memory_3: 650
+Observe_Objects_Click_Memory_4: 850
+Observe_Objects_Click_Memory_5: 1050
+
+Remember_Color_Cover_1: 250
+Remember_Color_Cover_2: 450
+Remember_Color_Cover_3: 650
+Remember_Color_Cover_4: 850
+Remember_Color_Cover_5: 1050
+
+Remember_Orientation_Restore_1: 250
+Remember_Orientation_Restore_2: 450
+Remember_Orientation_Restore_3: 650
+Remember_Orientation_Restore_4: 850
+Remember_Orientation_Restore_5: 1050
+
+Press_Stapler_Memory_1: 200
+Press_Stapler_Memory_2: 400
+Press_Stapler_Memory_3: 600
+Press_Stapler_Memory_4: 800
+Press_Stapler_Memory_5: 1000

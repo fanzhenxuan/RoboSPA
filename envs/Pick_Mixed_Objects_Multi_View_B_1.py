@@ -1,0 +1,9 @@
+from .pick_absolute_position_hetero_base import PickAbsolutePositionHeteroMultiviewBase
+
+
+class Pick_Mixed_Objects_Multi_View_B_1(PickAbsolutePositionHeteroMultiviewBase):
+    object_count = 3
+    asset_group_key = "b"
+
+
+

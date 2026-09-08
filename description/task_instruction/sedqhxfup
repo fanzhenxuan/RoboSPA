@@ -1,0 +1,26 @@
+{
+  "seen": [
+    "Front means the side farther from the robot. Pick up {P}.",
+    "Front means the side farther from the robot. Grab {P}.",
+    "Front means the side farther from the robot. Take {P}.",
+    "Front means the side farther from the robot. Lift {P}.",
+    "Front means the side farther from the robot. Use {a} to pick up {P}.",
+    "Front means the side farther from the robot. Use {a} to grab {P}.",
+    "Front means the side farther from the robot. Use {a} to take {P}.",
+    "Front means the side farther from the robot. Use {a} to lift {P}.",
+    "Front means the side farther from the robot. Pick {P}.",
+    "Front means the side farther from the robot. Use {a} to pick {P}."
+  ],
+  "unseen": [
+    "Front means the side farther from the robot. Pick up {P}",
+    "Front means the side farther from the robot. Grab {P}",
+    "Front means the side farther from the robot. Take {P}",
+    "Front means the side farther from the robot. Lift {P}",
+    "Front means the side farther from the robot. Use {a} to pick up {P}",
+    "Front means the side farther from the robot. Use {a} to grab {P}",
+    "Front means the side farther from the robot. Use {a} to take {P}",
+    "Front means the side farther from the robot. Use {a} to lift {P}",
+    "Front means the side farther from the robot. Pick {P}",
+    "Front means the side farther from the robot. Use {a} to pick {P}"
+  ]
+}

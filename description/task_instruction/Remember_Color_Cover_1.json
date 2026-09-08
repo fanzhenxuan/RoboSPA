@@ -1,0 +1,80 @@
+{
+  "full_description": "observe or remember the colored block, then after it is covered, uncover the block of color {A}",
+  "schema": "{A} is a single color name indicating which covered block should be uncovered, for example 'red'. Every instruction must explicitly include an observe-or-remember meaning before the block is covered, and then describe uncovering the block of color {A} after it is covered.",
+  "preference": "50 seen and 10 unseen instructions in English, under 30 words, natural language, must include the placeholder {A}, and must explicitly express observing or remembering the colored block before uncovering it.",
+
+  "seen": [
+    "Observe the colored block, then after it is covered, uncover the {A} block.",
+    "Look at the colored block, then once it is covered, uncover the {A} block.",
+    "Watch the colored block, then after it is covered, uncover the {A} block.",
+    "Study the colored block, then when it is covered, uncover the {A} block.",
+    "Check the colored block, then once it is covered, uncover the {A} block.",
+
+    "Observe the block color, then after it is covered, uncover the {A} block.",
+    "Look at the block color, then once it is covered, uncover the {A} block.",
+    "Watch the block color, then after it is covered, uncover the {A} block.",
+    "Study the block color, then when it is covered, uncover the {A} block.",
+    "Check the block color, then once it is covered, uncover the {A} block.",
+
+    "Remember the colored block, then after it is covered, uncover the {A} block.",
+    "Remember the colored block, then once it is covered, uncover the {A} block.",
+    "Remember the colored block, then when it is covered, uncover the {A} block.",
+    "Memorize the colored block, then after it is covered, uncover the {A} block.",
+    "Memorize the colored block, then once it is covered, uncover the {A} block.",
+
+    "Remember the block color, then after it is covered, uncover the {A} block.",
+    "Remember the block color, then once it is covered, uncover the {A} block.",
+    "Remember the block color, then when it is covered, uncover the {A} block.",
+    "Memorize the block color, then after it is covered, uncover the {A} block.",
+    "Memorize the block color, then once it is covered, uncover the {A} block.",
+
+    "Keep the color in mind, then after the block is covered, uncover the {A} block.",
+    "Keep the color in mind, then once the block is covered, uncover the {A} block.",
+    "Keep the color in mind, then when the block is covered, uncover the {A} block.",
+    "Keep the block color in mind, then after it is covered, uncover the {A} block.",
+    "Keep the block color in mind, then once it is covered, uncover the {A} block.",
+
+    "Observe the color of the block, then after it is covered, uncover the {A} block.",
+    "Look at the color of the block, then once it is covered, uncover the {A} block.",
+    "Watch the color of the block, then after it is covered, uncover the {A} block.",
+    "Study the color of the block, then when it is covered, uncover the {A} block.",
+    "Check the color of the block, then once it is covered, uncover the {A} block.",
+
+    "Remember the color of the block, then after it is covered, uncover the {A} block.",
+    "Remember the color of the block, then once it is covered, uncover the {A} block.",
+    "Memorize the color of the block, then after it is covered, uncover the {A} block.",
+    "Memorize the color of the block, then once it is covered, uncover the {A} block.",
+    "Keep the color of the block in mind, then after it is covered, uncover the {A} block.",
+
+    "Observe the colored block, then after it is covered, open the cover over the {A} block.",
+    "Look at the colored block, then once it is covered, open the cover over the {A} block.",
+    "Watch the block color, then after it is covered, open the cover over the {A} block.",
+    "Remember the block color, then once it is covered, open the cover over the {A} block.",
+    "Memorize the block color, then after it is covered, open the cover over the {A} block.",
+
+    "Observe the colored block, then after it is covered, reveal the {A} block.",
+    "Look at the block color, then once it is covered, reveal the {A} block.",
+    "Watch the color of the block, then after it is covered, reveal the {A} block.",
+    "Remember the colored block, then once it is covered, reveal the {A} block.",
+    "Memorize the color of the block, then after it is covered, reveal the {A} block.",
+
+    "Study the colored block, then after it is covered, uncover the block with color {A}.",
+    "Check the block color, then once it is covered, uncover the block with color {A}.",
+    "Observe the block color, then when it is covered, uncover the block with color {A}.",
+    "Remember the color, then after the block is covered, uncover the block with color {A}.",
+    "Keep the color in mind, then once the block is covered, uncover the block with color {A}."
+  ],
+
+  "unseen": [
+    "Observe the colored block, then after it is covered, uncover the {A} block.",
+    "Look at the block color, then once it is covered, uncover the {A} block.",
+    "Watch the color of the block, then when it is covered, uncover the {A} block.",
+    "Remember the colored block, then after it is covered, uncover the block with color {A}.",
+    "Memorize the block color, then once it is covered, uncover the block with color {A}.",
+    "Keep the color in mind, then after the block is covered, uncover the {A} block.",
+    "Observe the color of the block, then once it is covered, uncover the block with color {A}.",
+    "Remember the color of the block, then after it is covered, open the cover over the {A} block.",
+    "Study the block color, then once it is covered, reveal the {A} block.",
+    "Check the colored block, then after it is covered, uncover the block with color {A}."
+  ]
+}

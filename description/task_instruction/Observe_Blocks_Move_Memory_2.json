@@ -1,0 +1,68 @@
+{
+  "full_description": "observe the colors of the blocks on the display platform, then after they are hidden, move all blocks with matching colors on the table closer to you",
+  "schema": "No placeholders are used because the info dictionary is empty. Every instruction explicitly refers to the colors of the blocks on the display platform and includes the hidden stage.",
+  "preference": "50 seen and 10 unseen instructions in English, under 30 words, natural language, no placeholders, use 'closer to you', and always mention colors of blocks on the display platform",
+
+  "seen": [
+    "Observe the colors of the blocks on the display platform, then after they are hidden, move matching blocks on the table closer to you.",
+    "Look at the colors of the blocks on the display platform, and once they are hidden, bring matching blocks on the table closer to you.",
+    "Watch the colors of the blocks on the display platform, after they are hidden, move matching blocks on the table closer to you.",
+    "Study the colors of the blocks on the display platform, when they are hidden, bring matching blocks on the table closer to you.",
+    "Check the colors of the blocks on the display platform, once they are hidden, move matching blocks on the table closer to you.",
+
+    "Observe the colors of the blocks on the display platform, then after they are hidden, find matching blocks on the table and move them closer to you.",
+    "Look at the colors of the blocks on the display platform, once they are hidden, locate matching blocks on the table and bring them closer to you.",
+    "Watch the colors of the blocks on the display platform, after they are hidden, identify matching blocks on the table and move them closer to you.",
+    "Study the colors of the blocks on the display platform, when they are hidden, find matching blocks on the table and bring them closer to you.",
+    "Check the colors of the blocks on the display platform, once they are hidden, identify matching blocks on the table and move them closer to you.",
+
+    "Use the colors of the blocks on the display platform, after they are hidden, to move matching blocks on the table closer to you.",
+    "Use the colors of the blocks on the display platform, once they are hidden, to bring matching blocks on the table closer to you.",
+    "Use the colors of the blocks on the display platform, when they are hidden, to move matching blocks on the table closer to you.",
+    "Use the colors of the blocks on the display platform, after they are hidden, to find matching blocks on the table and move them closer to you.",
+    "Use the colors of the blocks on the display platform, once they are hidden, to locate matching blocks on the table and bring them closer to you.",
+
+    "Based on the colors of the blocks on the display platform, after they are hidden, move matching blocks on the table closer to you.",
+    "Based on the colors of the blocks on the display platform, once they are hidden, bring matching blocks on the table closer to you.",
+    "Based on the colors of the blocks on the display platform, when they are hidden, move matching blocks on the table closer to you.",
+    "Based on the colors of the blocks on the display platform, after they are hidden, find matching blocks on the table and move them closer to you.",
+    "Based on the colors of the blocks on the display platform, once they are hidden, locate matching blocks on the table and bring them closer to you.",
+
+    "Remember the colors of the blocks on the display platform, then after they are hidden, move matching blocks on the table closer to you.",
+    "Remember the colors of the blocks on the display platform, once they are hidden, bring matching blocks on the table closer to you.",
+    "Remember the colors of the blocks on the display platform, when they are hidden, move matching blocks on the table closer to you.",
+    "Remember the colors of the blocks on the display platform, after they are hidden, find matching blocks on the table and move them closer to you.",
+    "Remember the colors of the blocks on the display platform, once they are hidden, locate matching blocks on the table and bring them closer to you.",
+
+    "Memorize the colors of the blocks on the display platform, after they are hidden, move matching blocks on the table closer to you.",
+    "Memorize the colors of the blocks on the display platform, once they are hidden, bring matching blocks on the table closer to you.",
+    "Memorize the colors of the blocks on the display platform, when they are hidden, move matching blocks on the table closer to you.",
+    "Memorize the colors of the blocks on the display platform, after they are hidden, find matching blocks on the table and move them closer to you.",
+    "Memorize the colors of the blocks on the display platform, once they are hidden, locate matching blocks on the table and bring them closer to you.",
+
+    "Pay attention to the colors of the blocks on the display platform, after they are hidden, move matching blocks on the table closer to you.",
+    "Pay attention to the colors of the blocks on the display platform, once they are hidden, bring matching blocks on the table closer to you.",
+    "Pay attention to the colors of the blocks on the display platform, when they are hidden, move matching blocks on the table closer to you.",
+    "Pay attention to the colors of the blocks on the display platform, after they are hidden, find matching blocks on the table and move them closer to you.",
+    "Pay attention to the colors of the blocks on the display platform, once they are hidden, locate matching blocks on the table and bring them closer to you.",
+
+    "Focus on the colors of the blocks on the display platform, after they are hidden, move matching blocks on the table closer to you.",
+    "Focus on the colors of the blocks on the display platform, once they are hidden, bring matching blocks on the table closer to you.",
+    "Focus on the colors of the blocks on the display platform, when they are hidden, move matching blocks on the table closer to you.",
+    "Focus on the colors of the blocks on the display platform, after they are hidden, find matching blocks on the table and move them closer to you.",
+    "Focus on the colors of the blocks on the display platform, once they are hidden, locate matching blocks on the table and bring them closer to you."
+  ],
+
+  "unseen": [
+    "Observe the colors of the blocks on the display platform, after they are hidden, move all matching blocks on the table closer to you.",
+    "Look at the colors of the blocks on the display platform, once they are hidden, bring all matching blocks on the table closer to you.",
+    "Watch the colors of the blocks on the display platform, when they are hidden, move all matching blocks on the table closer to you.",
+    "Study the colors of the blocks on the display platform, after they are hidden, bring all matching blocks on the table closer to you.",
+    "Check the colors of the blocks on the display platform, once they are hidden, move all matching blocks on the table closer to you.",
+    "Remember the colors of the blocks on the display platform, after they are hidden, move all matching blocks on the table closer to you.",
+    "Memorize the colors of the blocks on the display platform, once they are hidden, bring all matching blocks on the table closer to you.",
+    "Use the colors of the blocks on the display platform, after they are hidden, move all matching blocks on the table closer to you.",
+    "Based on the colors of the blocks on the display platform, once they are hidden, bring all matching blocks on the table closer to you.",
+    "Focus on the colors of the blocks on the display platform, after they are hidden, move all matching blocks on the table closer to you."
+  ]
+}

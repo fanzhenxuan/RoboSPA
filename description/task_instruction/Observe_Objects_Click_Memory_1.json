@@ -1,0 +1,80 @@
+{
+  "full_description": "observe the object on the display platform, then after it is hidden, click the matching object on the table",
+  "schema": "No placeholders are used because the info dictionary is empty. Every instruction explicitly refers to the object on the display platform, includes the hidden stage, and emphasizes clicking the matching object on the table.",
+  "preference": "50 seen and 10 unseen instructions in English, under 30 words, natural language, no placeholders, always mention the object on the display platform and the hidden stage.",
+
+  "seen": [
+    "Observe the object on the display platform, then after it is hidden, click the matching object on the table.",
+    "Look at the object on the display platform, and once it is hidden, click the matching object on the table.",
+    "Watch the object on the display platform, after it is hidden, click the matching object on the table.",
+    "Study the object on the display platform, when it is hidden, click the matching object on the table.",
+    "Check the object on the display platform, once it is hidden, click the matching object on the table.",
+
+    "Observe the object on the display platform, then after it is hidden, press the matching object on the table.",
+    "Look at the object on the display platform, and once it is hidden, press the matching object on the table.",
+    "Watch the object on the display platform, after it is hidden, press the matching object on the table.",
+    "Study the object on the display platform, when it is hidden, press the matching object on the table.",
+    "Check the object on the display platform, once it is hidden, press the matching object on the table.",
+
+    "Remember the object on the display platform, then after it is hidden, click the matching object on the table.",
+    "Remember the object on the display platform, once it is hidden, click the matching object on the table.",
+    "Remember the object on the display platform, when it is hidden, click the matching object on the table.",
+    "Memorize the object on the display platform, after it is hidden, click the matching object on the table.",
+    "Memorize the object on the display platform, once it is hidden, click the matching object on the table.",
+
+    "Remember the object on the display platform, then after it is hidden, press the matching object on the table.",
+    "Remember the object on the display platform, once it is hidden, press the matching object on the table.",
+    "Remember the object on the display platform, when it is hidden, press the matching object on the table.",
+    "Memorize the object on the display platform, after it is hidden, press the matching object on the table.",
+    "Memorize the object on the display platform, once it is hidden, press the matching object on the table.",
+
+    "Based on the object on the display platform, after it is hidden, click the matching object on the table.",
+    "Based on the object on the display platform, once it is hidden, click the matching object on the table.",
+    "Based on the object on the display platform, when it is hidden, click the matching object on the table.",
+    "Follow the object on the display platform, after it is hidden, click the matching object on the table.",
+    "Follow the object on the display platform, once it is hidden, click the matching object on the table.",
+
+    "Based on the object on the display platform, after it is hidden, press the matching object on the table.",
+    "Based on the object on the display platform, once it is hidden, press the matching object on the table.",
+    "Based on the object on the display platform, when it is hidden, press the matching object on the table.",
+    "Follow the object on the display platform, after it is hidden, press the matching object on the table.",
+    "Follow the object on the display platform, once it is hidden, press the matching object on the table.",
+
+    "Pay attention to the object on the display platform, after it is hidden, click the matching object on the table.",
+    "Pay attention to the object on the display platform, once it is hidden, click the matching object on the table.",
+    "Pay attention to the object on the display platform, when it is hidden, click the matching object on the table.",
+    "Focus on the object on the display platform, after it is hidden, click the matching object on the table.",
+    "Focus on the object on the display platform, once it is hidden, click the matching object on the table.",
+
+    "Pay attention to the object on the display platform, after it is hidden, press the matching object on the table.",
+    "Pay attention to the object on the display platform, once it is hidden, press the matching object on the table.",
+    "Pay attention to the object on the display platform, when it is hidden, press the matching object on the table.",
+    "Focus on the object on the display platform, after it is hidden, press the matching object on the table.",
+    "Focus on the object on the display platform, once it is hidden, press the matching object on the table.",
+
+    "Learn the object on the display platform, then after it is hidden, click the matching object on the table.",
+    "Notice the object on the display platform, after it is hidden, click the matching object on the table.",
+    "Keep the object on the display platform in mind, once it is hidden, click the matching object on the table.",
+    "Observe the displayed object, then after it is hidden, click the matching object on the table.",
+    "Look at the displayed object, once it is hidden, click the matching object on the table.",
+
+    "Learn the object on the display platform, then after it is hidden, press the matching object on the table.",
+    "Notice the object on the display platform, after it is hidden, press the matching object on the table.",
+    "Keep the object on the display platform in mind, once it is hidden, press the matching object on the table.",
+    "Observe the displayed object, then after it is hidden, press the matching object on the table.",
+    "Look at the displayed object, once it is hidden, press the matching object on the table."
+  ],
+
+  "unseen": [
+    "Observe the object on the display platform, after it is hidden, click the matching object on the table.",
+    "Look at the object on the display platform, once it is hidden, click the matching object on the table.",
+    "Watch the object on the display platform, when it is hidden, click the matching object on the table.",
+    "Study the object on the display platform, after it is hidden, click the matching object on the table.",
+    "Check the object on the display platform, once it is hidden, click the matching object on the table.",
+    "Remember the object on the display platform, after it is hidden, click the matching object on the table.",
+    "Memorize the object on the display platform, once it is hidden, click the matching object on the table.",
+    "Based on the object on the display platform, after it is hidden, click the matching object on the table.",
+    "Focus on the object on the display platform, once it is hidden, click the matching object on the table.",
+    "Observe the displayed object, after it is hidden, click the matching object on the table."
+  ]
+}

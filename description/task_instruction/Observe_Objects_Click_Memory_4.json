@@ -1,0 +1,80 @@
+{
+  "full_description": "observe the objects on the display platform from left to right, then after they are hidden, click the matching objects on the table in the same order",
+  "schema": "No placeholders are used because the info dictionary is empty. Every instruction explicitly refers to the objects on the display platform, includes the hidden stage, and emphasizes clicking the matching objects on the table in the same left-to-right order.",
+  "preference": "50 seen and 10 unseen instructions in English, under 30 words, natural language, no placeholders, always mention the objects on the display platform, the hidden stage, and the same order.",
+
+  "seen": [
+    "Observe the objects on the display platform from left to right, then after they are hidden, click the matching objects on the table in the same order.",
+    "Look at the objects on the display platform from left to right, and once they are hidden, click the matching objects on the table in the same order.",
+    "Watch the objects on the display platform from left to right, after they are hidden, click the matching objects on the table in the same order.",
+    "Study the objects on the display platform from left to right, when they are hidden, click the matching objects on the table in the same order.",
+    "Check the objects on the display platform from left to right, once they are hidden, click the matching objects on the table in the same order.",
+
+    "Observe the left-to-right order of the objects on the display platform, then after they are hidden, click the matching objects on the table in that order.",
+    "Look at the left-to-right order of the objects on the display platform, once they are hidden, click the matching objects on the table in that order.",
+    "Watch the left-to-right order of the objects on the display platform, after they are hidden, click the matching objects on the table in that order.",
+    "Study the left-to-right order of the objects on the display platform, when they are hidden, click the matching objects on the table in that order.",
+    "Check the left-to-right order of the objects on the display platform, once they are hidden, click the matching objects on the table in that order.",
+
+    "Remember the objects on the display platform from left to right, then after they are hidden, click the matching objects on the table in the same order.",
+    "Remember the objects on the display platform from left to right, once they are hidden, click the matching objects on the table in the same order.",
+    "Remember the objects on the display platform from left to right, when they are hidden, click the matching objects on the table in the same order.",
+    "Remember the left-to-right order of the objects on the display platform, after they are hidden, click the matching objects on the table in that order.",
+    "Remember the left-to-right order of the objects on the display platform, once they are hidden, click the matching objects on the table in that order.",
+
+    "Memorize the objects on the display platform from left to right, after they are hidden, click the matching objects on the table in the same order.",
+    "Memorize the objects on the display platform from left to right, once they are hidden, click the matching objects on the table in the same order.",
+    "Memorize the objects on the display platform from left to right, when they are hidden, click the matching objects on the table in the same order.",
+    "Memorize the left-to-right order of the objects on the display platform, after they are hidden, click the matching objects on the table in that order.",
+    "Memorize the left-to-right order of the objects on the display platform, once they are hidden, click the matching objects on the table in that order.",
+
+    "Follow the objects on the display platform from left to right, after they are hidden, click the matching objects on the table in the same order.",
+    "Follow the objects on the display platform from left to right, once they are hidden, click the matching objects on the table in the same order.",
+    "Follow the objects on the display platform from left to right, when they are hidden, click the matching objects on the table in the same order.",
+    "Follow the left-to-right order of the objects on the display platform, after they are hidden, click the matching objects on the table in that order.",
+    "Follow the left-to-right order of the objects on the display platform, once they are hidden, click the matching objects on the table in that order.",
+
+    "Based on the objects on the display platform from left to right, after they are hidden, click the matching objects on the table in the same order.",
+    "Based on the objects on the display platform from left to right, once they are hidden, click the matching objects on the table in the same order.",
+    "Based on the objects on the display platform from left to right, when they are hidden, click the matching objects on the table in the same order.",
+    "Based on the left-to-right order of the objects on the display platform, after they are hidden, click the matching objects on the table in that order.",
+    "Based on the left-to-right order of the objects on the display platform, once they are hidden, click the matching objects on the table in that order.",
+
+    "Pay attention to the objects on the display platform from left to right, after they are hidden, click the matching objects on the table in the same order.",
+    "Pay attention to the objects on the display platform from left to right, once they are hidden, click the matching objects on the table in the same order.",
+    "Pay attention to the objects on the display platform from left to right, when they are hidden, click the matching objects on the table in the same order.",
+    "Pay attention to the left-to-right order of the objects on the display platform, after they are hidden, click the matching objects on the table in that order.",
+    "Pay attention to the left-to-right order of the objects on the display platform, once they are hidden, click the matching objects on the table in that order.",
+
+    "Focus on the objects on the display platform from left to right, after they are hidden, click the matching objects on the table in the same order.",
+    "Focus on the objects on the display platform from left to right, once they are hidden, click the matching objects on the table in the same order.",
+    "Focus on the objects on the display platform from left to right, when they are hidden, click the matching objects on the table in the same order.",
+    "Focus on the left-to-right order of the objects on the display platform, after they are hidden, click the matching objects on the table in that order.",
+    "Focus on the left-to-right order of the objects on the display platform, once they are hidden, click the matching objects on the table in that order.",
+
+    "Learn the objects on the display platform from left to right, then after they are hidden, click the matching objects on the table in the same order.",
+    "Learn the left-to-right order of the objects on the display platform, once they are hidden, click the matching objects on the table in that order.",
+    "Notice the objects on the display platform from left to right, after they are hidden, click the matching objects on the table in the same order.",
+    "Notice the left-to-right order of the objects on the display platform, when they are hidden, click the matching objects on the table in that order.",
+    "Keep the objects on the display platform in mind from left to right, once they are hidden, click the matching objects on the table in the same order.",
+
+    "Keep the left-to-right order of the objects on the display platform in mind, after they are hidden, click the matching objects on the table in that order.",
+    "Observe the sequence of objects on the display platform, then after they are hidden, click the matching objects on the table in the same order.",
+    "Look at the sequence of objects on the display platform, once they are hidden, click the matching objects on the table in the same order.",
+    "Remember the sequence of objects on the display platform, after they are hidden, click the matching objects on the table in the same order.",
+    "Follow the left-to-right sequence on the display platform, once hidden, click the matching objects on the table in the same order."
+  ],
+
+  "unseen": [
+    "Observe the objects on the display platform from left to right, after they are hidden, click all matching objects on the table in the same order.",
+    "Look at the left-to-right order of the objects on the display platform, once they are hidden, click all matching objects on the table in that order.",
+    "Watch the objects on the display platform from left to right, when they are hidden, click all matching objects on the table in the same order.",
+    "Study the left-to-right sequence of the objects on the display platform, after they are hidden, click all matching objects on the table in that order.",
+    "Check the objects on the display platform from left to right, once they are hidden, click all matching objects on the table in the same order.",
+    "Remember the left-to-right order of the objects on the display platform, after they are hidden, click all matching objects on the table in that order.",
+    "Memorize the objects on the display platform from left to right, once they are hidden, click all matching objects on the table in the same order.",
+    "Use the left-to-right order of the objects on the display platform, after they are hidden, click all matching objects on the table in that order.",
+    "Based on the objects on the display platform from left to right, once they are hidden, click all matching objects on the table in the same order.",
+    "Focus on the left-to-right sequence of the objects on the display platform, after they are hidden, click all matching objects on the table in that order."
+  ]
+}
