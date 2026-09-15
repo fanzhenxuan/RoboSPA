@@ -5,7 +5,8 @@
   🌐 <a href="https://fanzhenxuan.github.io/RoboSPA/">Project Page</a> ·
   📄 <a href="https://arxiv.org/abs/2609.05324">Paper</a> ·
   💻 <a href="https://github.com/fanzhenxuan/RoboSPA">Code</a> ·
-  🤗 <a href="https://huggingface.co/datasets/zxfan/RoboSPA">Dataset</a>
+  🤗 <a href="https://huggingface.co/datasets/zxfan/RoboSPA">Dataset</a> ·
+  ✨ <a href="https://modelscope.cn/datasets/fffffzx/RoboSPA">ModelScope</a>
 </p>
 
 <p align="center">
@@ -248,9 +249,10 @@ cd ..
 
 Pre-collected trajectories (527K, 5 embodiments, clean + randomized) are released at:
 
-**https://huggingface.co/datasets/zxfan/RoboSPA**
+- **Hugging Face**: https://huggingface.co/datasets/zxfan/RoboSPA
+- **ModelScope**: https://modelscope.cn/datasets/fffffzx/RoboSPA
 
-Use the Hugging Face dataset if you only need training data. Collect locally when you need a new embodiment, camera, or randomization setting.
+Use the released dataset if you only need training data. Collect locally when you need a new embodiment, camera, or randomization setting.
 
 ---
 
