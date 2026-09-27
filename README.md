@@ -1,5 +1,6 @@
 <h1 align="center">RoboSPA</h1>
-<h3 align="center">Can VLA Models Go Beyond Simple Scenes and Short-Horizon Tasks? [EMNLP 2026 Oral]🔥🔥</h3>
+<h3 align="center">Can VLA Models Go Beyond Simple Scenes and Short-Horizon Tasks?</h3>
+<h3 align="center">[EMNLP 2026 Oral]🔥🔥</h3>
 
 <p align="center">
   🌐 <a href="https://fanzhenxuan.github.io/RoboSPA/">Project Page</a> ·
