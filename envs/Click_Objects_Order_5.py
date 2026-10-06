@@ -23,6 +23,7 @@ class Click_Objects_Order_5(Base_Task):
         # ====== stage stats ======
         self.stage_sum = 5
         self.stage = 0
+        self.task_success = [0, 0, 0, 0, 0]
 
         # ====== helpers ======
         def sample_pose(xlim=[-0.25, 0.25], ylim=[-0.2, 0.0], rotate=False):
@@ -39,30 +40,34 @@ class Click_Objects_Order_5(Base_Task):
 
         # ====== alarm clock pose ======
         alarm_pose = sample_pose(rotate=True)
-
+        # while abs(alarm_pose.p[0]) < 0.05:
+        #     alarm_pose = sample_pose(rotate=True)
+        
         max_trials = 100
         trials = 0
-
+        
         while abs(alarm_pose.p[0]) < 0.05 and trials < max_trials:
             alarm_pose = sample_pose(rotate=True)
             trials += 1
-
+        
         if abs(alarm_pose.p[0]) < 0.05:
             raise RuntimeError("Failed to sample a valid alarm_pose within 100 tries.")
 
         # ====== stapler pose ======
         stapler_pose = sample_pose(rotate=True)
-
+        # while abs(stapler_pose.p[0]) < 0.05 or (not far_enough(stapler_pose, alarm_pose, min_dist=0.14)):
+        #     stapler_pose = sample_pose(rotate=True)
+        
         max_trials = 100
         trials = 0
-
+        
         while (
             abs(stapler_pose.p[0]) < 0.05
             or (not far_enough(stapler_pose, alarm_pose, min_dist=0.14))
         ) and trials < max_trials:
             stapler_pose = sample_pose(rotate=True)
             trials += 1
-
+        
         if (
             abs(stapler_pose.p[0]) < 0.05
             or (not far_enough(stapler_pose, alarm_pose, min_dist=0.14))
@@ -71,10 +76,16 @@ class Click_Objects_Order_5(Base_Task):
 
         # ====== can pose ======
         can_pose = sample_pose(rotate=False)
-
+        # while (
+        #     abs(can_pose.p[0]) < 0.05
+        #     or (not far_enough(can_pose, alarm_pose, min_dist=0.14))
+        #     or (not far_enough(can_pose, stapler_pose, min_dist=0.14))
+        # ):
+        #     can_pose = sample_pose(rotate=False)
+        
         max_trials = 100
         trials = 0
-
+        
         while (
             abs(can_pose.p[0]) < 0.05
             or (not far_enough(can_pose, alarm_pose, min_dist=0.14))
@@ -82,7 +93,7 @@ class Click_Objects_Order_5(Base_Task):
         ) and trials < max_trials:
             can_pose = sample_pose(rotate=False)
             trials += 1
-
+        
         if (
             abs(can_pose.p[0]) < 0.05
             or (not far_enough(can_pose, alarm_pose, min_dist=0.14))
@@ -92,10 +103,17 @@ class Click_Objects_Order_5(Base_Task):
 
         # ====== playingcard pose ======
         playingcard_pose = sample_pose(rotate=True)
-
+        # while (
+        #     abs(playingcard_pose.p[0]) < 0.05
+        #     or (not far_enough(playingcard_pose, alarm_pose, min_dist=0.14))
+        #     or (not far_enough(playingcard_pose, stapler_pose, min_dist=0.14))
+        #     or (not far_enough(playingcard_pose, can_pose, min_dist=0.14))
+        # ):
+        #     playingcard_pose = sample_pose(rotate=True)
+        
         max_trials = 100
         trials = 0
-
+        
         while (
             abs(playingcard_pose.p[0]) < 0.05
             or (not far_enough(playingcard_pose, alarm_pose, min_dist=0.14))
@@ -104,7 +122,7 @@ class Click_Objects_Order_5(Base_Task):
         ) and trials < max_trials:
             playingcard_pose = sample_pose(rotate=True)
             trials += 1
-
+        
         if (
             abs(playingcard_pose.p[0]) < 0.05
             or (not far_enough(playingcard_pose, alarm_pose, min_dist=0.14))
@@ -121,10 +139,24 @@ class Click_Objects_Order_5(Base_Task):
             rotate_rand=True,
             rotate_lim=[0, np.pi / 4, 0],
         )
-
+        # while (
+        #     abs(bread_pose.p[0]) < 0.05
+        #     or (not far_enough(bread_pose, alarm_pose, min_dist=0.14))
+        #     or (not far_enough(bread_pose, stapler_pose, min_dist=0.14))
+        #     or (not far_enough(bread_pose, can_pose, min_dist=0.14))
+        #     or (not far_enough(bread_pose, playingcard_pose, min_dist=0.14))
+        # ):
+        #     bread_pose = rand_pose(
+        #         xlim=[-0.25, 0.25],
+        #         ylim=[-0.2, 0.0],
+        #         qpos=[0.707, 0.707, 0.0, 0.0],
+        #         rotate_rand=True,
+        #         rotate_lim=[0, np.pi / 4, 0],
+        #     )
+        
         max_trials = 100
         trials = 0
-
+        
         while (
             abs(bread_pose.p[0]) < 0.05
             or (not far_enough(bread_pose, alarm_pose, min_dist=0.14))
@@ -140,7 +172,7 @@ class Click_Objects_Order_5(Base_Task):
                 rotate_lim=[0, np.pi / 4, 0],
             )
             trials += 1
-
+        
         if (
             abs(bread_pose.p[0]) < 0.05
             or (not far_enough(bread_pose, alarm_pose, min_dist=0.14))
@@ -466,4 +498,6 @@ class Click_Objects_Order_5(Base_Task):
         return self.info
 
     def check_success(self):
+        for i in range(self.stage_sum):
+            self.task_success[i] = int(self.stage >= i + 1)
         return self.stage >= self.stage_sum
