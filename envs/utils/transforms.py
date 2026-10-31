@@ -392,9 +392,17 @@ def get_align_matrix(v1: np.ndarray, v2: np.ndarray) -> np.ndarray:
     v1 = v1 / np.linalg.norm(v1)
     v2 = v2 / np.linalg.norm(v2)
     axis = np.cross(v1, v2)
-    angle = np.arccos(np.dot(v1, v2))
+    angle = np.arccos(np.clip(np.dot(v1, v2), -1.0, 1.0))
 
     if np.linalg.norm(axis) < 1e-6:
+        # v1 and v2 are parallel or antiparallel. For the antiparallel case the
+        # cross product is zero and the identity would be returned, which does
+        # not map v1 onto v2. Rotate 180 degrees about any axis orthogonal to v1.
+        if np.dot(v1, v2) < 0:
+            ref = np.array([1.0, 0.0, 0.0]) if abs(v1[0]) < 0.9 else np.array([0.0, 1.0, 0.0])
+            axis = np.cross(v1, ref)
+            axis = axis / np.linalg.norm(axis)
+            return t3d.axangles.axangle2mat(axis, np.pi)
         return np.eye(3)
     else:
         return t3d.axangles.axangle2mat(axis, angle)
