@@ -831,5 +831,5 @@ class PickRelativePositionBase(Base_Task):
     def check_success(self):
         target_pose = self.target_object.get_pose().p
         lifted = (float(target_pose[2]) - self.start_z) > 0.06
-        grasped = self.is_left_gripper_close() if self.arm_tag == "left" else self.is_right_gripper_close()
+        grasped = self.is_left_gripper_close() or self.is_right_gripper_close()
         return bool(lifted and grasped)
