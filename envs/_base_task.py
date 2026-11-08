@@ -1039,6 +1039,7 @@ class Base_Task(gym.Env):
                 continue
             if now_pose is None or len(traj_lst["position"][i]) < now_step:
                 now_pose = target_lst[i]
+                now_step = len(traj_lst["position"][i])
         return now_pose
 
     # test grasp pose of all contact points
