@@ -95,7 +95,7 @@ export default function Home() {
         <div className="hero-glow hero-glow-one" aria-hidden="true" />
         <div className="hero-glow hero-glow-two" aria-hidden="true" />
         <div className="hero-copy">
-          <div className="eyebrow venue-badge"><span /> EMNLP 2026</div>
+          <div className="eyebrow venue-badge"><span /> EMNLP 2026 Oral</div>
           <h1>
             <span className="title-line">RoboSPA: Can VLA models go beyond</span>
             <span className="title-line"><em>simple scenes</em> and <em>short-horizon tasks?</em></span>
